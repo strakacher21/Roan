@@ -131,6 +131,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[11].hash
+      value: 141204420
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[12].hash
+      value: 1106416916
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[13].hash
+      value: 1214479458
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[14].hash
+      value: 1664716010
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[15].hash
+      value: 1777767213
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[16].hash
+      value: -1146452680
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].hash
+      value: -820608166
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].hash
+      value: -945399488
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].hash
+      value: -232274857
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].hash
+      value: 1234586609
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].hash
+      value: 1074242183
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].hash
+      value: -1286471997
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].hash
+      value: -934924498
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].hash
+      value: -312196639
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].hash
+      value: -957002985
+      objectReference: {fileID: 0}
+    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].hash
+      value: 1713256113
+      objectReference: {fileID: 0}
     - target: {fileID: 1885719183911343271, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -145,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5755415291141835319, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7488715486676500120, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
