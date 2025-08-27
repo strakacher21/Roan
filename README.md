@@ -1,6 +1,6 @@
 # **Roan - VRChat avatar**
 
-## My personal [VRChat](https://hello.vrchat.com/) furry avatar with realistic style.
+## My personal [VRChat](https://hello.vrchat.com/) furry fox avatar with realistic style.
 ___
 <div style="text-align: center;">
   <img src="Gallery/Roan%20shaded.png" alt="Roan shaded" width="45%">
@@ -21,8 +21,8 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 ### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
-
-### [:bulb:Unity project setup guide](Unity-setup.md)
+> [!NOTE] 
+>### [:bulb:Unity project setup guide](Unity-setup.md)
 >The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
 >
 >**To properly export a model from Blender to Unity, you need to use the export script in Blender!**</br>
