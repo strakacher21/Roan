@@ -16,9 +16,11 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 ***This project has just started and I need to make a RoadMap later, lol.***<br/>
 *About all mistakes and wishes or criticism write me safely. I will be interested to answer everything or realize that I have created some silly thing :D*
 
-### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+### [:arrow_forward:Sketchfab preview](https://skfb.ly/pAzHI)
 
 ### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+
+### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
 
 ### [:bulb:Unity project setup guide](Unity-setup.md)
 >The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
