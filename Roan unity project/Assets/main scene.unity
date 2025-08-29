@@ -386,6 +386,16 @@ PrefabInstance:
       propertyPath: fallbackStatus
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7037611344273871305, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.23156975
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037611344273871305, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.39054424
+      objectReference: {fileID: 0}
     - target: {fileID: 7488715486676500120, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_Name
