@@ -44,7 +44,7 @@ ___
 ### Minor:
 - [ ] make an adequate "weight paint" for the whole character to move better!
 - [ ] revise visemes
-- [ ] create simple expressions
+- [x] create simple expressions (WIP)
 - [ ] create simple body customization features
 - [ ] revise the character's physical bones
 - [ ] add expressions menu, FX, Additive (now they don't exist at all, lol)
