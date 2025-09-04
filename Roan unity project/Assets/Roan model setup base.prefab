@@ -225,7 +225,7 @@ MonoBehaviour:
     maxValue: 1
   - paramName: EyeLidRight
     minShapeName: EyeClosedRight
-    maxShapeName: EyeWideLeft
+    maxShapeName: EyeWideRight
     minValue: 0
     neutralValue: 0.75
     maxValue: 1
@@ -324,6 +324,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071094
+      objectReference: {fileID: 0}
+    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.23156975
+      objectReference: {fileID: 0}
+    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.39054424
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -1458,7 +1468,117 @@ MonoBehaviour:
     mask: {fileID: 0}
     isDefault: 1
   AnimationPreset: {fileID: 0}
-  animationHashSet: []
+  animationHashSet:
+  - hash: 1256214857
+    name: Proning
+  - hash: -13884245
+    name: Standing
+  - hash: -843081352
+    name: Crouching
+  - hash: -205779520
+    name: Avatar  Showcase
+  - hash: -1536771405
+    name: JumpAndFall.Short Fall
+  - hash: 724575528
+    name: JumpAndFall.HardLand
+  - hash: -1616780693
+    name: JumpAndFall.LongFall
+  - hash: 976865536
+    name: JumpAndFall.RestoreTracking
+  - hash: -333680968
+    name: JumpAndFall.SmallHop
+  - hash: 1506794239
+    name: JumpAndFall.RestoreToHop
+  - hash: -49821148
+    name: JumpAndFall.QuickLand
+  - hash: 2008513115
+    name: VRC Eye Left Control
+  - hash: 2080078588
+    name: Eye Left Tracking
+  - hash: 1095855579
+    name: VRC Eye Right Control
+  - hash: 198830284
+    name: Eye Right Tracking
+  - hash: -2086182126
+    name: OSC Local
+  - hash: 131470683
+    name: OSC Remote
+  - hash: 141204420
+    name: rig_hand 0 neutral
+  - hash: 1106416916
+    name: rig_hand 1 fist
+  - hash: 1214479458
+    name: rig_hand 2 open
+  - hash: 1664716010
+    name: rig_hand 3 point
+  - hash: 1777767213
+    name: rig_hand 4 okay
+  - hash: -1146452680
+    name: rig_hand 5 rock n roll
+  - hash: -820608166
+    name: rig_hand 6 gun
+  - hash: -945399488
+    name: rig_hand 7 thumbs up
+  - hash: -232274857
+    name: rig_hand 0 neutral
+  - hash: 1234586609
+    name: rig_hand 1 fist
+  - hash: 1074242183
+    name: rig_hand 2 open
+  - hash: -1286471997
+    name: rig_hand 3 point
+  - hash: -934924498
+    name: rig_hand 4 peace
+  - hash: -312196639
+    name: rig_hand 5 middle finger
+  - hash: -957002985
+    name: rig_hand 6 gun
+  - hash: 1713256113
+    name: rig_hand 7 thumbs up
+  - hash: -1905250930
+    name: basis
+  - hash: 341124537
+    name: down
+  - hash: 479401739
+    name: up
+  - hash: 741269655
+    name: curious
+  - hash: -442206472
+    name: up 1
+  - hash: 1467367949
+    name: worried
+  - hash: 462021868
+    name: curious 1
+  - hash: -75439228
+    name: down 1
+  - hash: 1573501565
+    name: basis
+  - hash: -1959208665
+    name: sad
+  - hash: -762454971
+    name: smile
+  - hash: -299987116
+    name: grimace
+  - hash: -2014789291
+    name: smile 1
+  - hash: 643030680
+    name: grimace 1
+  - hash: -1084584158
+    name: grimace 2
+  - hash: -1605802678
+    name: sad 1
+  - hash: 1376474967
+    name: master tree
+  - hash: 619640793
+    name: face tracking off
+  - hash: 1541769089
+    name: face tracking on
+  - hash: -2086182126
+    name: OSC Local
+  - hash: 131470683
+    name: OSC Remote
+  - hash: -1560183125
+    name: preferences drivers
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -1590,7 +1710,7 @@ MonoBehaviour:
   blueprintId: avtr_2a8b73c0-5a67-499c-b3f3-67398d269035
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 3
 --- !u!1 &5932538715003639418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1427564092133216371, guid: eb740f0e558e17a4489fdfb72251b859,
