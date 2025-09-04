@@ -19,16 +19,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: v2/ExpressionTrackingActive
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: v2/LipSyncTrackingActive
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/EyeTrackingActive
     valueType: 2
     saved: 1
@@ -69,22 +59,22 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthUpperUpRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/MouthUpperUpLeft
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthLowerDownRight
+  - name: v2/MouthUpperUpRight
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: v2/MouthLowerDownLeft
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthLowerDownRight
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -104,17 +94,12 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/EyeSquintRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/EyeSquintLeft
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/NoseSneerRight
+  - name: v2/EyeSquintRight
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -124,7 +109,7 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/LipSuckUpperRight
+  - name: v2/NoseSneerRight
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -134,12 +119,17 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/LipSuckLowerRight
+  - name: v2/LipSuckUpperRight
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: v2/LipSuckLowerLeft
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/LipSuckLowerRight
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -164,22 +154,22 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/EyeLidRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/EyeLidLeft
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/BrowExpressionRight
+  - name: v2/EyeLidRight
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: v2/BrowExpressionLeft
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/BrowExpressionRight
     valueType: 1
     saved: 0
     defaultValue: 0

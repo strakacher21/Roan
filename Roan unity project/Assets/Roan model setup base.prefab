@@ -108,7 +108,7 @@ MonoBehaviour:
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
   saveVRCExpressionParameters: 0
-  MirrorFTparams: 1
+  MirrorFTparams: 0
   createOSCsmooth: 1
   localSmoothness: 0.1
   remoteSmoothness: 0.7
@@ -178,14 +178,20 @@ MonoBehaviour:
   - MouthClosed
   - MouthStretch
   - MouthUpperUpLeft
+  - MouthUpperUpRight
   - MouthLowerDownLeft
+  - MouthLowerDownRight
   - MouthRaiserUpper
   - MouthRaiserLower
   - TongueOut
   - EyeSquintLeft
+  - EyeSquintRight
   - NoseSneerLeft
+  - NoseSneerRight
   - LipSuckUpperLeft
+  - LipSuckUpperRight
   - LipSuckLowerLeft
+  - LipSuckLowerRight
   ftDualShapes:
   - paramName: SmileSad
     minShapeName: MouthSad
@@ -217,9 +223,21 @@ MonoBehaviour:
     minValue: 0
     neutralValue: 0.75
     maxValue: 1
+  - paramName: EyeLidRight
+    minShapeName: EyeClosedRight
+    maxShapeName: EyeWideLeft
+    minValue: 0
+    neutralValue: 0.75
+    maxValue: 1
   - paramName: BrowExpressionLeft
-    minShapeName: BrowDown
-    maxShapeName: BrowUp
+    minShapeName: BrowDownLeft
+    maxShapeName: BrowUpLeft
+    minValue: -1
+    neutralValue: 0
+    maxValue: 1
+  - paramName: BrowExpressionRight
+    minShapeName: BrowDownRight
+    maxShapeName: BrowUpRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
