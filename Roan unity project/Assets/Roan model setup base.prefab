@@ -68,9 +68,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
-  fxMask: {fileID: 0}
-  EyeLeftMask: {fileID: 0}
-  EyeRightMask: {fileID: 0}
+  fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
+  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
+  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
   gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
   GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
   GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
@@ -108,17 +108,35 @@ MonoBehaviour:
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
   saveVRCExpressionParameters: 0
-  MirrorFTparams: 0
-  createOSCsmooth: 0
+  MirrorFTparams: 1
+  createOSCsmooth: 1
   localSmoothness: 0.1
   remoteSmoothness: 0.7
-  createFaceTracking: 0
+  createFaceTracking: 1
   FullFaceTrackingPrefix: v2/
-  createEyeTracking: 0
+  createEyeTracking: 1
   MirrorEyeposes: 1
   maxEyeMotionValue: 0.25
-  LeftEyePoses: []
-  RightEyePoses: []
+  LeftEyePoses:
+  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
+  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
+  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
+  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
+  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
+  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
+  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
+  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
+  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
+  RightEyePoses:
+  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
+  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
+  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
+  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
+  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
+  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
+  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
+  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
+  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
   mouthPrefix: exp/mouth/
   mouthShapeNames:
   - basis
@@ -161,9 +179,13 @@ MonoBehaviour:
   - MouthStretch
   - MouthUpperUpLeft
   - MouthLowerDownLeft
+  - MouthRaiserUpper
   - MouthRaiserLower
   - TongueOut
   - EyeSquintLeft
+  - NoseSneerLeft
+  - LipSuckUpperLeft
+  - LipSuckLowerLeft
   ftDualShapes:
   - paramName: SmileSad
     minShapeName: MouthSad
@@ -368,11 +390,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[2]
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207819047385360390, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -1377,9 +1394,10 @@ MonoBehaviour:
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   networkIDs: []
-  customExpressions: 0
-  expressionsMenu: {fileID: 0}
-  expressionParameters: {fileID: 0}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: 7113253d387e61d4093d6fd642fa687e, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 5bb011910428b974aa65a9eb34187e8a,
+    type: 2}
   enableEyeLook: 1
   customEyeLookSettings:
     eyeMovement:
@@ -1460,9 +1478,10 @@ MonoBehaviour:
     isDefault: 0
   - isEnabled: 0
     type: 2
-    animatorController: {fileID: 0}
+    animatorController: {fileID: 9100000, guid: 1b29fef37c7297c42884881e4b92dfbc,
+      type: 2}
     mask: {fileID: 0}
-    isDefault: 1
+    isDefault: 0
   - isEnabled: 0
     type: 3
     animatorController: {fileID: 9100000, guid: 8a3eb7bd72c9bae49b318c7604a903ac,
@@ -1478,7 +1497,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: 12e40f6df11839748ab54c1e6ae55756,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0

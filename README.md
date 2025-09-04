@@ -33,7 +33,7 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 
 # TODO
 ### Global:
-- [ ] full face tracking support ([VRCFaceTracking](https://docs.vrcft.io/docs/intro))
+- [x] full face tracking support ([VRCFaceTracking](https://docs.vrcft.io/docs/intro)) **(WIP)**
 - [ ] UV map for textures
 - [ ] сreate textures (something better than that regular vertex paint!)
 - [ ] optimize the character mesh, add details, and also need to work on his style
@@ -44,7 +44,7 @@ ___
 ### Minor:
 - [ ] make an adequate "weight paint" for the whole character to move better!
 - [ ] revise visemes
-- [x] create simple expressions (WIP)
+- [x] create simple expressions **(WIP)**
 - [ ] create simple body customization features
 - [ ] revise the character's physical bones
 - [ ] add expressions menu, FX, Additive (now they don't exist at all, lol)
