@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &22933781
+--- !u!1001 &7842551729979006447
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -131,637 +131,647 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.height
-      value: 0.000937622
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.radius
-      value: 0.0002344055
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.height
-      value: 0.0009376209
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.radius
-      value: 0.00023440522
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.position.x
-      value: -0.000024180115
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.position.y
-      value: 0.0007965733
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.position.z
-      value: 0.000007990892
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.rotation.w
-      value: 0.70347375
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.rotation.x
-      value: 0.71070284
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handL.rotation.z
-      value: 0.0051242365
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.position.x
-      value: 0.000024178442
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.position.y
-      value: 0.0007965715
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.position.z
-      value: 0.000007990913
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.rotation.w
-      value: 0.70347375
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_handR.rotation.z
-      value: -0.0051242365
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.size
-      value: 54
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerRingL.height
-      value: 0.0004023923
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerRingL.radius
-      value: 0.000080478465
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerRingR.height
-      value: 0.00040239716
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerRingR.radius
-      value: 0.00008047943
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerIndexL.height
-      value: 0.000515503
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerIndexL.radius
-      value: 0.0001031006
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerIndexR.height
-      value: 0.00051550573
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerIndexR.radius
-      value: 0.00010310115
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerLittleL.height
-      value: 0.00037295476
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerLittleL.radius
-      value: 0.00007459096
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerLittleR.height
-      value: 0.00037295304
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerLittleR.radius
-      value: 0.00007459061
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerMiddleL.height
-      value: 0.00058292755
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerMiddleL.radius
-      value: 0.000116585514
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerMiddleR.height
-      value: 0.00058292807
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: collider_fingerMiddleR.radius
-      value: 0.00011658562
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[11].hash
-      value: 2008513115
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[11].name
-      value: VRC Eye Left Control
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[12].hash
-      value: 2080078588
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[12].name
-      value: Eye Left Tracking
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[13].hash
-      value: 1095855579
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[13].name
-      value: VRC Eye Right Control
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[14].hash
-      value: 198830284
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[14].name
-      value: Eye Right Tracking
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[15].hash
-      value: -2086182126
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[15].name
-      value: OSC Local
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[16].hash
-      value: 131470683
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[16].name
-      value: OSC Remote
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[17].hash
-      value: 141204420
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[17].name
-      value: rig_hand 0 neutral
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[18].hash
-      value: 1106416916
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[18].name
-      value: rig_hand 1 fist
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[19].hash
-      value: 1214479458
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[19].name
-      value: rig_hand 2 open
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[20].hash
-      value: 1664716010
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[20].name
-      value: rig_hand 3 point
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[21].hash
-      value: 1777767213
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[21].name
-      value: rig_hand 4 okay
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[22].hash
-      value: -1146452680
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[22].name
-      value: rig_hand 5 rock n roll
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[23].hash
-      value: -820608166
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[23].name
-      value: rig_hand 6 gun
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[24].hash
-      value: -945399488
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[24].name
-      value: rig_hand 7 thumbs up
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[25].hash
-      value: -232274857
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[25].name
-      value: rig_hand 0 neutral
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[26].hash
-      value: 1234586609
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[26].name
-      value: rig_hand 1 fist
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[27].hash
-      value: 1074242183
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[27].name
-      value: rig_hand 2 open
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[28].hash
-      value: -1286471997
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[28].name
-      value: rig_hand 3 point
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[29].hash
-      value: -934924498
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[29].name
-      value: rig_hand 4 peace
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[30].hash
-      value: -312196639
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[30].name
-      value: rig_hand 5 middle finger
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[31].hash
-      value: -957002985
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[31].name
-      value: rig_hand 6 gun
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[32].hash
-      value: 1713256113
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[32].name
-      value: rig_hand 7 thumbs up
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[33].hash
-      value: -1905250930
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[33].name
-      value: basis
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[34].hash
-      value: 341124537
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[34].name
-      value: down
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[35].hash
-      value: 479401739
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[35].name
-      value: up
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[36].hash
-      value: 741269655
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[36].name
-      value: curious
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[37].hash
-      value: -442206472
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[37].name
-      value: up 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[38].hash
-      value: 1467367949
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[38].name
-      value: worried
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[39].hash
-      value: 462021868
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[39].name
-      value: curious 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[40].hash
-      value: -75439228
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[40].name
-      value: down 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[41].hash
-      value: 1573501565
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[41].name
-      value: basis
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[42].hash
-      value: -1959208665
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[42].name
-      value: sad
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[43].hash
-      value: -762454971
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[43].name
-      value: smile
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[44].hash
-      value: -299987116
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[44].name
-      value: grimace
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[45].hash
-      value: -2014789291
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[45].name
-      value: smile 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[46].hash
-      value: 643030680
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[46].name
-      value: grimace 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[47].hash
-      value: -1084584158
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[47].name
-      value: grimace 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[48].hash
-      value: -1605802678
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[48].name
-      value: sad 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[49].hash
-      value: 1376474967
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[49].name
-      value: master tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[50].hash
-      value: 619640793
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[50].name
-      value: face tracking off
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[51].hash
-      value: 1541769089
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[51].name
-      value: face tracking on
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[52].hash
-      value: -2086182126
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[52].name
-      value: OSC Local
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[53].hash
-      value: 131470683
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[53].name
-      value: OSC Remote
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[54].hash
-      value: 131470683
-      objectReference: {fileID: 0}
-    - target: {fileID: 755516868390236800, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[54].name
-      value: OSC Remote
-      objectReference: {fileID: 0}
-    - target: {fileID: 1885719183911343271, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1885719183911343271, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1885719183911343271, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5755415291141835319, guid: 6f354e7dcf3727645a9659f35a3046da,
+    - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: fallbackStatus
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7037611344273871305, guid: 6f354e7dcf3727645a9659f35a3046da,
+    - target: {fileID: 288660830988521399, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.23156975
       objectReference: {fileID: 0}
-    - target: {fileID: 7037611344273871305, guid: 6f354e7dcf3727645a9659f35a3046da,
+    - target: {fileID: 288660830988521399, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.39054424
       objectReference: {fileID: 0}
-    - target: {fileID: 7488715486676500120, guid: 6f354e7dcf3727645a9659f35a3046da,
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359772338355574585, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630427921662663161, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4838223036633165102, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451707079784608237, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: unityVersion
+      value: 2022.3.22f1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.size
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].hash
+      value: 1256214857
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].name
+      value: Proning
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].hash
+      value: -13884245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].name
+      value: Standing
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].hash
+      value: -843081352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].name
+      value: Crouching
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].hash
+      value: -205779520
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].name
+      value: Avatar  Showcase
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].hash
+      value: -1536771405
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].name
+      value: JumpAndFall.Short Fall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].hash
+      value: 724575528
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].name
+      value: JumpAndFall.HardLand
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].hash
+      value: -1616780693
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].name
+      value: JumpAndFall.LongFall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].hash
+      value: 976865536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].name
+      value: JumpAndFall.RestoreTracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].hash
+      value: -333680968
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].name
+      value: JumpAndFall.SmallHop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].hash
+      value: 1506794239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].name
+      value: JumpAndFall.RestoreToHop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[10].hash
+      value: -49821148
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[10].name
+      value: JumpAndFall.QuickLand
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[11].hash
+      value: 2008513115
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[11].name
+      value: VRC Eye Left Control
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[12].hash
+      value: 2080078588
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[12].name
+      value: Eye Left Tracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[13].hash
+      value: 1095855579
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[13].name
+      value: VRC Eye Right Control
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[14].hash
+      value: 198830284
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[14].name
+      value: Eye Right Tracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[15].hash
+      value: -2086182126
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[15].name
+      value: OSC Local
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[16].hash
+      value: 131470683
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[16].name
+      value: OSC Remote
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].hash
+      value: 141204420
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].name
+      value: rig_hand 0 neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].hash
+      value: 1106416916
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].name
+      value: rig_hand 1 fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].hash
+      value: 1214479458
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].name
+      value: rig_hand 2 open
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].hash
+      value: 1664716010
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].name
+      value: rig_hand 3 point
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].hash
+      value: 1777767213
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].name
+      value: rig_hand 4 okay
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].hash
+      value: -1146452680
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].name
+      value: rig_hand 5 rock n roll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].hash
+      value: -820608166
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].name
+      value: rig_hand 6 gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].hash
+      value: -945399488
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].name
+      value: rig_hand 7 thumbs up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].hash
+      value: -232274857
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].name
+      value: rig_hand 0 neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].hash
+      value: 1234586609
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].name
+      value: rig_hand 1 fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].hash
+      value: 1074242183
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].name
+      value: rig_hand 2 open
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].hash
+      value: -1286471997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].name
+      value: rig_hand 3 point
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].hash
+      value: -934924498
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].name
+      value: rig_hand 4 peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].hash
+      value: -312196639
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].name
+      value: rig_hand 5 middle finger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].hash
+      value: -957002985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].name
+      value: rig_hand 6 gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].hash
+      value: 1713256113
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].name
+      value: rig_hand 7 thumbs up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].hash
+      value: -1905250930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].name
+      value: basis
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].hash
+      value: 341124537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].hash
+      value: 479401739
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].name
+      value: up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].hash
+      value: 741269655
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].name
+      value: curious
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].hash
+      value: -442206472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].name
+      value: up 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].hash
+      value: 1467367949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].name
+      value: worried
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].hash
+      value: 462021868
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].name
+      value: curious 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].hash
+      value: -75439228
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].name
+      value: down 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].hash
+      value: 1573501565
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].name
+      value: basis
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].hash
+      value: -1959208665
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].name
+      value: sad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].hash
+      value: -762454971
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].name
+      value: smile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].hash
+      value: -299987116
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].name
+      value: grimace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].hash
+      value: -2014789291
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].name
+      value: smile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].hash
+      value: 643030680
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].name
+      value: grimace 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].hash
+      value: -1084584158
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].name
+      value: grimace 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].hash
+      value: -1605802678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].name
+      value: sad 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].hash
+      value: 1376474967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].name
+      value: master tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[50].hash
+      value: 619640793
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[50].name
+      value: face tracking off
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[51].hash
+      value: 1541769089
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[51].name
+      value: face tracking on
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[52].hash
+      value: -2086182126
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[52].name
+      value: OSC Local
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[53].hash
+      value: 131470683
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[53].name
+      value: OSC Remote
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813465700090759737, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454987788746133284, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_Name
       value: Roan model setup base
@@ -775,4 +785,4 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 22933781}
+  - {fileID: 7842551729979006447}
