@@ -24,6 +24,7 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 ### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+___
 > [!NOTE] 
 >### [:bulb:Unity project setup guide](Unity-setup.md)
 >The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
@@ -47,7 +48,7 @@ ___
 - [x] create simple expressions **(WIP)**
 - [ ] create simple body customization features
 - [ ] revise the character's physical bones
-- [ ] add expressions menu, FX, Additive (now they don't exist at all, lol)
+- [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
