@@ -302,21 +302,18 @@ public class AnimatorWizard : MonoBehaviour
         // mouth Gesture expressions
         MapHandPosesToShapes("mouth expressions", skin, mouthShapeNames, mouthPrefix, true, ftActiveParam, ExpTrackActiveParam, FaceToggleActive);
 
-        if (createShapePreferences || createClothCustomization)
-        {
-            // Toggle drivers (common to prefs and cloth)
-            // this state transitions to itself every half second to update toggles. it sucks
-            // TODO: not use this awful driver updating
-            var fxDriverLayer = _aac.CreateSupportingFxLayer("preferences drivers").WithAvatarMask(fxMask);
-            var fxDriverState = fxDriverLayer.NewState("preferences drivers");
-            fxDriverState.TransitionsTo(fxDriverState).AfterAnimationFinishes().WithTransitionDurationSeconds(0.5f)
-                .WithTransitionToSelf();
-            var drivers = fxDriverState.State.AddStateMachineBehaviour<VRCAvatarParameterDriver>();
-
-
             // Shape Preferences
             if (createShapePreferences)
             {
+                // Toggle drivers (common to prefs and cloth)
+                // this state transitions to itself every half second to update toggles. it sucks
+                // TODO: not use this awful driver updating
+                var fxDriverLayer = _aac.CreateSupportingFxLayer("preferences drivers").WithAvatarMask(fxMask);
+                var fxDriverState = fxDriverLayer.NewState("preferences drivers");
+                fxDriverState.TransitionsTo(fxDriverState).AfterAnimationFinishes().WithTransitionDurationSeconds(0.5f)
+                    .WithTransitionToSelf();
+                var drivers = fxDriverState.State.AddStateMachineBehaviour<VRCAvatarParameterDriver>();
+
                 var tree = masterTree.CreateBlendTreeChild(0);
                 tree.name = "Shape Preferences";
                 tree.blendType = BlendTreeType.Direct;
@@ -347,7 +344,6 @@ public class AnimatorWizard : MonoBehaviour
                         tree.AddChild(BlendshapeTree(fxTreeLayer, skin, blendShapeName, floatParam));
                     }
                 }
-            }
 
             // Cloth Customization
             if (createClothCustomization)
