@@ -107,7 +107,8 @@ MonoBehaviour:
   expTrackName: ExpressionTrackingActive
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
-  saveVRCExpressionParameters: 1
+  saveVRCExpressionParameters: 0
+  SystemName: Roan
   MirrorFTparams: 0
   createOSCsmooth: 1
   localSmoothness: 0.1
