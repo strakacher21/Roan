@@ -25,19 +25,27 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 
 ### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
 ___
-> [!NOTE] 
->### [:bulb:Unity project setup guide](Unity-setup.md)
->The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
->
->**To properly export a model from Blender to Unity, you need to use the export script in Blender!**</br>
+# Info
+
+The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
+
+> [!WARNING]
+>**To properly export a model from Blender to Unity, you need to use the >export script in Blender!**</br>
 >Simply click the '▶' button in Blender to export the model correctly to Unity.
+>
+>To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
+
+**The character currently has no texture (uses vertex paint).** This is a simple way to make temporary coloring without using a UV map, which is useful when the body geometry changes frequently. This works well for solid colors, but is not suitable for fancy pattern, but your avatar file size will stay small and load quickly without texture files.
+
+The Unity project has a prefab model. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/).
 
 # TODO
 ### Global:
-- [x] full face tracking support ([VRCFaceTracking](https://docs.vrcft.io/docs/intro)) **(WIP)**
+- [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro)) **(WIP)**
 - [ ] UV map for textures
 - [ ] сreate textures (something better than that regular vertex paint!)
 - [ ] optimize the character mesh, add details, and also need to work on his style
+- [ ] grooming hair (in Blender only)
 - [ ] add body geometry
 - [ ] add different clothes
 ___
@@ -52,7 +60,8 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
+- [ ] poyomi shader?
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
-uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs).
+uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.
