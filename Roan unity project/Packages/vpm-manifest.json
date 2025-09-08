@@ -14,6 +14,12 @@
     },
     "dev.hai-vr.animator-as-code.v1.vrchat-destructive-workflow": {
       "version": "1.1.2"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.1.0"
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.9"
     }
   },
   "locked": {
@@ -53,6 +59,18 @@
       "dependencies": {
         "dev.hai-vr.animator-as-code.v1": ">=1.1.0 <2.0.0-a",
         "com.vrchat.avatars": ">=3.5.2 <999.0.0-a"
+      }
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.1.0",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2 - 3.8"
+      }
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.9",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.1.0"
       }
     }
   }

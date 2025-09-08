@@ -117,7 +117,7 @@ MonoBehaviour:
   FullFaceTrackingPrefix: v2/
   createEyeTracking: 1
   MirrorEyeposes: 1
-  maxEyeMotionValue: 0.25
+  maxEyeMotionValue: 0.7
   LeftEyePoses:
   - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
   - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}

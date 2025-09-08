@@ -99,7 +99,7 @@ public class AnimatorWizard : MonoBehaviour
 
     public bool createEyeTracking = true;
     public bool MirrorEyeposes = true;
-    public float maxEyeMotionValue = 1f;
+    public float maxEyeMotionValue = 0.7f;
     public Motion[] LeftEyePoses;
     public Motion[] RightEyePoses;
 
@@ -1303,6 +1303,7 @@ public class AnimatorGeneratorEditor : Editor
             GUILayout.Label("Creates EyeTracking with these animations.", headerStyle2);
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
+            EditorGUILayout.PropertyField(maxEyeMotionValue);
             EditorGUILayout.PropertyField(MirrorEyeposes, PopUpLabel("Mirror Eye poses", "Don't use other animations for the right side."));
             GUILayout.Space(10);
             if (wizard.MirrorEyeposes)
