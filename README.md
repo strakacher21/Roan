@@ -37,7 +37,7 @@ The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1**
 
 **The character currently has no texture (uses vertex paint).** This is a simple way to make temporary coloring without using a UV map, which is useful when the body geometry changes frequently. This works well for solid colors, but is not suitable for fancy pattern, but your avatar file size will stay small and load quickly without texture files.
 
-The Unity project has a prefab model. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/).
+The Unity project has a prefab model. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
 
 # TODO
 ### Global:
@@ -60,7 +60,7 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
-- [ ] poyomi shader?
+- [ ] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
