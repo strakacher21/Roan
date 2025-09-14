@@ -42,7 +42,7 @@ The Unity project has a prefab model. Аlso includes **AnimatorWizard** script (
 # TODO
 ### Global:
 - [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro)) **(WIP)**
-- [ ] UV map for textures
+- [x] UV map for textures **(WIP)**
 - [ ] сreate textures (something better than that regular vertex paint!)
 - [ ] optimize the character mesh, add details, and also need to work on his style
 - [ ] grooming hair (in Blender only)
