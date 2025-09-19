@@ -746,6 +746,11 @@ PrefabInstance:
       propertyPath: rootTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8366098837957114009, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: settings.vrMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8454987788746133284, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_Name
