@@ -306,6 +306,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: avatar
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -1370,7 +1385,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 6285505686932134747}
-    eyelidsBlendshapes: 0c0000000d0000000e000000
+    eyelidsBlendshapes: 040000000500000006000000
   customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
