@@ -3,6 +3,7 @@
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar with realistic style.
 ___
 <div style="text-align: center;">
+  <img src="Gallery/Roan%20Sketchfab%20Screenshot.png" alt="Roan shaded" width="90%">
   <img src="Gallery/Roan%20shaded.png" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan%20mesh.png" alt="Roan mesh" width="45%">
 </div>
