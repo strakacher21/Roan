@@ -17,6 +17,36 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roan material
+    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan procedural sweater shader
+    second: {fileID: 2100000, guid: f15d75481ce245a4980f355484b57e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan shader
+    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan sweater material
+    second: {fileID: 2100000, guid: f15d75481ce245a4980f355484b57e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan sweater shader
+    second: {fileID: 2100000, guid: f15d75481ce245a4980f355484b57e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan test shader
+    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roan vertex shader
     second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
   - first:
