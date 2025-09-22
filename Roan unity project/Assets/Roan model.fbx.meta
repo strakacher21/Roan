@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roan eye material
+    second: {fileID: 2100000, guid: 7891ef5f20e9ea44d8f34ffb7a73b5b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roan material
     second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
   - first:
