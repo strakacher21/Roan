@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - USE_DETAIL_MAPS
   - USE_SPECULAR
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
@@ -137,7 +138,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6396532eb02ef7245b48eee92f0f605e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
@@ -1194,7 +1195,7 @@ Material:
     - _DetailMaskChannel: 3
     - _DetailMaskStochastic: 0
     - _DetailMaskUV: 0
-    - _DetailMode: 0
+    - _DetailMode: 3
     - _DetailNormalGlobalMask: 0
     - _DetailNormalGlobalMaskBlendType: 2
     - _DetailNormalMapScale: 1
@@ -1206,7 +1207,7 @@ Material:
     - _DetailTexStochastic: 0
     - _DetailTexUV: 0
     - _DetailTintThemeIndex: 0
-    - _DetailUV: 0
+    - _DetailUV: 1
     - _DisableDirectionalInAdd: 1
     - _DissolveAlpha: 0
     - _DissolveAlpha0: 0
@@ -1844,7 +1845,7 @@ Material:
     - _HighColor_Power: 0.2
     - _HighColor_TexUV: 0
     - _HueShift: 0
-    - _HueShiftMaskChannel: 0
+    - _HueShiftMaskChannel: 1
     - _IgnoreCastedShadows: 0
     - _IgnoreFog: 0
     - _Is_BlendAddToHiColor: 0

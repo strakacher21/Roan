@@ -98,11 +98,11 @@ MonoBehaviour:
   shapePreferenceTogglesPrefix: pref/toggle/
   createClothCustomization: 0
   ClothTogglesPrefix: cloth/toggle/
-  createColorCustomization: 0
-  primaryColor0: {fileID: 0}
-  primaryColor1: {fileID: 0}
-  secondColor0: {fileID: 0}
-  secondColor1: {fileID: 0}
+  createColorCustomization: 1
+  primaryColor0: {fileID: 7400000, guid: 2d84ec705c84a7b4e86208dd9434b8a5, type: 2}
+  primaryColor1: {fileID: 7400000, guid: b6413cbdc8d0e8548bad2959a0ca8c35, type: 2}
+  secondColor0: {fileID: 7400000, guid: 9556ed376688f6a4ca571d3e987a9912, type: 2}
+  secondColor1: {fileID: 7400000, guid: 1cb9c971618d70549b8a6953b94ba6e2, type: 2}
   createFacialExpressionsControl: 0
   expTrackName: ExpressionTrackingActive
   createFTLipSyncControl: 0
@@ -187,12 +187,7 @@ MonoBehaviour:
   - TongueOut
   - EyeSquintLeft
   - EyeSquintRight
-  - NoseSneerLeft
-  - NoseSneerRight
-  - LipSuckUpperLeft
-  - LipSuckUpperRight
-  - LipSuckLowerLeft
-  - LipSuckLowerRight
+  - NoseSneer
   ftDualShapes:
   - paramName: SmileSad
     minShapeName: MouthSad
@@ -305,21 +300,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: avatar
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[4]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[5]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[6]
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}

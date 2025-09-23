@@ -19,6 +19,16 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: pref/slider/pcol
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: pref/slider/scol
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
   - name: v2/EyeTrackingActive
     valueType: 2
     saved: 1
@@ -104,32 +114,7 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/NoseSneerLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/NoseSneerRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/LipSuckUpperLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/LipSuckUpperRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/LipSuckLowerLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/LipSuckLowerRight
+  - name: v2/NoseSneer
     valueType: 1
     saved: 0
     defaultValue: 0

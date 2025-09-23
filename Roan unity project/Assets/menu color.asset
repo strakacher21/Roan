@@ -10,27 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: menu Top
+  m_Name: menu color
   m_EditorClassIdentifier: 
   Parameters: {fileID: 11400000, guid: 5bb011910428b974aa65a9eb34187e8a, type: 2}
   controls:
-  - name: <b><color=green>Colors<color=yellow> [WIP]
-    icon: {fileID: 2800000, guid: d019d45f1e57dbc40b8cb3a99a4e34de, type: 3}
-    type: 103
+  - name: <b><color=yellow>Sweater Color
+    icon: {fileID: 2800000, guid: d147879fb4c78144f8824b5240c2ceee, type: 3}
+    type: 203
     parameter:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 27c2d81033be82f4289e380869ec8d4e, type: 2}
-    subParameters: []
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: pref/slider/scol
     labels: []
-  - name: <b><color=green>FaceTracking<color=yellow> [WIP]
-    icon: {fileID: 2800000, guid: 743878a5117f92540bbee7831acd3530, type: 3}
-    type: 103
+  - name: <b><color=yellow>Eyes Color
+    icon: {fileID: 2800000, guid: d147879fb4c78144f8824b5240c2ceee, type: 3}
+    type: 203
     parameter:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 5907a2dd898809d4c8a5ef30f3885f73, type: 2}
-    subParameters: []
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: pref/slider/pcol
     labels: []
