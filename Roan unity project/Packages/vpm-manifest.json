@@ -20,6 +20,9 @@
     },
     "lyuma.av3emulator": {
       "version": "3.4.9"
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.76"
     }
   },
   "locked": {
@@ -72,6 +75,10 @@
       "dependencies": {
         "com.vrchat.avatars": "^3.1.0"
       }
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.76",
+      "dependencies": {}
     }
   }
 }

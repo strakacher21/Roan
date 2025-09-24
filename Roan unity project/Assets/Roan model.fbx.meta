@@ -22,8 +22,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roan foot material
+    second: {fileID: 2100000, guid: 35ab7891782cfbb4f84292e7ca309c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan hands material
+    second: {fileID: 2100000, guid: a9f29c1824893a34a81ae6371467a7a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan head material
+    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roan material
     second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan material (old)
+    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan pants material
+    second: {fileID: 2100000, guid: f62b63dbe1ad22847a08ca6fc774df39, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -44,6 +69,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Roan sweater shader
     second: {fileID: 2100000, guid: f15d75481ce245a4980f355484b57e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan tail material
+    second: {fileID: 2100000, guid: 78a7d2f555fbb87418faff5a29cd6c32, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

@@ -98,7 +98,7 @@ MonoBehaviour:
   shapePreferenceTogglesPrefix: pref/toggle/
   createClothCustomization: 0
   ClothTogglesPrefix: cloth/toggle/
-  createColorCustomization: 1
+  createColorCustomization: 0
   primaryColor0: {fileID: 7400000, guid: 2d84ec705c84a7b4e86208dd9434b8a5, type: 2}
   primaryColor1: {fileID: 7400000, guid: b6413cbdc8d0e8548bad2959a0ca8c35, type: 2}
   secondColor0: {fileID: 7400000, guid: 9556ed376688f6a4ca571d3e987a9912, type: 2}
@@ -1578,16 +1578,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.00010310098
-    height: 0.0005155049
+    radius: 0.00010310075
+    height: 0.00051550375
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.00011658546
-    height: 0.0005829273
+    radius: 0.000116585026
+    height: 0.0005829251
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
@@ -1610,16 +1610,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.00010310102
-    height: 0.0005155051
+    radius: 0.000103101396
+    height: 0.000515507
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.00011658577
-    height: 0.0005829288
+    radius: 0.000116585325
+    height: 0.0005829266
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:

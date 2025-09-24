@@ -12,9 +12,11 @@ Follow these steps to set up the Unity project:
    Download the latest version of the [VRChat Creator Companion (VCC)](https://vrchat.com/download/vcc) and follow the [official installation guide](https://vcc.docs.vrchat.com/) to set it up.
 
 3. **Add Custom Package Repository**  
-   This project uses custom packages from [hai-vr](https://github.com/hai-vr). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URL:  
+   This project uses custom packages from [hai-vr](https://github.com/hai-vr) and [PoiyomiToonShader](https://github.com/poiyomi/PoiyomiToonShader). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URLs:  
    ```
    https://hai-vr.github.io/vpm-listing/index.json
+
+   https://poiyomi.github.io/vpm/index.json
    ```
 4. **Confirm Repository Addition**  
    A dialog box will appear in VCC. Click **I Understand, Add Repository** and verify that the repository has been successfully added in the VCC settings.

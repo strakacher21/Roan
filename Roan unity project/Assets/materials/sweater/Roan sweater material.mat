@@ -12,17 +12,17 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - USE_DETAIL_MAPS
   - USE_NORMAL_MAPS
   - USE_OCCLUSION_MAP
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - COLOR_GRADING_HDR
   - VIGNETTE_MASKED
-  - _ENABLE_GEOMETRIC_SPECULAR_AA
-  - _LIGHTINGMODE_FLAT
+  - _LIGHTINGMODE_MULTILAYER_MATH
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
+  - _UZUMOREENABLED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -139,7 +139,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 2800000, guid: 6396532eb02ef7245b48eee92f0f605e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
@@ -303,7 +303,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5cb02b9174730a84a9dd01a17d113565, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingDetailShadowMaps:
@@ -579,6 +579,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TruchetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UzumoreMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -1196,7 +1200,7 @@ Material:
     - _DetailMaskChannel: 3
     - _DetailMaskStochastic: 0
     - _DetailMaskUV: 0
-    - _DetailMode: 3
+    - _DetailMode: 0
     - _DetailNormalGlobalMask: 0
     - _DetailNormalGlobalMaskBlendType: 2
     - _DetailNormalMapScale: 1
@@ -1208,7 +1212,7 @@ Material:
     - _DetailTexStochastic: 0
     - _DetailTexUV: 0
     - _DetailTintThemeIndex: 0
-    - _DetailUV: 1
+    - _DetailUV: 0
     - _DisableDirectionalInAdd: 1
     - _DissolveAlpha: 0
     - _DissolveAlpha0: 0
@@ -1920,7 +1924,7 @@ Material:
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
     - _LightingMirrorVertexLightingEnabled: 1
-    - _LightingMode: 5
+    - _LightingMode: 1
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -1966,7 +1970,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
-    - _MainColorAdjustToggle: 0
+    - _MainColorAdjustToggle: 1
     - _MainGamma: 1
     - _MainGammaGlobalMask: 0
     - _MainGammaGlobalMaskBlendType: 2
@@ -1980,7 +1984,7 @@ Material:
     - _MainHueShiftReplace: 1
     - _MainHueShiftSelectOrShift: 1
     - _MainHueShiftSpeed: 0
-    - _MainHueShiftToggle: 0
+    - _MainHueShiftToggle: 1
     - _MainIgnoreTexAlpha: 0
     - _MainPixelMode: 0
     - _MainSaturationGlobalMask: 0
@@ -1989,7 +1993,7 @@ Material:
     - _MainTexUV: 0
     - _MainUseVertexColorAlpha: 0
     - _MainVertexColoring: 1
-    - _MainVertexColoringEnabled: 1
+    - _MainVertexColoringEnabled: 0
     - _MainVertexColoringLinearSpace: 0
     - _Matcap0ALAlphaAddBand: 0
     - _Matcap0ALChronoPanBand: 0
@@ -2693,9 +2697,9 @@ Material:
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
     - _ShadowAlbedo: 0.5
-    - _ShadowBlur: 0.1
+    - _ShadowBlur: 0.25
     - _ShadowBoost: 0
-    - _ShadowBorder: 0.5
+    - _ShadowBorder: 1
     - _ShadowBorderMapToggle: 0
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderMaskUV: 0
@@ -2889,6 +2893,11 @@ Material:
     - _Use_1stShadeMapAlpha_As_ShadowMask: 0
     - _Use_2ndShadeMapAlpha_As_ShadowMask: 0
     - _Use_BaseAs1st: 0
+    - _UzumoreAmount: 0.1
+    - _UzumoreBias: 0.001
+    - _UzumoreCategoryToggle: 0
+    - _UzumoreEnabled: 1
+    - _UzumoreMaskUV: 3
     - _VertexAudioLinkEnabled: 0
     - _VertexBarrelAlpha: 0
     - _VertexBarrelHeight: 0
@@ -3108,6 +3117,7 @@ Material:
     - m_end_UVTileDissolveRow1: 0
     - m_end_UVTileDissolveRow2: 0
     - m_end_UVTileDissolveRow3: 0
+    - m_end_Uzumore: 0
     - m_end_VideoSettings: 0
     - m_end_VoronoiAudioLink: 0
     - m_end_WorldAOBlocker: 0
@@ -3160,8 +3170,8 @@ Material:
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
     - m_grabPassCategory: 0
-    - m_lightingCategory: 0
-    - m_mainCategory: 0
+    - m_lightingCategory: 1
+    - m_mainCategory: 1
     - m_modifierCategory: 1
     - m_renderingCategory: 0
     - m_specialFXCategory: 0
@@ -3226,7 +3236,7 @@ Material:
     - m_start_GrabPassAdvanced: 0
     - m_start_GrabpassColor: 0
     - m_start_LTCGI: 0
-    - m_start_MainVertexColors: 1
+    - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
@@ -3239,7 +3249,7 @@ Material:
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
     - m_start_Refraction: 0
@@ -3261,6 +3271,7 @@ Material:
     - m_start_UVTileDissolveRow1: 0
     - m_start_UVTileDissolveRow2: 0
     - m_start_UVTileDissolveRow3: 0
+    - m_start_Uzumore: 0
     - m_start_VideoSettings: 0
     - m_start_VoronoiAudioLink: 0
     - m_start_WorldAOBlocker: 0
@@ -3363,6 +3374,9 @@ Material:
     - s_end_DepthFXColorEmission: 0
     - s_end_DetailNormal: 0
     - s_end_DetailTexture: 0
+    - s_end_DissolveAudioLink: 0
+    - s_end_DissolvedMenu: 0
+    - s_end_EdgeMenu: 0
     - s_end_EmissionAL0Add: 0
     - s_end_EmissionAL0COut: 0
     - s_end_EmissionAL0Multiply: 0
@@ -3422,6 +3436,7 @@ Material:
     - s_end_MainHueShift: 0
     - s_end_MainHueShiftAL: 0
     - s_end_MainHueShiftGlobalMask: 0
+    - s_end_MaskingMenu: 0
     - s_end_Matcap0AudioLink: 0
     - s_end_Matcap0Blending: 0
     - s_end_Matcap0Masking: 0
@@ -3504,6 +3519,11 @@ Material:
     - s_end_StylizedSpecularLayer0: 0
     - s_end_StylizedSpecularLayer1: 0
     - s_end_TimingOptions: 0
+    - s_end_TransitionMenu: 0
+    - s_end_UVTileDissolveRow0: 0
+    - s_end_UVTileDissolveRow1: 0
+    - s_end_UVTileDissolveRow2: 0
+    - s_end_UVTileDissolveRow3: 0
     - s_end_VertAL: 0
     - s_end_VertexBarrelMode: 0
     - s_end_VertexColors: 0
@@ -3559,7 +3579,7 @@ Material:
     - s_start_BackfaceMods: 0
     - s_start_CCopt: 1
     - s_start_ClearCoatTPSMaskGroup: 0
-    - s_start_ColorAdjustColorGrading: 0
+    - s_start_ColorAdjustColorGrading: 1
     - s_start_ContinuousRotation: 0
     - s_start_CubeMapColorAdjust: 0
     - s_start_CubeMapMasking: 1
@@ -3584,6 +3604,9 @@ Material:
     - s_start_DepthFXColorEmission: 0
     - s_start_DetailNormal: 0
     - s_start_DetailTexture: 0
+    - s_start_DissolveAudioLink: 0
+    - s_start_DissolvedMenu: 0
+    - s_start_EdgeMenu: 0
     - s_start_EmissionAL0Add: 0
     - s_start_EmissionAL0COut: 0
     - s_start_EmissionAL0Multiply: 0
@@ -3643,7 +3666,8 @@ Material:
     - s_start_LookAtVisibility: 0
     - s_start_MainHueShift: 1
     - s_start_MainHueShiftAL: 0
-    - s_start_MainHueShiftGlobalMask: 0
+    - s_start_MainHueShiftGlobalMask: 1
+    - s_start_MaskingMenu: 0
     - s_start_Matcap0AudioLink: 0
     - s_start_Matcap0Blending: 1
     - s_start_Matcap0Masking: 1
@@ -3726,6 +3750,11 @@ Material:
     - s_start_StylizedSpecularLayer0: 1
     - s_start_StylizedSpecularLayer1: 1
     - s_start_TimingOptions: 1
+    - s_start_TransitionMenu: 0
+    - s_start_UVTileDissolveRow0: 0
+    - s_start_UVTileDissolveRow1: 0
+    - s_start_UVTileDissolveRow2: 0
+    - s_start_UVTileDissolveRow3: 0
     - s_start_VertAL: 0
     - s_start_VertexBarrelMode: 0
     - s_start_VertexColors: 0

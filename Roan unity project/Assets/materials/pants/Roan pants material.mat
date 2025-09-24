@@ -7,14 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Roan eye material
+  m_Name: Roan pants material
   m_Shader: {fileID: 4800000, guid: e765db0afa7ecfc44ade2e4e2491f65a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - USE_OCCLUSION_MAP
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
-  - MOCHIE_PBR
+  - COLOR_GRADING_HDR
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_MULTILAYER_MATH
   - _RIM2STYLE_POIYOMI
@@ -301,7 +302,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5cb02b9174730a84a9dd01a17d113565, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingDetailShadowMaps:
@@ -405,7 +406,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 208e53296e688584192ab2347982c5ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineMask:
@@ -1198,7 +1199,7 @@ Material:
     - _DetailMaskChannel: 3
     - _DetailMaskStochastic: 0
     - _DetailMaskUV: 0
-    - _DetailMode: 3
+    - _DetailMode: 0
     - _DetailNormalGlobalMask: 0
     - _DetailNormalGlobalMaskBlendType: 2
     - _DetailNormalMapScale: 1
@@ -1210,7 +1211,7 @@ Material:
     - _DetailTexStochastic: 0
     - _DetailTexUV: 0
     - _DetailTintThemeIndex: 0
-    - _DetailUV: 1
+    - _DetailUV: 0
     - _DisableDirectionalInAdd: 1
     - _DissolveAlpha: 0
     - _DissolveAlpha0: 0
@@ -1807,7 +1808,7 @@ Material:
     - _GlobalThemeValue3: 0
     - _GlossMapChannel: 3
     - _GlossMapScale: 1
-    - _GlossStrength: 1
+    - _GlossStrength: 0.5
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _GrabBlurDirections: 10
@@ -1968,7 +1969,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
-    - _MainColorAdjustToggle: 0
+    - _MainColorAdjustToggle: 1
     - _MainGamma: 1
     - _MainGammaGlobalMask: 0
     - _MainGammaGlobalMaskBlendType: 2
@@ -1982,7 +1983,7 @@ Material:
     - _MainHueShiftReplace: 1
     - _MainHueShiftSelectOrShift: 1
     - _MainHueShiftSpeed: 0
-    - _MainHueShiftToggle: 0
+    - _MainHueShiftToggle: 1
     - _MainIgnoreTexAlpha: 0
     - _MainPixelMode: 0
     - _MainSaturationGlobalMask: 0
@@ -1991,7 +1992,7 @@ Material:
     - _MainTexUV: 0
     - _MainUseVertexColorAlpha: 0
     - _MainVertexColoring: 1
-    - _MainVertexColoringEnabled: 1
+    - _MainVertexColoringEnabled: 0
     - _MainVertexColoringLinearSpace: 0
     - _Matcap0ALAlphaAddBand: 0
     - _Matcap0ALChronoPanBand: 0
@@ -2201,7 +2202,7 @@ Material:
     - _MatcapUVToBlend: 1
     - _Metallic: 0
     - _MetallicMapChannel: 0
-    - _MetallicStrength: 0.125
+    - _MetallicStrength: 0
     - _MinBrightness: 0
     - _Mirror: 0
     - _MirrorColorThemeIndex: 0
@@ -2209,7 +2210,7 @@ Material:
     - _MirrorTextureEnabled: 0
     - _MirrorTextureForceEnabled: 0
     - _MirrorTextureUV: 0
-    - _MochieBRDF: 1
+    - _MochieBRDF: 0
     - _MochieForceFallback: 0
     - _MochieGSAAEnabled: 1
     - _MochieLitFallback: 1
@@ -2223,9 +2224,9 @@ Material:
     - _MochieMetallicMapsStochastic: 0
     - _MochieMetallicMapsUV: 0
     - _MochieMetallicMasksUV: 0
-    - _MochieMetallicMultiplier: 0.125
+    - _MochieMetallicMultiplier: 0
     - _MochieReflectionMaskInvert: 0
-    - _MochieReflectionStrength: 0.25
+    - _MochieReflectionStrength: 1
     - _MochieReflectionStrengthGlobalMask: 0
     - _MochieReflectionStrengthGlobalMaskBlendType: 2
     - _MochieReflectionTintThemeIndex: 0
@@ -2477,7 +2478,7 @@ Material:
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
     - _RefSpecFresnelStrength: 0.5
-    - _Reflectance: 0.25
+    - _Reflectance: 0.5
     - _ReflectionAnisotropicStretch: 1
     - _ReflectionApplyTransparency: 1
     - _ReflectionBlendMode: 1
@@ -2695,9 +2696,9 @@ Material:
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
     - _ShadowAlbedo: 0.5
-    - _ShadowBlur: 0.1
+    - _ShadowBlur: 0.25
     - _ShadowBoost: 0
-    - _ShadowBorder: 0.5
+    - _ShadowBorder: 1
     - _ShadowBorderMapToggle: 0
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderMaskUV: 0
@@ -3169,7 +3170,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_grabPassCategory: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 0
+    - m_mainCategory: 1
     - m_modifierCategory: 1
     - m_renderingCategory: 0
     - m_specialFXCategory: 0
@@ -3234,7 +3235,7 @@ Material:
     - m_start_GrabPassAdvanced: 0
     - m_start_GrabpassColor: 0
     - m_start_LTCGI: 0
-    - m_start_MainVertexColors: 1
+    - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
@@ -3577,7 +3578,7 @@ Material:
     - s_start_BackfaceMods: 0
     - s_start_CCopt: 1
     - s_start_ClearCoatTPSMaskGroup: 0
-    - s_start_ColorAdjustColorGrading: 0
+    - s_start_ColorAdjustColorGrading: 1
     - s_start_ContinuousRotation: 0
     - s_start_CubeMapColorAdjust: 0
     - s_start_CubeMapMasking: 1
@@ -3664,7 +3665,7 @@ Material:
     - s_start_LookAtVisibility: 0
     - s_start_MainHueShift: 1
     - s_start_MainHueShiftAL: 0
-    - s_start_MainHueShiftGlobalMask: 0
+    - s_start_MainHueShiftGlobalMask: 1
     - s_start_MaskingMenu: 0
     - s_start_Matcap0AudioLink: 0
     - s_start_Matcap0Blending: 1
