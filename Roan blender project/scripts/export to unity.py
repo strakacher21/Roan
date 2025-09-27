@@ -6,7 +6,8 @@ import os
 export_path = bpy.path.abspath(r"//../Roan unity project/Assets")
 file_name = "Roan model.fbx"
 desired_model_name = "Body"
-export_uv_map = "UVMap (single 4k padding 20px)"
+export_uv0_map = "UVMap (single 4k padding 20px)"
+export_uv1_map = "ColorMap"
 export_vertex_colors = True
 export_collection_name = "main"
 exclude_collection_name = "disabled"
@@ -51,18 +52,21 @@ if bpy.context.selected_objects:
     bpy.ops.object.join()
     bpy.context.active_object.name = desired_model_name
 
-    # Deleting all UV maps except the selected one
     obj = bpy.context.active_object
     uv_layers = obj.data.uv_layers
-    if export_uv_map in uv_layers:
-        uv_layers.active = uv_layers[export_uv_map]
-        layers_to_remove = [uv for uv in uv_layers if uv.name != export_uv_map]
+    if export_uv0_map in uv_layers and export_uv1_map in uv_layers:
+        uv_layers.active = uv_layers[export_uv0_map]
+        layers_to_remove = [uv for uv in uv_layers if uv.name not in {export_uv0_map, export_uv1_map}]
         for uv in layers_to_remove:
             uv_layers.remove(uv)
     else:
-        raise ValueError(f"UV map '{export_uv_map}' not found.")
+        missing = []
+        if export_uv0_map not in uv_layers:
+            missing.append(export_uv0_map)
+        if export_uv1_map not in uv_layers:
+            missing.append(export_uv1_map)
+        raise ValueError(f"UV map(s) {', '.join(missing)} not found.")
 
-    # Set 'main' collection as active
     export_layer_collection = bpy.context.view_layer.layer_collection.children[export_collection_name]
     bpy.context.view_layer.active_layer_collection = export_layer_collection
 
@@ -79,7 +83,6 @@ if bpy.context.selected_objects:
         bake_anim_force_startend_keying=False,
         bake_anim_simplify_factor=0.0,
         colors_type="LINEAR" if export_vertex_colors else "NONE",
-        #add_leaf_bones=False,
         use_armature_deform_only=True,
         use_triangles=False
     )

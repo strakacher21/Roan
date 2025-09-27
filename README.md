@@ -36,9 +36,9 @@ The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1**
 >
 >To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
 
-**The character currently has no texture (uses vertex paint).** This is a simple way to make temporary coloring without using a UV map, which is useful when the body geometry changes frequently. This works well for solid colors, but is not suitable for fancy pattern, but your avatar file size will stay small and load quickly without texture files.
+**The character currently has no texture (uses vertex paint and has baked vertex paint).** This is a simple way to make temporary coloring without using a UV map, which is useful when the body geometry changes frequently. This works well for solid colors, but is not suitable for fancy pattern, but your avatar file size will stay small and load quickly without texture files.
 
-The Unity project has a prefab model. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
+The Unity project has a prefab model, as well as two scenes for **PC** and **Quest&IOS** (the only differences are in the materials and the color change function in the game). All prefab changes go into changing the scene. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
 
 # TODO
 ### Global:
@@ -61,8 +61,9 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
-- [ ] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
+- [x] in-game color change
+- [x] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
-uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.
+uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package, [PoiyomiToonShader](https://github.com/poiyomi/PoiyomiToonShader) and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.

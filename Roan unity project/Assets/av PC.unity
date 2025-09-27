@@ -1,0 +1,523 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18154663, g: 0.22718978, b: 0.30740848, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &1065315193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftShapes.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftShapes.Array.data[12]
+      value: NoseSneer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftShapes.Array.data[13]
+      value: NoseSneer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: saveVRCExpressionParameters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[3].minValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[5].minValue
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[2].paramName
+      value: MouthX
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[3].paramName
+      value: EyeLidLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[4].paramName
+      value: EyeLidRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[5].paramName
+      value: BrowExpressionLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[6].paramName
+      value: BrowExpressionRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[7].paramName
+      value: CheekPuffSuck
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[2].maxShapeName
+      value: MouthRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[2].minShapeName
+      value: MouthLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[3].maxShapeName
+      value: EyeWideLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[3].minShapeName
+      value: EyeClosedLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[3].neutralValue
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[4].maxShapeName
+      value: EyeWideRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[4].minShapeName
+      value: EyeClosedRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[5].maxShapeName
+      value: BrowUpLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[5].minShapeName
+      value: BrowDownLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[5].neutralValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[6].maxShapeName
+      value: BrowUpRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[6].minShapeName
+      value: BrowDownRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[7].maxShapeName
+      value: CheekPuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ftDualShapes.Array.data[7].minShapeName
+      value: CheekSuck
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: unityVersion
+      value: 2022.3.22f1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.size
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].hash
+      value: 1376474967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].name
+      value: master tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].hash
+      value: -1905250930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].name
+      value: basis
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].hash
+      value: 341124537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].hash
+      value: 479401739
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].name
+      value: up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].hash
+      value: 741269655
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].name
+      value: curious
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].hash
+      value: -442206472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].name
+      value: up 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].hash
+      value: 1467367949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].name
+      value: worried
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].hash
+      value: 462021868
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].name
+      value: curious 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].hash
+      value: -75439228
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].name
+      value: down 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].hash
+      value: 1573501565
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].name
+      value: basis
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].hash
+      value: -1959208665
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].name
+      value: sad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].hash
+      value: -762454971
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].name
+      value: smile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].hash
+      value: -299987116
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].name
+      value: grimace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].hash
+      value: -2014789291
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].name
+      value: smile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].hash
+      value: 643030680
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].name
+      value: grimace 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].hash
+      value: -1084584158
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].name
+      value: grimace 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].hash
+      value: -1605802678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].name
+      value: sad 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[54].hash
+      value: -979590752
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[54].name
+      value: Colors Adjust Test Blend Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454987788746133284, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: m_Name
+      value: PC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1065315193}

@@ -1,1 +1,2 @@
 d7e75eee1d7cfb544a274edb8dc36ba9:={"colorKeys": [{"color": {"r": 1,"g": 0,"b": 0,"a": 1},"time": 0},{"color": {"r": 1,"g": 0,"b": 0,"a": 1},"time": 1}],"alphaKeys": [{"alpha": 1,"time": 0},{"alpha": 1,"time": 1}],"mode": Blend,"colorSpace": Uninitialized}
+3610822c8f7e9654ebe4e4859edee7b3:={"colorKeys": [{"color": {"r": 1,"g": 1,"b": 1,"a": 1},"time": 0},{"color": {"r": 1,"g": 1,"b": 1,"a": 1},"time": 1}],"alphaKeys": [{"alpha": 1,"time": 0},{"alpha": 1,"time": 1}],"mode": Blend,"colorSpace": Linear}

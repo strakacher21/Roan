@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan eye material
-    second: {fileID: 2100000, guid: 7891ef5f20e9ea44d8f34ffb7a73b5b8, type: 2}
+    second: {fileID: 2100000, guid: 4f7326912ec552b4b8d9e50558f571ec, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -48,7 +48,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan pants material
-    second: {fileID: 2100000, guid: f62b63dbe1ad22847a08ca6fc774df39, type: 2}
+    second: {fileID: 2100000, guid: 980de9b2347ae1e40ab25548b3fafaf1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
