@@ -42,20 +42,20 @@ The Unity project has a prefab model, as well as two scenes for **PC** and **Que
 
 # TODO
 ### Global:
-- [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro)) **(WIP)**
-- [x] UV map for textures **(WIP)**
+- [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro))
+- [x] UV map for textures
 - [ ] сreate textures (something better than that regular vertex paint!)
 - [ ] optimize the character mesh, add details, and also need to work on his style
 - [ ] grooming hair (in Blender only)
-- [ ] add body geometry
-- [ ] add different clothes
+- [ ] add body geometry?
+- [ ] add different clothes?
 ___
 
 ### Minor:
 - [ ] make an adequate "weight paint" for the whole character to move better!
 - [ ] revise visemes
-- [x] create simple expressions **(WIP)**
-- [ ] create simple body customization features
+- [x] create simple expressions
+- [ ] create simple body customization features?
 - [ ] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
 - [ ] idle anims
