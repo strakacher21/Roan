@@ -33,7 +33,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanfootmaterial
+    attribute: material._PPHue_Roanfootmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanhandsmaterial
+    attribute: material._PPHue_Roanhandsmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanheadmaterial
+    attribute: material._PPHue_Roanheadmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roantailmaterial
+    attribute: material._PPHue_Roantailmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -111,7 +111,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2173924846
+      attribute: 2363334080
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -120,7 +120,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2222343536
+      attribute: 2162792804
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -129,7 +129,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2281999542
+      attribute: 2201762292
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -138,7 +138,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2311110053
+      attribute: 2398382305
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -183,7 +183,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanfootmaterial
+    attribute: material._PPHue_Roanfootmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -204,7 +204,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanhandsmaterial
+    attribute: material._PPHue_Roanhandsmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -225,7 +225,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roanheadmaterial
+    attribute: material._PPHue_Roanheadmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -246,7 +246,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPHue_Roantailmaterial
+    attribute: material._PPHue_Roantailmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}

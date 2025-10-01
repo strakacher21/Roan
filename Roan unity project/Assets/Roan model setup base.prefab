@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3335849815563880696}
   - component: {fileID: 8366098837957114009}
   - component: {fileID: 2598504060518816477}
+  - component: {fileID: 6190339285820790601}
   m_Layer: 0
   m_Name: Roan model setup base
   m_TagString: Untagged
@@ -243,6 +244,21 @@ MonoBehaviour:
     minValue: -1
     neutralValue: 0
     maxValue: 1
+--- !u!114 &6190339285820790601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8454987788746133284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae10a55613fba54880a12994c532656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 9100000, guid: 1d24b068bcc9a49459ca4d34ee4320f5, type: 2}
+  KeyWord: material
+  tag: 28PC29
 --- !u!1001 &4727413456578233865
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -33,7 +33,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanfootmaterial
+    attribute: material._PPSaturation_Roanfootmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanhandsmaterial
+    attribute: material._PPSaturation_Roanhandsmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanheadmaterial
+    attribute: material._PPSaturation_Roanheadmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roantailmaterial
+    attribute: material._PPSaturation_Roantailmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -111,7 +111,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2192896534
+      attribute: 2230351576
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -120,7 +120,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2277710041
+      attribute: 2211261657
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -129,7 +129,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2334329678
+      attribute: 2333201132
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -138,7 +138,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2330409565
+      attribute: 2262402041
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -183,7 +183,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanfootmaterial
+    attribute: material._PPSaturation_Roanfootmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -204,7 +204,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanhandsmaterial
+    attribute: material._PPSaturation_Roanhandsmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -225,7 +225,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roanheadmaterial
+    attribute: material._PPSaturation_Roanheadmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -246,7 +246,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation_Roantailmaterial
+    attribute: material._PPSaturation_Roantailmaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}

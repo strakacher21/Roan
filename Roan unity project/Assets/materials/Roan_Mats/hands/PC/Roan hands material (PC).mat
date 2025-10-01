@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Roan hands material (PC)
-  m_Shader: {fileID: 4800000, guid: 4bbb960fe2330944b8b2e87c2ce6c234, type: 3}
+  m_Shader: {fileID: 4800000, guid: 77c241ce21201354787b01893abc2c0f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - POSTPROCESS
-  - VIGNETTE
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_MULTILAYER_MATH
   - _RIM2STYLE_POIYOMI
@@ -27,8 +26,8 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: a9f29c1824893a34a81ae6371467a7a9
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POSTPROCESS VIGNETTE VIGNETTE_MASKED
-      _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POSTPROCESS VIGNETTE_MASKED _LIGHTINGMODE_MULTILAYER_MATH
+      _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: 104003ab15a9f7a47b6ef0597225e771
     RenderType: Opaque
@@ -47,23 +46,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _AlphaTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BRDFFallback:
         m_Texture: {fileID: 8900000, guid: 1f79f71b84fc2844bb81e9ae4f5bc384, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BlueTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GreenTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -95,40 +82,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RGBAMetallicMaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RGBASmoothnessMaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RGBMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Ramp:
         m_Texture: {fileID: 2800000, guid: 348500adef1d2da428abc7b720b8b699, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RedTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RgbNormalA:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RgbNormalB:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RgbNormalG:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RgbNormalR:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shadow2ndColorTex:
@@ -479,7 +434,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BlueAlphaAdd: 0
-    - _BlueColorThemeIndex: 3
+    - _BlueColorThemeIndex: 0
     - _BlueTextureStochastic: 0
     - _BlueTextureUV: 0
     - _BumpMapStochastic: 0
@@ -1408,12 +1363,12 @@ Material:
     - _GlobalMaskToggleOn_9: 0
     - _GlobalMaskVertexColorAlpha: 0
     - _GlobalMaskVertexColorAlphaBlendType: 2
-    - _GlobalMaskVertexColorBlue: 3
+    - _GlobalMaskVertexColorBlue: 0
     - _GlobalMaskVertexColorBlueBlendType: 2
-    - _GlobalMaskVertexColorGreen: 2
+    - _GlobalMaskVertexColorGreen: 0
     - _GlobalMaskVertexColorGreenBlendType: 2
-    - _GlobalMaskVertexColorLinearSpace: 0
-    - _GlobalMaskVertexColorRed: 1
+    - _GlobalMaskVertexColorLinearSpace: 1
+    - _GlobalMaskVertexColorRed: 0
     - _GlobalMaskVertexColorRedBlendType: 2
     - _GlobalThemeHue0: 0
     - _GlobalThemeHue1: 0
@@ -1459,7 +1414,7 @@ Material:
     - _GrabPassUseAlpha: 1
     - _GrabSrcBlend: 5
     - _GreenAlphaAdd: 0
-    - _GreenColorThemeIndex: 2
+    - _GreenColorThemeIndex: 0
     - _GreenTextureStochastic: 0
     - _GreenTextureUV: 0
     - _HeightMapUV: 0
@@ -1652,7 +1607,7 @@ Material:
     - _MainTextureUV: 0
     - _MainUseVertexColorAlpha: 0
     - _MainVertexColoring: 1
-    - _MainVertexColoringEnabled: 0
+    - _MainVertexColoringEnabled: 1
     - _MainVertexColoringLinearSpace: 0
     - _Matcap0ALAlphaAddBand: 0
     - _Matcap0ALChronoPanBand: 0
@@ -1994,6 +1949,7 @@ Material:
     - _PPHue: 0
     - _PPHueShiftColorSpace: 1
     - _PPHue_Roanhandsmaterial: 0
+    - _PPHue_Roanhandsmaterial28PC29: 0
     - _PPLightingAddition: 0
     - _PPLightingMultiplier: 1
     - _PPLightness: 0
@@ -2004,6 +1960,7 @@ Material:
     - _PPPosterizationAmount: 4
     - _PPSaturation: 1
     - _PPSaturation_Roanhandsmaterial: 1
+    - _PPSaturation_Roanhandsmaterial28PC29: 1
     - _PanoBlend: 0
     - _PanoCubeMapToggle: 0
     - _PanoEmission: 0
@@ -2120,17 +2077,17 @@ Material:
     - _RGBAAlphaPBRSplitMaskStochastic: 0
     - _RGBAAlphaPBRUV: 0
     - _RGBAAlphaSmoothnessInvert: 0
-    - _RGBABlueBlendType: 8
+    - _RGBABlueBlendType: 0
     - _RGBABlueEmissionStrength: 0
-    - _RGBABlueEnable: 1
+    - _RGBABlueEnable: 0
     - _RGBABlueMetallicInvert: 0
     - _RGBABluePBRSplitMaskSample: 0
     - _RGBABluePBRSplitMaskStochastic: 0
     - _RGBABluePBRUV: 0
     - _RGBABlueSmoothnessInvert: 0
-    - _RGBAGreenBlendType: 8
+    - _RGBAGreenBlendType: 0
     - _RGBAGreenEmissionStrength: 0
-    - _RGBAGreenEnable: 1
+    - _RGBAGreenEnable: 0
     - _RGBAGreenMetallicInvert: 0
     - _RGBAGreenPBRSplitMaskSample: 0
     - _RGBAGreenPBRSplitMaskStochastic: 0
@@ -2142,9 +2099,9 @@ Material:
     - _RGBAPBRBlueEnabled: 0
     - _RGBAPBRGreenEnabled: 0
     - _RGBAPBRRedEnabled: 0
-    - _RGBARedBlendType: 8
+    - _RGBARedBlendType: 0
     - _RGBARedEmissionStrength: 0
-    - _RGBARedEnable: 1
+    - _RGBARedEnable: 0
     - _RGBARedMetallicInvert: 0
     - _RGBARedPBRSplitMaskSample: 0
     - _RGBARedPBRSplitMaskStochastic: 0
@@ -2156,14 +2113,14 @@ Material:
     - _RGBBlendMultiplicative: 0
     - _RGBBlue_UV: 0
     - _RGBGreen_UV: 0
-    - _RGBMaskEnabled: 1
+    - _RGBMaskEnabled: 0
     - _RGBMaskType: 0
     - _RGBMaskUV: 0
     - _RGBNormalBlend: 0
     - _RGBRed_UV: 0
     - _RGBUseVertexColors: 0
     - _RedAlphaAdd: 0
-    - _RedColorThemeIndex: 1
+    - _RedColorThemeIndex: 0
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
     - _RefSpecFresnelStrength: 0.5
@@ -2190,10 +2147,10 @@ Material:
     - _RgbAlphaGlobalMaskChannel: 0
     - _RgbAlphaMaskChannel: 3
     - _RgbBlueGlobalMaskBlendType: 2
-    - _RgbBlueGlobalMaskChannel: 3
+    - _RgbBlueGlobalMaskChannel: 0
     - _RgbBlueMaskChannel: 2
     - _RgbGreenGlobalMaskBlendType: 2
-    - _RgbGreenGlobalMaskChannel: 2
+    - _RgbGreenGlobalMaskChannel: 0
     - _RgbGreenMaskChannel: 1
     - _RgbNormalAGlobalMaskBlendType: 2
     - _RgbNormalAGlobalMaskChannel: 0
@@ -2225,7 +2182,7 @@ Material:
     - _RgbNormalRedBlendMode: 0
     - _RgbNormalsEnabled: 0
     - _RgbRedGlobalMaskBlendType: 2
-    - _RgbRedGlobalMaskChannel: 1
+    - _RgbRedGlobalMaskChannel: 0
     - _RgbRedMaskChannel: 0
     - _Rim2ApColorThemeIndex: 0
     - _Rim2ApplyAlpha: 0
@@ -2984,7 +2941,7 @@ Material:
     - m_grabPassCategory: 0
     - m_lightingCategory: 1
     - m_lightingOptions: 0
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_mainOptions: 1
     - m_modifierCategory: 1
     - m_outlineOptions: 0
@@ -3026,7 +2983,7 @@ Material:
     - m_start_FlipbookAudioLink: 0
     - m_start_FresnelAlpha: 0
     - m_start_Gameboy: 0
-    - m_start_GlobalMask: 1
+    - m_start_GlobalMask: 0
     - m_start_GlobalMaskDistanceM_0: 0
     - m_start_GlobalMaskDistanceM_1: 0
     - m_start_GlobalMaskDistanceM_10: 0
@@ -3055,7 +3012,7 @@ Material:
     - m_start_GlobalThemeColor1: 1
     - m_start_GlobalThemeColor2: 1
     - m_start_GlobalThemeColor3: 0
-    - m_start_GlobalThemes: 1
+    - m_start_GlobalThemes: 0
     - m_start_GrabPass: 0
     - m_start_GrabPassAdvanced: 0
     - m_start_GrabpassColor: 0
@@ -3105,7 +3062,7 @@ Material:
     - m_start_UVTileDissolveRow1: 0
     - m_start_UVTileDissolveRow2: 0
     - m_start_UVTileDissolveRow3: 0
-    - m_start_Uzumore: 1
+    - m_start_Uzumore: 0
     - m_start_VertexGlitch: 0
     - m_start_Video: 0
     - m_start_VideoDebug: 0
@@ -3199,7 +3156,7 @@ Material:
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
     - m_thirdpartyCategory: 0
-    - m_vertexCategory: 0
+    - m_vertexCategory: 1
     - s_end_ALAlpha: 0
     - s_end_ALDecalAudioModsOptions: 0
     - s_end_ALDecalBand: 0
@@ -3782,7 +3739,7 @@ Material:
     - _ClearcoatMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClippingMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -3923,9 +3880,9 @@ Material:
     - _GlobalMaskTexture3SplitTilingOffset_A: {r: 1, g: 1, b: 0, a: 0}
     - _GlobalMaskTexture3SplitTilingOffset_B: {r: 1, g: 1, b: 0, a: 0}
     - _GlobalMaskTexture3SplitTilingOffset_G: {r: 1, g: 1, b: 0, a: 0}
-    - _GlobalThemeColor0: {r: 1, g: 0, b: 0, a: 1}
-    - _GlobalThemeColor1: {r: 0, g: 1, b: 0, a: 1}
-    - _GlobalThemeColor2: {r: 0, g: 0, b: 1, a: 1}
+    - _GlobalThemeColor0: {r: 1, g: 1, b: 1, a: 1}
+    - _GlobalThemeColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _GlobalThemeColor2: {r: 1, g: 1, b: 1, a: 1}
     - _GlobalThemeColor3: {r: 1, g: 1, b: 1, a: 1}
     - _GrabPassBlendMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _GrabpassColor: {r: 1, g: 1, b: 1, a: 1}

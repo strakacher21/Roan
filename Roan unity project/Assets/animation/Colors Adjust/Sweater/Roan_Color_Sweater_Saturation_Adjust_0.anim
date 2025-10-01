@@ -33,7 +33,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation
+    attribute: material._PPSaturation_Roansweatermaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -48,7 +48,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2209801664
+      attribute: 2361412023
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -93,7 +93,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._PPSaturation
+    attribute: material._PPSaturation_Roansweatermaterial28PC29
     path: Body
     classID: 137
     script: {fileID: 0}
