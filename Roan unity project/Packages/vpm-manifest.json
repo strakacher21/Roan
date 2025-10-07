@@ -3,9 +3,6 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
-    "com.vrchat.avatars": {
-      "version": "3.8.2"
-    },
     "vrchat.blackstartx.gesture-manager": {
       "version": "3.9.4"
     },
@@ -23,21 +20,17 @@
     },
     "com.poiyomi.toon": {
       "version": "9.2.79"
+    },
+    "com.vrchat.base": {
+      "version": "3.9.0"
+    },
+    "com.vrchat.avatars": {
+      "version": "3.9.0"
     }
   },
   "locked": {
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
-      "dependencies": {}
-    },
-    "com.vrchat.avatars": {
-      "version": "3.8.2",
-      "dependencies": {
-        "com.vrchat.base": "3.8.2"
-      }
-    },
-    "com.vrchat.base": {
-      "version": "3.8.2",
       "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
@@ -79,6 +72,16 @@
     "com.poiyomi.toon": {
       "version": "9.2.79",
       "dependencies": {}
+    },
+    "com.vrchat.base": {
+      "version": "3.9.0",
+      "dependencies": {}
+    },
+    "com.vrchat.avatars": {
+      "version": "3.9.0",
+      "dependencies": {
+        "com.vrchat.base": "3.9.0"
+      }
     }
   }
 }
