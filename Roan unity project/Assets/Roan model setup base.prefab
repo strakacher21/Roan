@@ -1562,7 +1562,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.0009673784
+    radius: 0.0009673786
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}

@@ -1,11 +1,15 @@
 # **Roan**
 
-## [VRChat](https://hello.vrchat.com/) furry fox avatar with realistic style.
+## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
 <div style="text-align: center;">
+<!---
   <img src="Gallery/Roan%20Sketchfab%20Screenshot.png" alt="Roan shaded" width="90%">
   <img src="Gallery/Roan%20shaded.png" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan%20mesh.png" alt="Roan mesh" width="45%">
+--->
+  <img src="Gallery/Roan head shaded.png" alt="Roan shaded" width="45%">
+  <img src="Gallery/Roan head mesh.png" alt="Roan mesh" width="45%">
 </div>
 
 ___
@@ -19,12 +23,13 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 *About all mistakes and wishes or criticism write me safely. I will be interested to answer everything or realize that I have created some silly thing :D*
 
 # Get
-
+<!---
 ### [:arrow_forward:Sketchfab preview](https://skfb.ly/pAzHI)
+--->
+### [:arrow_forward:Link to the VRChat avatar branch test](https://vrchat.com/home/avatar/avtr_b8158ea6-d90d-493a-9bd6-1d25c0a66f56)
 
-### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Download](https://github.com/strakacher21/Roan/releases)
 
-### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
 ___
 # Info
 
@@ -45,7 +50,7 @@ The Unity project has a prefab model, as well as two scenes for **PC** and **Que
 - [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro))
 - [x] UV map for textures
 - [ ] сreate textures (something better than that regular vertex paint!)
-- [ ] optimize the character mesh, add details, and also need to work on his style
+- [ ] optimize the character mesh, add details, and also need to work on his style ***(working on it)***
 - [ ] grooming hair (in Blender only)
 - [ ] add body geometry?
 - [ ] add different clothes?
@@ -63,6 +68,7 @@ ___
 - [ ] make locomotion better!
 - [x] in-game color change
 - [x] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
+- [ ] setup 
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution

@@ -131,6 +131,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_b8158ea6-d90d-493a-9bd6-1d25c0a66f56
+      objectReference: {fileID: 0}
     - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: ftShapes.Array.size
