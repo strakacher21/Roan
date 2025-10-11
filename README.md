@@ -24,7 +24,7 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 
 ### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
-### [:arrow_forward:Download](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+### [:arrow_forward:Download](https://github.com/strakacher21/Roan/releases)
 ___
 # Info
 
