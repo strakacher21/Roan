@@ -27,6 +27,10 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 ### [:arrow_forward:Sketchfab preview](https://skfb.ly/pAzHI)
 --->
 ### [:arrow_forward:Link to the VRChat avatar branch test](https://vrchat.com/home/avatar/avtr_b8158ea6-d90d-493a-9bd6-1d25c0a66f56)
+(basic face tracking and color shifting for PC)
+
+### [:arrow_forward:Link to the VRChat only VRCFT avatar branch test](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
+(better face tracking but no color shifting for PC)
 
 ### [:arrow_forward:Download](https://github.com/strakacher21/Roan/releases)
 
@@ -66,9 +70,9 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
-- [x] in-game color change
+- [x] in-game color change (for PC only)
 - [x] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
-- [ ] setup 
+- [ ] setup poyomi shaders
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
