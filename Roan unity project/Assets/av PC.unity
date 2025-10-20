@@ -131,6 +131,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_2a8b73c0-5a67-499c-b3f3-67398d269035
+      objectReference: {fileID: 0}
     - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: ftShapes.Array.size
@@ -320,6 +325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: unityVersion
       value: 2022.3.22f1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: collider_footR.radius
+      value: 0.0009673784
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}

@@ -317,6 +317,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: avatar
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -1562,7 +1572,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.0009673784
+    radius: 0.0009673786
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}

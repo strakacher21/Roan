@@ -1,11 +1,11 @@
 # **Roan**
 
-## [VRChat](https://hello.vrchat.com/) furry fox avatar with realistic style.
+## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
 <div style="text-align: center;">
-  <img src="Gallery/Roan%20Sketchfab%20Screenshot.png" alt="Roan shaded" width="90%">
-  <img src="Gallery/Roan%20shaded.png" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan%20mesh.png" alt="Roan mesh" width="45%">
+  <img src="Gallery/Roan.png" alt="Roan shaded" width="90%">
+  <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
+  <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
 </div>
 
 ___
@@ -20,11 +20,16 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 
 # Get
 
-### [:arrow_forward:Sketchfab preview](https://skfb.ly/pAzHI)
+### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
 
-### [:arrow_forward:Link to the avatar in VRChat](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+(basic face tracking and in-game color change for PC only)
 
-### [:arrow_forward:Download](https://github.com/strakacher21/Roan/releases)
+### [:arrow_forward:Link to the VRChat only VRCFT avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
+(better face tracking but no in-game color change)
+
+### [:arrow_forward:Download Project](https://github.com/strakacher21/Roan/releases)
+
 ___
 # Info
 
@@ -45,7 +50,7 @@ The Unity project has a prefab model, as well as two scenes for **PC** and **Que
 - [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro))
 - [x] UV map for textures
 - [ ] сreate textures (something better than that regular vertex paint!)
-- [ ] optimize the character mesh, add details, and also need to work on his style
+- [ ] optimize the character mesh, add details, and also need to work on his style ***(working on it)***
 - [ ] grooming hair (in Blender only)
 - [ ] add body geometry?
 - [ ] add different clothes?
@@ -61,8 +66,9 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
-- [x] in-game color change
+- [x] in-game color change (for PC only)
 - [x] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
+- [ ] setup poyomi shaders
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
