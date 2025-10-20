@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_b8158ea6-d90d-493a-9bd6-1d25c0a66f56
+      value: avtr_2a8b73c0-5a67-499c-b3f3-67398d269035
       objectReference: {fileID: 0}
     - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -218,6 +218,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6a93b3714f16ad446b02f56ad3e99a89,
         type: 2}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: collider_footR.radius
+      value: 0.0009673784
+      objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.size

@@ -3,13 +3,9 @@
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
 <div style="text-align: center;">
-<!---
-  <img src="Gallery/Roan%20Sketchfab%20Screenshot.png" alt="Roan shaded" width="90%">
-  <img src="Gallery/Roan%20shaded.png" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan%20mesh.png" alt="Roan mesh" width="45%">
---->
-  <img src="Gallery/Roan head shaded.png" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan head mesh.png" alt="Roan mesh" width="45%">
+  <img src="Gallery/Roan.png" alt="Roan shaded" width="90%">
+  <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
+  <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
 </div>
 
 ___
@@ -23,16 +19,16 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 *About all mistakes and wishes or criticism write me safely. I will be interested to answer everything or realize that I have created some silly thing :D*
 
 # Get
-<!---
-### [:arrow_forward:Sketchfab preview](https://skfb.ly/pAzHI)
---->
-### [:arrow_forward:Link to the VRChat avatar branch test](https://vrchat.com/home/avatar/avtr_b8158ea6-d90d-493a-9bd6-1d25c0a66f56)
-(basic face tracking and color shifting for PC)
 
-### [:arrow_forward:Link to the VRChat only VRCFT avatar branch test](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
-(better face tracking but no color shifting for PC)
+### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
 
-### [:arrow_forward:Download](https://github.com/strakacher21/Roan/releases)
+### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+(basic face tracking and in-game color change for PC only)
+
+### [:arrow_forward:Link to the VRChat only VRCFT avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
+(better face tracking but no in-game color change)
+
+### [:arrow_forward:Download Project](https://github.com/strakacher21/Roan/releases)
 
 ___
 # Info
