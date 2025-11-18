@@ -33,7 +33,7 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 ___
 # Info
 
-The project includes the **Blend 4.5** file itself and the **Unity 2022.3.22f1** project.
+The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1** project.
 
 > [!WARNING]
 >**To properly export a model from Blender to Unity, you need to use the >export script in Blender!**</br>
