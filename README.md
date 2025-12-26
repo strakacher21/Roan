@@ -31,7 +31,7 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 (better face tracking but no in-game color change)</br>
 ***Future updates will port features to the standard version***
 ### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
-(where I enter the latest avatar changes)
+(where I test the latest changes)
 
 ### [:arrow_forward:Download Project](https://github.com/strakacher21/Roan/releases)
 
