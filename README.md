@@ -28,8 +28,8 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 (basic face tracking and in-game color change for PC only)
 
 ### [:arrow_forward:Link to the VRChat *only VRCFT* avatar (tag 2.2)](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
-(better face tracking but no in-game color change)</br>
-***Future updates will port features to the standard version***
+(better face tracking but no in-game color change. ***This will become the main version soon, meaning "only VRCFT" version will be removed will be removed soon***)
+
 ### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
 (where I test the latest changes)
 
@@ -65,7 +65,6 @@ ___
 - [ ] make an adequate "weight paint" for the whole character to move better!
 - [ ] revise visemes
 - [x] create simple expressions
-- [ ] create simple body customization features?
 - [ ] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
 - [ ] idle anims
