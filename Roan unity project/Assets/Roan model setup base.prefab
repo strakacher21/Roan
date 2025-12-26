@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3335849815563880696}
   - component: {fileID: 8366098837957114009}
   - component: {fileID: 2598504060518816477}
-  - component: {fileID: 6190339285820790601}
+  - component: {fileID: 7671356844076179755}
   m_Layer: 0
   m_Name: Roan model setup base
   m_TagString: Untagged
@@ -178,7 +178,8 @@ MonoBehaviour:
   - LipFunnel
   - LipPucker
   - MouthClosed
-  - MouthStretch
+  - MouthStretchLeft
+  - MouthStretchRight
   - MouthUpperUpLeft
   - MouthUpperUpRight
   - MouthLowerDownLeft
@@ -188,11 +189,20 @@ MonoBehaviour:
   - TongueOut
   - EyeSquintLeft
   - EyeSquintRight
-  - NoseSneer
+  - NoseSneerLeft
+  - NoseSneerRight
+  - CheekSquintLeft
+  - CheekSquintRight
   ftDualShapes:
-  - paramName: SmileSad
-    minShapeName: MouthSad
-    maxShapeName: MouthSmile
+  - paramName: SmileSadRight
+    minShapeName: MouthFrownRight
+    maxShapeName: MouthSmileRight
+    minValue: -1
+    neutralValue: 0
+    maxValue: 1
+  - paramName: SmileSadLeft
+    minShapeName: MouthFrownLeft
+    maxShapeName: MouthSmileLeft
     minValue: -1
     neutralValue: 0
     maxValue: 1
@@ -244,7 +254,7 @@ MonoBehaviour:
     minValue: -1
     neutralValue: 0
     maxValue: 1
---- !u!114 &6190339285820790601
+--- !u!114 &7671356844076179755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,12 +263,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8454987788746133284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae10a55613fba54880a12994c532656, type: 3}
+  m_Script: {fileID: 11500000, guid: 0722284fee9817b45ac70aa8393037e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 9100000, guid: 1d24b068bcc9a49459ca4d34ee4320f5, type: 2}
-  KeyWord: material
-  tag: 28PC29
+  config: {fileID: 11400000, guid: 542e5c5b9a345a04886c6bb57342fc5e, type: 2}
 --- !u!1001 &4727413456578233865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,16 +324,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: avatar
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[5]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[6]
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -508,6 +506,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00025
   radiusCurve:
     serializedVersion: 2
@@ -572,10 +571,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0
@@ -661,6 +662,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.003, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &3939360399094425349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8588450340020216076, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -771,6 +773,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00025
   radiusCurve:
     serializedVersion: 2
@@ -835,10 +838,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0.1
@@ -954,6 +959,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.0005
   radiusCurve:
     serializedVersion: 2
@@ -1036,10 +1042,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0
@@ -1069,6 +1077,12 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!4 &5004895812901682546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 355735186214189947, guid: eb740f0e558e17a4489fdfb72251b859,
+    type: 3}
+  m_PrefabInstance: {fileID: 4727413456578233865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5048988183606469090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1155,6 +1169,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.0005
   radiusCurve:
     serializedVersion: 2
@@ -1237,10 +1252,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0
@@ -1319,8 +1336,8 @@ MonoBehaviour:
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   networkIDs: []
   customExpressions: 1
-  expressionsMenu: {fileID: 11400000, guid: 7113253d387e61d4093d6fd642fa687e, type: 2}
-  expressionParameters: {fileID: 11400000, guid: 5bb011910428b974aa65a9eb34187e8a,
+  expressionsMenu: {fileID: 11400000, guid: 92633212298a72b4a850af16808fc898, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 6a93b3714f16ad446b02f56ad3e99a89,
     type: 2}
   enableEyeLook: 1
   customEyeLookSettings:
@@ -1708,6 +1725,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!137 &6285505686932134747 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1740,6 +1758,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.003, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!1 &6625797711789943486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7320413641165329225, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1768,7 +1787,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 1
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 5004895812901682546}
   ignoreTransforms:
   - {fileID: 0}
   - {fileID: 0}
@@ -1877,6 +1896,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00125
   radiusCurve:
     serializedVersion: 2
@@ -1971,10 +1991,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 2
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0.1
@@ -2102,6 +2124,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00025
   radiusCurve:
     serializedVersion: 2
@@ -2166,10 +2189,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0
@@ -2321,6 +2346,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00065
   radiusCurve:
     serializedVersion: 2
@@ -2385,10 +2411,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0.1
@@ -2516,6 +2544,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.00025
   radiusCurve:
     serializedVersion: 2
@@ -2580,10 +2609,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0.1

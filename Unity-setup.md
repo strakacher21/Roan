@@ -3,7 +3,10 @@
 Follow these steps to set up the Unity project:
 
 1. **Download or Clone the Project**  
-   Download the project as a [ZIP file](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip) or clone it using Git:  
+   For stable releases, download a specific version from the [Releases page](https://github.com/strakacher21/Roan/releases).  
+   
+   For the latest development version (Lab Edition with experimental features), clone the repository:
+   
    ```
    https://github.com/strakacher21/Roan.git
    ```
@@ -12,14 +15,10 @@ Follow these steps to set up the Unity project:
    Download the latest version of the [VRChat Creator Companion (VCC)](https://vrchat.com/download/vcc) and follow the [official installation guide](https://vcc.docs.vrchat.com/) to set it up.
 
 3. **Add Custom Packages to the repository**  
-   This project uses custom packages from [hai-vr](https://github.com/hai-vr) and [PoiyomiToonShader](https://github.com/poiyomi/PoiyomiToonShader). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URLs:  
+   This project uses custom packages from [hai-vr](https://github.com/hai-vr). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URLs:  
    
    ```
    https://hai-vr.github.io/vpm-listing/index.json
-   ```
-
-   ```
-   https://poiyomi.github.io/vpm/index.json
    ```
 
 4. **Add the Unity Project to VCC**  

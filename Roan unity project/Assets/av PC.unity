@@ -134,142 +134,12 @@ PrefabInstance:
     - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_2a8b73c0-5a67-499c-b3f3-67398d269035
+      value: avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb
       objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
+    - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
-      propertyPath: ftShapes.Array.size
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftShapes.Array.data[12]
-      value: NoseSneer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftShapes.Array.data[13]
-      value: NoseSneer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: saveVRCExpressionParameters
+      propertyPath: fallbackStatus
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[3].minValue
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[5].minValue
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[2].paramName
-      value: MouthX
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[3].paramName
-      value: EyeLidLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[4].paramName
-      value: EyeLidRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[5].paramName
-      value: BrowExpressionLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[6].paramName
-      value: BrowExpressionRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[7].paramName
-      value: CheekPuffSuck
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[2].maxShapeName
-      value: MouthRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[2].minShapeName
-      value: MouthLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[3].maxShapeName
-      value: EyeWideLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[3].minShapeName
-      value: EyeClosedLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[3].neutralValue
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[4].maxShapeName
-      value: EyeWideRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[4].minShapeName
-      value: EyeClosedRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[5].maxShapeName
-      value: BrowUpLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[5].minShapeName
-      value: BrowDownLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[5].neutralValue
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[6].maxShapeName
-      value: BrowUpRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[6].minShapeName
-      value: BrowDownRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[7].maxShapeName
-      value: CheekPuff
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598504060518816477, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ftDualShapes.Array.data[7].minShapeName
-      value: CheekSuck
       objectReference: {fileID: 0}
     - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -334,7 +204,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.size
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -519,7 +389,7 @@ PrefabInstance:
     - target: {fileID: 8454987788746133284, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_Name
-      value: PC
+      value: Roan model setup base
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

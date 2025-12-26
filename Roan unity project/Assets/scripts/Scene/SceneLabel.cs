@@ -1,4 +1,5 @@
 ﻿#if UNITY_EDITOR
+
 using UnityEditor;
 using UnityEngine;
 using UnityEditor.SceneManagement;
@@ -17,15 +18,16 @@ public class SceneLabel
         style.fontSize = 50;
         style.fontStyle = FontStyle.Bold;
         style.alignment = TextAnchor.MiddleCenter;
+
         SceneView.duringSceneGui += OnScene;
 
         string savedPath = EditorPrefs.GetString(PrefKey, "");
         if (!string.IsNullOrEmpty(savedPath))
         {
-            var asset = AssetDatabase.LoadAssetAtPath<SceneSwitcherAsset>(savedPath);
+            var asset = AssetDatabase.LoadAssetAtPath(savedPath, typeof(SceneSwitcherAsset));
             if (asset != null)
             {
-                switcherAsset = asset;
+                switcherAsset = asset as SceneSwitcherAsset;
             }
             else
             {
@@ -37,6 +39,7 @@ public class SceneLabel
     private static void OnScene(SceneView sceneview)
     {
         Handles.BeginGUI();
+
         float pixelWidth = sceneview.camera.pixelWidth;
         float pixelHeight = sceneview.camera.pixelHeight;
         float ppp = EditorGUIUtility.pixelsPerPoint;
@@ -50,10 +53,13 @@ public class SceneLabel
         const float BUTTON_WIDTH = 150f;
         const float BUTTON_HEIGHT = 30f;
         const float SPACING = 5f;
+
         float singleH = EditorGUIUtility.singleLineHeight;
         float y = height - BOTTOM_MARGIN;
         y -= singleH;
+
         Rect fieldRect = new Rect(LEFT_MARGIN, y, BUTTON_WIDTH, singleH);
+
         EditorGUI.BeginChangeCheck();
         var newAsset = (SceneSwitcherAsset)EditorGUI.ObjectField(
             fieldRect,
@@ -61,6 +67,7 @@ public class SceneLabel
             typeof(SceneSwitcherAsset),
             false
         );
+
         if (EditorGUI.EndChangeCheck())
         {
             switcherAsset = newAsset;
@@ -79,7 +86,6 @@ public class SceneLabel
         {
             int sceneCount = switcherAsset.scenes.Length;
             float totalHeight = sceneCount * (BUTTON_HEIGHT + SPACING) - SPACING;
-
             float startY = y - SPACING - totalHeight;
             string activePath = EditorSceneManager.GetActiveScene().path;
 
@@ -90,16 +96,6 @@ public class SceneLabel
 
                 float btnY = startY + i * (BUTTON_HEIGHT + SPACING);
 
-                //Color originalBg = GUI.backgroundColor;
-                //Color originalContent = GUI.contentColor;
-
-                //bool isActive = AssetDatabase.GetAssetPath(sceneAsset) == activePath;
-                //if (isActive)
-                //{
-                //    GUI.backgroundColor = new Color(70f/255f, 96f/255f, 124f/255f);
-                //    GUI.contentColor = Color.white;
-                //}
-
                 if (GUI.Button(new Rect(LEFT_MARGIN, btnY, BUTTON_WIDTH, BUTTON_HEIGHT), sceneAsset.name))
                 {
                     var activeScene = EditorSceneManager.GetActiveScene();
@@ -107,15 +103,36 @@ public class SceneLabel
                     {
                         EditorSceneManager.SaveScene(activeScene);
                     }
+
                     string scenePath = AssetDatabase.GetAssetPath(sceneAsset);
                     EditorSceneManager.OpenScene(scenePath);
+
+                    EditorApplication.delayCall += () =>
+                    {
+                        var applier = Object.FindObjectOfType<TextureResolutionApplier>();
+                        if (applier != null)
+                        {
+                            applier.ApplyTextureResolution();
+                        }
+                    };
                 }
+
+                //Color originalBg = GUI.backgroundColor;
+                //Color originalContent = GUI.contentColor;
+                //bool isActive = AssetDatabase.GetAssetPath(sceneAsset) == activePath;
+                //if (isActive)
+                //{
+                // GUI.backgroundColor = new Color(70f/255f, 96f/255f, 124f/255f);
+                // GUI.contentColor = Color.white;
+                //}
 
                 //GUI.backgroundColor = originalBg;
                 //GUI.contentColor = originalContent;
             }
         }
+
         Handles.EndGUI();
     }
 }
+
 #endif

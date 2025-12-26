@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f724bec77dfd4458b5266ca2bdf8a1, type: 3}
+  m_Name: Scene 4K Texture Asset
+  m_EditorClassIdentifier: 
+  textures:
+  - texture: {fileID: 2800000, guid: 698582b954f7f9c48b7712485acf5af8, type: 3}
+    maxSize: 4096
+  - texture: {fileID: 2800000, guid: f2903f16ab4e3024b88a4103d0ddcf2d, type: 3}
+    maxSize: 4096
+  - texture: {fileID: 2800000, guid: 6023932e1f7e0cf49be07beaa31d7cb0, type: 3}
+    maxSize: 4096
+  - texture: {fileID: 2800000, guid: 4c22e32a6427e3e449c195cf9cbf10dd, type: 3}
+    maxSize: 4096

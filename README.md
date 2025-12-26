@@ -8,6 +8,8 @@ ___
   <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
 </div>
 
+*images `tag 2.2` avatar. I'll need to change the images later*
+
 ___
 
 # А Request
@@ -22,11 +24,14 @@ I will also be grateful if you indicate my authorship (and not indicate the abov
 
 ### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
 
-### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Link to the VRChat avatar (tag 2.2)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 (basic face tracking and in-game color change for PC only)
 
-### [:arrow_forward:Link to the VRChat only VRCFT avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
-(better face tracking but no in-game color change)
+### [:arrow_forward:Link to the VRChat *only VRCFT* avatar (tag 2.2)](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
+(better face tracking but no in-game color change)</br>
+***Future updates will port features to the standard version***
+### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
+(where I enter the latest avatar changes)
 
 ### [:arrow_forward:Download Project](https://github.com/strakacher21/Roan/releases)
 
@@ -43,13 +48,13 @@ The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1**
 
 **The character currently has no texture (uses vertex paint and has baked vertex paint).** This is a simple way to make temporary coloring without using a UV map, which is useful when the body geometry changes frequently. This works well for solid colors, but is not suitable for fancy pattern, but your avatar file size will stay small and load quickly without texture files.
 
-The Unity project has a prefab model, as well as two scenes for **PC** and **Quest&IOS** (the only differences are in the materials and the color change function in the game). All prefab changes go into changing the scene. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
+The Unity project has a prefab model, as well as two scenes for **PC** and **Quest&IOS** (The only difference is in the quality of textures). All prefab changes go into changing the scene. Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
 
 # TODO
 ### Global:
 - [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro))
 - [x] UV map for textures
-- [ ] сreate textures (something better than that regular vertex paint!)
+- [ ] сreate textures (something better than that regular vertex paint!) ***(working on it)***
 - [ ] optimize the character mesh, add details, and also need to work on his style ***(working on it)***
 - [ ] grooming hair (in Blender only)
 - [ ] add body geometry?
@@ -66,10 +71,9 @@ ___
 - [ ] idle anims
 - [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
-- [x] in-game color change (for PC only)
-- [x] [poyomi shader](https://github.com/poiyomi/PoiyomiToonShader)?
-- [ ] setup poyomi shaders
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file
 
 ## Attribution
-uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package, [PoiyomiToonShader](https://github.com/poiyomi/PoiyomiToonShader) and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.
+uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.
+
+The texture of the pants was taken from: [ambientCG](https://ambientcg.com/view?id=Fabric003).

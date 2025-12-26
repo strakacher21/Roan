@@ -18,22 +18,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan eye material
-    second: {fileID: 2100000, guid: 4f7326912ec552b4b8d9e50558f571ec, type: 2}
+    second: {fileID: 2100000, guid: 375c1a6b15eccbd4b89438dc47e4585f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan foot material
-    second: {fileID: 2100000, guid: 35ab7891782cfbb4f84292e7ca309c6f, type: 2}
+    second: {fileID: 2100000, guid: 5f590621b5b0f974784fa8597796e79c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan hands material
-    second: {fileID: 2100000, guid: a9f29c1824893a34a81ae6371467a7a9, type: 2}
+    second: {fileID: 2100000, guid: d596ee27858c97a45bd81843ef7f4cfd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan head material
-    second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
+    second: {fileID: 2100000, guid: 9d4f39f3ccab89742b6dbb584087e998, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -48,7 +48,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan pants material
-    second: {fileID: 2100000, guid: 980de9b2347ae1e40ab25548b3fafaf1, type: 2}
+    second: {fileID: 2100000, guid: 4c379d9e0627a1043a471118af997cb5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -63,7 +63,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan sweater material
-    second: {fileID: 2100000, guid: f15d75481ce245a4980f355484b57e3d, type: 2}
+    second: {fileID: 2100000, guid: 3520fb1c17c49c04dac9eace38b268dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -73,7 +73,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roan tail material
-    second: {fileID: 2100000, guid: 78a7d2f555fbb87418faff5a29cd6c32, type: 2}
+    second: {fileID: 2100000, guid: 9b6304d643306ca409cba4357017d385, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
