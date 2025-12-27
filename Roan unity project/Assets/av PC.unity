@@ -139,7 +139,7 @@ PrefabInstance:
     - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: fallbackStatus
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
