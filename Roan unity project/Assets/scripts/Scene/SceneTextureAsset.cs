@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scene/Scene Texture Asset")]
+[CreateAssetMenu(menuName = "Scene/Texture Asset")]
 public class SceneTextureAsset : ScriptableObject
 {
     [System.Serializable]
