@@ -16,7 +16,7 @@ ___
 I don't expect this avatar to be widely used, but just in case:
 
 **Please do not use this model to post pornographic or suggestive content.<br/>
-I will also be grateful if you indicate my authorship (and not indicate the above content).**
+I will also be grateful if you indicate my authorship.**
 
 *About all mistakes and wishes or criticism write me safely. I will be interested to answer everything or realize that I have created some silly thing :D*
 
