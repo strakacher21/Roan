@@ -20,4 +20,4 @@ MonoBehaviour:
   - texture: {fileID: 2800000, guid: 6023932e1f7e0cf49be07beaa31d7cb0, type: 3}
     maxSize: 2048
   - texture: {fileID: 2800000, guid: 4c22e32a6427e3e449c195cf9cbf10dd, type: 3}
-    maxSize: 2048
+    maxSize: 4096
