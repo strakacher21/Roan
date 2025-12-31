@@ -386,21 +386,6 @@ PrefabInstance:
       propertyPath: animationHashSet.Array.data[54].name
       value: Colors Adjust Test Blend Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: baseAnimationLayers.Array.data[1].animatorController
-      value: 
-      objectReference: {fileID: 9100000, guid: a81ed41dcdd12a645ba8dbc73875c6e0, type: 2}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: baseAnimationLayers.Array.data[2].animatorController
-      value: 
-      objectReference: {fileID: 9100000, guid: 26ce0b94a2f994e448dc6d3ff14477d0, type: 2}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: baseAnimationLayers.Array.data[4].animatorController
-      value: 
-      objectReference: {fileID: 9100000, guid: c3a0066f2452bb3478d4a2151c40a69f, type: 2}
     - target: {fileID: 8454987788746133284, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_Name
