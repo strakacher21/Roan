@@ -75,4 +75,6 @@ ___
 ## Attribution
 uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) and [AnimatorWizard script](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) to set up animators.
 
+also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) (AnimatorCloner) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
+
 The texture of the pants was taken from: [ambientCG](https://ambientcg.com/view?id=Fabric003).
