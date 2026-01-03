@@ -20,7 +20,7 @@ class EXPORT_TO_UNITY_PG_settings(bpy.types.PropertyGroup):
     )
 
     desired_model_name: bpy.props.StringProperty(
-        name="Model name",
+        name="Mesh name",
         default="Body"
     )
 
@@ -139,7 +139,7 @@ class EXPORT_TO_UNITY_OT_export(bpy.types.Operator):
         export_layer_collection = bpy.context.view_layer.layer_collection.children[export_collection_name]
         bpy.context.view_layer.active_layer_collection = export_layer_collection
 
-        # Export
+        # additional fbx export settings
 
         os.makedirs(export_path, exist_ok=True)
 
@@ -159,7 +159,7 @@ class EXPORT_TO_UNITY_OT_export(bpy.types.Operator):
             use_triangles=False
         )
 
-        # Keep file unchanged after export (same behavior as original)
+        # keep unchanged after export
 
         bpy.ops.ed.undo_push()
         bpy.ops.ed.undo()
@@ -246,7 +246,7 @@ classes = (
 
 def register():
 
-    # Register classes (safe for re-register)
+    # register classes (safe for re-register)
     for cls in classes:
         try:
             bpy.utils.register_class(cls)
