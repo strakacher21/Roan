@@ -3,12 +3,10 @@
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
 <div style="text-align: center;">
-  <img src="Gallery/Roan.png" alt="Roan shaded" width="90%">
-  <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
+  <img src="Gallery/Roan.jpg" alt="Roan shaded" width="90%">
+  <img src="Gallery/Roan showcase shaded.jpg" alt="Roan shaded" width="45%">
+  <img src="Gallery/Roan showcase mesh.jpg" alt="Roan mesh" width="45%">
 </div>
-
-*images `tag 2.2` avatar. I'll need to change the images later*
 
 ___
 
