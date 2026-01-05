@@ -308,12 +308,12 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: collider_footL.radius
-      value: 0.0009677626
+      value: 0.00096776226
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: collider_footR.radius
-      value: 0.0009677623
+      value: 0.00096776267
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -735,7 +735,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roan model setup base
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7671356844076179755, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
