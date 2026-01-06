@@ -3,7 +3,7 @@
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
 <div style="text-align: center;">
-  <img src="Gallery/Roan.jpg" alt="Roan shaded" width="90%">
+  <img src="Gallery/Roan.jpg" alt="Roan preview" width="90%">
   <img src="Gallery/Roan showcase shaded.jpg" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan showcase mesh.jpg" alt="Roan mesh" width="45%">
 </div>
@@ -75,4 +75,5 @@ uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) a
 
 also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) (AnimatorCloner) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
 
-The texture of the pants was taken from: [ambientCG](https://ambientcg.com/view?id=Fabric003).
+The texture of the pants and sweater was taken from: [ambientCG](https://ambientcg.com).<br/>
+The hdr of the preview image was taken from [sketchfab](https://github.com/sketchfab/sketchfab-legacy-environments).
