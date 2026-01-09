@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3335849815563880696}
   - component: {fileID: 8366098837957114009}
-  - component: {fileID: 2598504060518816477}
+  - component: {fileID: 6553285461931392757}
   - component: {fileID: 7671356844076179755}
   m_Layer: 0
   m_Name: Roan model setup base
@@ -56,7 +56,7 @@ MonoBehaviour:
     loadStored: 0
     isRemote: 0
     vrMode: 0
---- !u!114 &2598504060518816477
+--- !u!114 &6553285461931392757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,80 +65,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 8454987788746133284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fef40173b344a40bf1466cc9c93393, type: 3}
+  m_Script: {fileID: 11500000, guid: a5233619ea40ff14a8f36911e534b24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
-  fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
-  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
-  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
-  gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
-  GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
-  GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
-  MirrorHandposes: 0
-  LeftHandPoses:
-  - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
-  - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}
-  - {fileID: 7400000, guid: 868e2326bd708984da60d7157a06101b, type: 2}
-  - {fileID: 7400000, guid: 0d72716c48bf22344aee70d2379f8161, type: 2}
-  - {fileID: 7400000, guid: f2e1c02209dcdea4790b3e759323163e, type: 2}
-  - {fileID: 7400000, guid: fe97af5fa011d77409a39bdd19f6f78e, type: 2}
-  - {fileID: 7400000, guid: 3f0a3c8792a34184b864b7c4c82b0722, type: 2}
-  - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
-  RightHandPoses:
-  - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
-  - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}
-  - {fileID: 7400000, guid: 868e2326bd708984da60d7157a06101b, type: 2}
-  - {fileID: 7400000, guid: 0d72716c48bf22344aee70d2379f8161, type: 2}
-  - {fileID: 7400000, guid: a6dbf7c5112311048922528ed66b47b5, type: 2}
-  - {fileID: 7400000, guid: 26f53419730baba4fa8e37c41e9a4921, type: 2}
-  - {fileID: 7400000, guid: 3f0a3c8792a34184b864b7c4c82b0722, type: 2}
-  - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
-  createShapePreferences: 0
-  shapePreferenceSliderPrefix: pref/slider/
-  shapePreferenceTogglesPrefix: pref/toggle/
   createClothCustomization: 0
   ClothTogglesPrefix: cloth/toggle/
+  ClothUpperBodyNames:
+  - coat
+  - coat_v2
+  - T-shirt
+  ClothLowerBodyNames:
+  - jeans
+  - pants
+  - shorts
+  ClothFootNames:
+  - shoes
+  - boots
+  - slaps
   createColorCustomization: 0
-  primaryColor0: {fileID: 7400000, guid: 2d84ec705c84a7b4e86208dd9434b8a5, type: 2}
-  primaryColor1: {fileID: 7400000, guid: b6413cbdc8d0e8548bad2959a0ca8c35, type: 2}
-  secondColor0: {fileID: 7400000, guid: 9556ed376688f6a4ca571d3e987a9912, type: 2}
-  secondColor1: {fileID: 7400000, guid: 1cb9c971618d70549b8a6953b94ba6e2, type: 2}
-  createFacialExpressionsControl: 0
-  expTrackName: ExpressionTrackingActive
-  createFTLipSyncControl: 0
-  lipSyncName: LipSyncTrackingActive
+  primaryColor0: {fileID: 0}
+  primaryColor1: {fileID: 0}
+  secondColor0: {fileID: 0}
+  secondColor1: {fileID: 0}
+  assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
+  fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
   saveVRCExpressionParameters: 0
   SystemName: Roan
-  MirrorFTparams: 0
-  createOSCsmooth: 1
-  localSmoothness: 0.1
-  remoteSmoothness: 0.7
-  createFaceTracking: 1
-  FullFaceTrackingPrefix: v2/
-  createEyeTracking: 1
-  MirrorEyeposes: 1
-  maxEyeMotionValue: 0.7
-  LeftEyePoses:
-  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
-  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
-  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
-  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
-  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
-  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
-  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
-  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
-  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
-  RightEyePoses:
-  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
-  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
-  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
-  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
-  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
-  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
-  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
-  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
-  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
+  shapePreferenceSliderPrefix: pref/slider/
+  shapePreferenceTogglesPrefix: pref/toggle/
+  createFacialExpressionsControl: 0
+  expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
   mouthShapeNames:
   - basis
@@ -159,20 +115,41 @@ MonoBehaviour:
   - worried
   - curious
   - down
-  ClothUpperBodyNames:
-  - coat
-  - coat_v2
-  - T-shirt
-  ClothLowerBodyNames:
-  - jeans
-  - pants
-  - shorts
-  ClothFootNames:
-  - shoes
-  - boots
-  - slaps
+  createFaceTracking: 1
   createFaceToggle: 0
+  createEyeTracking: 1
+  MirrorEyeposes: 1
+  maxEyeMotionValue: 0.7
+  EyeLeftMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  LeftEyePoses:
+  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
+  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
+  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
+  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
+  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
+  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
+  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
+  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
+  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
+  RightEyePoses:
+  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
+  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
+  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
+  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
+  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
+  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
+  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
+  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
+  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
+  createOSCsmooth: 1
+  localSmoothness: 0.1
+  remoteSmoothness: 0.7
+  FullFaceTrackingPrefix: v2/
   FaceToggleNames: []
+  MirrorFTparams: 0
+  createFTLipSyncControl: 0
+  lipSyncName: LipSyncTrackingActive
   ftShapes:
   - JawOpen
   - LipFunnel
@@ -202,7 +179,7 @@ MonoBehaviour:
     maxValue: 1
   - paramName: SmileSadLeft
     minShapeName: MouthFrownLeft
-    maxShapeName: MouthSmileLeft
+    maxShapeName: MouthFrownLeft
     minValue: -1
     neutralValue: 0
     maxValue: 1
@@ -254,6 +231,29 @@ MonoBehaviour:
     minValue: -1
     neutralValue: 0
     maxValue: 1
+  gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
+  GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
+  GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
+  MirrorHandposes: 0
+  LeftHandPoses:
+  - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
+  - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}
+  - {fileID: 7400000, guid: 868e2326bd708984da60d7157a06101b, type: 2}
+  - {fileID: 7400000, guid: 0d72716c48bf22344aee70d2379f8161, type: 2}
+  - {fileID: 7400000, guid: f2e1c02209dcdea4790b3e759323163e, type: 2}
+  - {fileID: 7400000, guid: fe97af5fa011d77409a39bdd19f6f78e, type: 2}
+  - {fileID: 7400000, guid: 3f0a3c8792a34184b864b7c4c82b0722, type: 2}
+  - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
+  RightHandPoses:
+  - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
+  - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}
+  - {fileID: 7400000, guid: 868e2326bd708984da60d7157a06101b, type: 2}
+  - {fileID: 7400000, guid: 0d72716c48bf22344aee70d2379f8161, type: 2}
+  - {fileID: 7400000, guid: a6dbf7c5112311048922528ed66b47b5, type: 2}
+  - {fileID: 7400000, guid: 26f53419730baba4fa8e37c41e9a4921, type: 2}
+  - {fileID: 7400000, guid: 3f0a3c8792a34184b864b7c4c82b0722, type: 2}
+  - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
+  createShapePreferences: 0
 --- !u!114 &7671356844076179755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,30 +509,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3639400779905540757}
-    - targetCorrespondingSourceObject: {fileID: 3826337641771148175, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1790360145875273176}
-    - targetCorrespondingSourceObject: {fileID: -5001753327027267205, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6515397302841983609}
-    - targetCorrespondingSourceObject: {fileID: -2251324786073530744, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6789436595530671564}
-    - targetCorrespondingSourceObject: {fileID: 8118140331045088910, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8155657941970922503}
-    - targetCorrespondingSourceObject: {fileID: -135841263335778654, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 265836645855000369}
-    - targetCorrespondingSourceObject: {fileID: 8820761621051669069, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6139235382782959838}
     - targetCorrespondingSourceObject: {fileID: -7320413641165329225, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       insertIndex: -1
@@ -780,121 +756,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2403397681263233153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2251324786073530744, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6789436595530671564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2403397681263233153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.85
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 6939038875490361205}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 0
-  latestValidExecutionGroupIndex: 0
-  RotationAtRest: {x: -0, y: 10.730059, z: -0}
-  RotationOffset: {x: 1.477247, y: -80.578064, z: 0.40718567}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!1 &3495327713359822074 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1073330655475221773, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -922,121 +783,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
   globalCollisionFlags: 0
---- !u!1 &3544975998183909511 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118140331045088910, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8155657941970922503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3544975998183909511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.375
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 7380559942714886249}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
-  RotationAtRest: {x: 0, y: -10.730072, z: -0}
-  RotationOffset: {x: 0, y: -0, z: -0}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!4 &3939360399094425349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8588450340020216076, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1049,121 +795,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4319662912727792708 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8820761621051669069, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6139235382782959838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4319662912727792708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.85
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 2034179461728463320}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 0
-  latestValidExecutionGroupIndex: 0
-  RotationAtRest: {x: -0, y: -10.730072, z: -0}
-  RotationOffset: {x: 1.4772121, y: 80.57805, z: -0.40722656}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!1 &4416218633805751890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8994438386941730907, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1362,121 +993,6 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
---- !u!1 &4577416898781155499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -135841263335778654, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &265836645855000369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4577416898781155499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.725
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 7380559942714886249}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
-  RotationAtRest: {x: -0, y: -10.730072, z: -0}
-  RotationOffset: {x: -0, y: -0, z: 0}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!4 &4707517818353169124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 58357671664579821, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -2177,9 +1693,9 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 7010972210466711444}
-    radius: 0.000836291
+    radius: 0.00083629135
     height: 0
-    position: {x: 0, y: 0.0007053889, z: 5.093171e-11}
+    position: {x: 0, y: 0.00070537574, z: 1.2005331e-10}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
@@ -2193,7 +1709,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.0009673784
+    radius: 0.00096776267
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2201,7 +1717,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1782010271883283104}
-    radius: 0.00096737826
+    radius: 0.00096776226
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2209,80 +1725,80 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 2034179461728463320}
-    radius: 0.00023440552
-    height: 0.0009376221
-    position: {x: 0.000024180135, y: 0.0007965731, z: 0.0000079898255}
-    rotation: {x: 0.71070266, y: 0, z: -0.005124249, w: 0.70347387}
+    radius: 0.00023441306
+    height: 0.00093765225
+    position: {x: 0.000024183179, y: 0.0007965966, z: 0.000007987877}
+    rotation: {x: 0.7101129, y: 0, z: -0.039982766, w: 0.7029517}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 6939038875490361205}
-    radius: 0.0002344051
-    height: 0.0009376204
-    position: {x: -0.000024178504, y: 0.0007965716, z: 0.000007991113}
-    rotation: {x: 0.71070284, y: 0, z: 0.0051242425, w: 0.7034737}
+    radius: 0.00023441258
+    height: 0.00093765033
+    position: {x: -0.00002418038, y: 0.0007965967, z: 0.000007988142}
+    rotation: {x: 0.710113, y: 0, z: 0.039982833, w: 0.70295155}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.000103101
-    height: 0.00051550503
+    radius: 0.00010310122
+    height: 0.0005155061
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.000116585004
-    height: 0.00058292504
+    radius: 0.000116585485
+    height: 0.00058292743
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7857137870595440185}
-    radius: 0.000080478625
-    height: 0.0004023931
+    radius: 0.00008047912
+    height: 0.00040239558
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 3939360399094425349}
-    radius: 0.00007459105
-    height: 0.00037295526
+    radius: 0.00007459089
+    height: 0.00037295447
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.000103101396
-    height: 0.000515507
+    radius: 0.00010310124
+    height: 0.00051550625
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.000116585325
-    height: 0.0005829266
+    radius: 0.0001165855
+    height: 0.0005829275
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 1510899563417515397}
-    radius: 0.00008047914
-    height: 0.0004023957
+    radius: 0.000080478676
+    height: 0.0004023934
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 904776832859149725}
-    radius: 0.00007459074
-    height: 0.00037295368
+    radius: 0.00007459044
+    height: 0.0003729522
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &192166115873691097
@@ -2630,12 +2146,6 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
---- !u!4 &6652543790086514731 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6861404199809297935 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2207819047385360390, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -2855,12 +2365,6 @@ Transform:
 --- !u!4 &7054098430902567880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7380559942714886249 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2879525656767549024, guid: eb740f0e558e17a4489fdfb72251b859,
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
@@ -3266,121 +2770,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8395488924453496198 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3826337641771148175, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1790360145875273176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8395488924453496198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.375
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 6652543790086514731}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
-  RotationAtRest: {x: -0, y: 10.730064, z: -0}
-  RotationOffset: {x: 0, y: 0, z: 0}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!4 &8418600334658857601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5381866307833811832, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -3393,121 +2782,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8866768137439551346 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -5001753327027267205, guid: eb740f0e558e17a4489fdfb72251b859,
-    type: 3}
-  m_PrefabInstance: {fileID: 4727413456578233865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6515397302841983609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8866768137439551346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsActive: 1
-  GlobalWeight: 0.725
-  TargetTransform: {fileID: 0}
-  SolveInLocalSpace: 0
-  FreezeToWorld: 0
-  RebakeOffsetsWhenUnfrozen: 0
-  Locked: 1
-  Sources:
-    source0:
-      SourceTransform: {fileID: 6652543790086514731}
-      Weight: 1
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source1:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source2:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source3:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source4:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source5:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source6:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source7:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source8:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source9:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source10:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source11:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source12:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source13:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source14:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    source15:
-      SourceTransform: {fileID: 0}
-      Weight: 0
-      ParentPositionOffset: {x: 0, y: 0, z: 0}
-      ParentRotationOffset: {x: 0, y: 0, z: 0}
-    totalLength: 1
-    overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
-  RotationAtRest: {x: -0, y: 10.730056, z: -0}
-  RotationOffset: {x: -0, y: -0, z: 0}
-  AffectsRotationX: 0
-  AffectsRotationY: 1
-  AffectsRotationZ: 0
 --- !u!1001 &8823895020513704238
 PrefabInstance:
   m_ObjectHideFlags: 0

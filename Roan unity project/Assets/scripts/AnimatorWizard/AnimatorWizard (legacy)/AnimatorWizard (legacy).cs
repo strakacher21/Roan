@@ -1,4 +1,4 @@
-#if UNITY_EDITOR
+#if UNITY_EDITOR && ANIMATOR_WIZARD_LEGACY // #if UNITY_EDITOR / #if UNITY_EDITOR && ANIMATOR_WIZARD_LEGACY
 using AnimatorAsCode.V1;
 using AnimatorAsCode.V1.VRC;
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
