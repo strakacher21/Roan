@@ -63,6 +63,7 @@ public partial class AnimatorWizard : MonoBehaviour
             EditorUtility.SetDirty(avatar.expressionParameters);
         }
 
+        RemoveBaseLayerOnAvatar(avatar);
         RepackAnimatorControllers(avatar);
     }
 

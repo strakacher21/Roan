@@ -1,5 +1,7 @@
 #if UNITY_EDITOR
 
+using System;
+using UnityEditor;
 using AnimatorAsCode.V1;
 using VRLabs.AV3Manager;
 using System.Collections.Generic;
@@ -148,6 +150,50 @@ public partial class AnimatorWizard : MonoBehaviour
         });
 
         return layer.BoolParameter(paramName);
+    }
+    protected static void RemoveBaseLayerOnAvatar(VRCAvatarDescriptor avatar)
+    {
+        if (avatar == null) return;
+
+        foreach (var l in avatar.baseAnimationLayers)
+        {
+            if (l.isDefault) continue;
+
+            var controller = l.animatorController as AnimatorController;
+            if (controller == null) continue;
+
+            var layers = controller.layers;
+            if (layers == null || layers.Length <= 1) continue;
+
+            for (int i = 0; i < layers.Length; i++)
+            {
+                if (layers[i].name != "Base Layer") continue;
+
+                controller.RemoveLayer(i);
+                EditorUtility.SetDirty(controller);
+                break;
+            }
+        }
+
+        foreach (var l in avatar.specialAnimationLayers)
+        {
+            if (l.isDefault) continue;
+
+            var controller = l.animatorController as AnimatorController;
+            if (controller == null) continue;
+
+            var layers = controller.layers;
+            if (layers == null || layers.Length <= 1) continue;
+
+            for (int i = 0; i < layers.Length; i++)
+            {
+                if (layers[i].name != "Base Layer") continue;
+
+                controller.RemoveLayer(i);
+                EditorUtility.SetDirty(controller);
+                break;
+            }
+        }
     }
 
     protected void RepackAnimatorControllers(VRCAvatarDescriptor avatar)
