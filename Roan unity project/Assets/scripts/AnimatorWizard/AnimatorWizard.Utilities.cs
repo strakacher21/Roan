@@ -151,48 +151,159 @@ public partial class AnimatorWizard : MonoBehaviour
 
         return layer.BoolParameter(paramName);
     }
-    protected static void RemoveBaseLayerOnAvatar(VRCAvatarDescriptor avatar)
+    private HashSet<string> GetAnimatorWizardLayerNames(string systemName)
+    {
+        if (string.IsNullOrEmpty(systemName)) return new HashSet<string>();
+
+        var set = new HashSet<string>(16);
+
+        set.Add(systemName);
+        set.Add(systemName + "__tree");
+        set.Add(systemName + "__brow expressions");
+        set.Add(systemName + "__mouth expressions");
+
+        set.Add(systemName + "__preferences drivers");
+
+        set.Add(systemName + "__clothupperbody");
+        set.Add(systemName + "__clothlowerbody");
+        set.Add(systemName + "__clothfoot");
+
+        set.Add(systemName + "__face animations toggle");
+        set.Add(systemName + "__OSC smoothing");
+
+        set.Add(systemName + "__Left hand");
+        set.Add(systemName + "__Right hand");
+        set.Add(systemName + "__Eye Left Tracking");
+        set.Add(systemName + "__Eye Right Tracking");
+
+        return set;
+    }
+
+
+    protected void DeleteAnimatorWizardLayers(VRCAvatarDescriptor avatar, string systemName)
     {
         if (avatar == null) return;
 
-        foreach (var l in avatar.baseAnimationLayers)
+        var wizardLayerNames = GetAnimatorWizardLayerNames(systemName);
+        if (wizardLayerNames.Count == 0) return;
+
+        UnityEditorInternal.InternalEditorUtility.RepaintAllViews();
+        AssetDatabase.StartAssetEditing();
+
+        try
         {
-            if (l.isDefault) continue;
-
-            var controller = l.animatorController as AnimatorController;
-            if (controller == null) continue;
-
-            var layers = controller.layers;
-            if (layers == null || layers.Length <= 1) continue;
-
-            for (int i = 0; i < layers.Length; i++)
+            for (int pass = 0; pass < 2; pass++)
             {
-                if (layers[i].name != "Base Layer") continue;
+                var animLayers = pass == 0 ? avatar.baseAnimationLayers : avatar.specialAnimationLayers;
 
-                controller.RemoveLayer(i);
-                EditorUtility.SetDirty(controller);
-                break;
+                foreach (var l in animLayers)
+                {
+                    if (l.isDefault) continue;
+
+                    if (l.type != VRCAvatarDescriptor.AnimLayerType.FX &&
+                        l.type != VRCAvatarDescriptor.AnimLayerType.Gesture &&
+                        l.type != VRCAvatarDescriptor.AnimLayerType.Additive)
+                        continue;
+
+                    var controller = l.animatorController as AnimatorController;
+                    if (controller == null) continue;
+
+                    for (int i = controller.layers.Length - 1; i >= 0; i--)
+                        if (wizardLayerNames.Contains(controller.layers[i].name))
+                            controller.RemoveLayer(i);
+
+                    for (int i = controller.layers.Length - 1; i >= 0; i--)
+                    {
+                        if (controller.layers[i].name != "Base Layer") continue;
+                        if (controller.layers.Length <= 1) break;
+
+                        var sm = controller.layers[i].stateMachine;
+                        var isEmpty =
+                            sm.states.Length == 0 &&
+                            sm.stateMachines.Length == 0 &&
+                            sm.anyStateTransitions.Length == 0 &&
+                            sm.entryTransitions.Length == 0 &&
+                            sm.behaviours.Length == 0;
+
+                        if (isEmpty)
+                            controller.RemoveLayer(i);
+
+                        break;
+                    }
+
+                    EditorUtility.SetDirty(controller);
+                }
             }
         }
-
-        foreach (var l in avatar.specialAnimationLayers)
+        finally
         {
-            if (l.isDefault) continue;
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            UnityEditorInternal.InternalEditorUtility.RepaintAllViews();
+        }
+    }
 
-            var controller = l.animatorController as AnimatorController;
-            if (controller == null) continue;
+    protected void SortAnimatorWizardLayers(VRCAvatarDescriptor avatar, string systemName)
+    {
+        if (avatar == null) return;
 
-            var layers = controller.layers;
-            if (layers == null || layers.Length <= 1) continue;
+        var wizardLayerNames = GetAnimatorWizardLayerNames(systemName);
+        if (wizardLayerNames.Count == 0) return;
 
-            for (int i = 0; i < layers.Length; i++)
+        UnityEditorInternal.InternalEditorUtility.RepaintAllViews();
+        AssetDatabase.StartAssetEditing();
+
+        try
+        {
+            for (int pass = 0; pass < 2; pass++)
             {
-                if (layers[i].name != "Base Layer") continue;
+                var animLayers = pass == 0 ? avatar.baseAnimationLayers : avatar.specialAnimationLayers;
 
-                controller.RemoveLayer(i);
-                EditorUtility.SetDirty(controller);
-                break;
+                foreach (var l in animLayers)
+                {
+                    if (l.isDefault) continue;
+
+                    if (l.type != VRCAvatarDescriptor.AnimLayerType.FX &&
+                        l.type != VRCAvatarDescriptor.AnimLayerType.Gesture &&
+                        l.type != VRCAvatarDescriptor.AnimLayerType.Additive)
+                        continue;
+
+                    var controller = l.animatorController as AnimatorController;
+                    if (controller == null) continue;
+
+                    var oldLayers = controller.layers;
+
+                    var wizardLayers = new List<AnimatorControllerLayer>(oldLayers.Length);
+                    var userLayers = new List<AnimatorControllerLayer>(oldLayers.Length);
+
+                    for (int i = 0; i < oldLayers.Length; i++)
+                    {
+                        var name = oldLayers[i].name;
+                        if (wizardLayerNames.Contains(name))
+                            wizardLayers.Add(oldLayers[i]);
+                        else
+                            userLayers.Add(oldLayers[i]);
+                    }
+
+                    if (wizardLayers.Count == 0 || userLayers.Count == 0) continue;
+
+                    var newLayers = new AnimatorControllerLayer[wizardLayers.Count + userLayers.Count];
+                    wizardLayers.CopyTo(newLayers, 0);
+                    userLayers.CopyTo(newLayers, wizardLayers.Count);
+
+                    controller.layers = newLayers;
+
+                    EditorUtility.SetDirty(controller);
+                }
             }
+        }
+        finally
+        {
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            UnityEditorInternal.InternalEditorUtility.RepaintAllViews();
         }
     }
 

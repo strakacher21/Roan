@@ -45,6 +45,7 @@ public partial class AnimatorWizard : MonoBehaviour
         // clear assetContainer
         //_aac.ClearPreviousAssets(); // Broken in new version
         ClearAssetContainer();
+        DeleteAnimatorWizardLayers(avatar, SystemName);
 
         InitializeGestureLayers();
         InitializeFXLayer(skin);
@@ -63,8 +64,8 @@ public partial class AnimatorWizard : MonoBehaviour
             EditorUtility.SetDirty(avatar.expressionParameters);
         }
 
-        RemoveBaseLayerOnAvatar(avatar);
         RepackAnimatorControllers(avatar);
+        SortAnimatorWizardLayers(avatar, SystemName);
     }
 
     private void InitializeAAC(VRCAvatarDescriptor avatar)
