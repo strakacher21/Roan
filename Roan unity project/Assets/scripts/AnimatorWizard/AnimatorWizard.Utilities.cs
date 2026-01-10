@@ -154,7 +154,7 @@ public partial class AnimatorWizard : MonoBehaviour
     private HashSet<string> GetAnimatorWizardLayerNames(string systemName)
     {
         if (string.IsNullOrEmpty(systemName)) return new HashSet<string>();
-
+        //Superset of all possible Wizard layer names (so reruns with different flags can still clean old layers)
         var set = new HashSet<string>(16);
 
         set.Add(systemName);
@@ -179,7 +179,6 @@ public partial class AnimatorWizard : MonoBehaviour
         return set;
     }
 
-
     protected void DeleteAnimatorWizardLayers(VRCAvatarDescriptor avatar, string systemName)
     {
         if (avatar == null) return;
@@ -199,7 +198,7 @@ public partial class AnimatorWizard : MonoBehaviour
                 foreach (var l in animLayers)
                 {
                     if (l.isDefault) continue;
-
+                    // We only touch controllers that AnimatorWizard actually manages
                     if (l.type != VRCAvatarDescriptor.AnimLayerType.FX &&
                         l.type != VRCAvatarDescriptor.AnimLayerType.Gesture &&
                         l.type != VRCAvatarDescriptor.AnimLayerType.Additive)
@@ -207,29 +206,10 @@ public partial class AnimatorWizard : MonoBehaviour
 
                     var controller = l.animatorController as AnimatorController;
                     if (controller == null) continue;
-
+                    // delete only exact Wizard layers (never prefix-based) to avoid nuking user custom layers
                     for (int i = controller.layers.Length - 1; i >= 0; i--)
                         if (wizardLayerNames.Contains(controller.layers[i].name))
                             controller.RemoveLayer(i);
-
-                    for (int i = controller.layers.Length - 1; i >= 0; i--)
-                    {
-                        if (controller.layers[i].name != "Base Layer") continue;
-                        if (controller.layers.Length <= 1) break;
-
-                        var sm = controller.layers[i].stateMachine;
-                        var isEmpty =
-                            sm.states.Length == 0 &&
-                            sm.stateMachines.Length == 0 &&
-                            sm.anyStateTransitions.Length == 0 &&
-                            sm.entryTransitions.Length == 0 &&
-                            sm.behaviours.Length == 0;
-
-                        if (isEmpty)
-                            controller.RemoveLayer(i);
-
-                        break;
-                    }
 
                     EditorUtility.SetDirty(controller);
                 }
@@ -273,7 +253,7 @@ public partial class AnimatorWizard : MonoBehaviour
                     if (controller == null) continue;
 
                     var oldLayers = controller.layers;
-
+                    // Wizard layers go first, user layers go to the bottom
                     var wizardLayers = new List<AnimatorControllerLayer>(oldLayers.Length);
                     var userLayers = new List<AnimatorControllerLayer>(oldLayers.Length);
 
@@ -286,13 +266,24 @@ public partial class AnimatorWizard : MonoBehaviour
                             userLayers.Add(oldLayers[i]);
                     }
 
-                    if (wizardLayers.Count == 0 || userLayers.Count == 0) continue;
+                    if (wizardLayers.Count != 0 && userLayers.Count != 0)
+                    {
+                        var newLayers = new AnimatorControllerLayer[wizardLayers.Count + userLayers.Count];
+                        wizardLayers.CopyTo(newLayers, 0);
+                        userLayers.CopyTo(newLayers, wizardLayers.Count);
+                        controller.layers = newLayers;
+                    }
 
-                    var newLayers = new AnimatorControllerLayer[wizardLayers.Count + userLayers.Count];
-                    wizardLayers.CopyTo(newLayers, 0);
-                    userLayers.CopyTo(newLayers, wizardLayers.Count);
+                    // Remove this nonsense called 'Base Layer'
+                    for (int i = controller.layers.Length - 1; i >= 0; i--)
+                    {
+                        if (controller.layers[i].name != "Base Layer") continue;
 
-                    controller.layers = newLayers;
+                        if (controller.layers.Length > 1)
+                            controller.RemoveLayer(i);
+
+                        break;
+                    }
 
                     EditorUtility.SetDirty(controller);
                 }
