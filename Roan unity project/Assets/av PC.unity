@@ -207,41 +207,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3335849815563880696, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -669,6 +634,16 @@ PrefabInstance:
         type: 3}
       propertyPath: animationHashSet.Array.data[54].name
       value: Colors Adjust Test Blend Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: baseAnimationLayers.Array.data[2].mask
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: baseAnimationLayers.Array.data[4].mask
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6543418216832792865, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}

@@ -1547,7 +1547,7 @@ MonoBehaviour:
     type: 3
     animatorController: {fileID: 9100000, guid: 26ce0b94a2f994e448dc6d3ff14477d0,
       type: 2}
-    mask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
+    mask: {fileID: 0}
     isDefault: 0
   - isEnabled: 0
     type: 4
@@ -1558,7 +1558,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: c3a0066f2452bb3478d4a2151c40a69f,
       type: 2}
-    mask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
+    mask: {fileID: 0}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0

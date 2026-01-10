@@ -190,206 +190,171 @@ public class AnimatorGeneratorEditor : Editor
             }
         }
 
+        // Save VRC Expression Parameters
         GUILayout.Space(20);
-        EditorGUILayout.PropertyField(
-            saveVRCExpressionParameters,
-            PopUpLabel("Save VRC Expression Parameters", "Will save your VRC Expression Parameters before setup animator.")
-        );
+        EditorGUILayout.PropertyField(saveVRCExpressionParameters,
+         PopUpLabel("Save VRC Expression Parameters", "Will save your VRC Expression Parameters before setup animator."));
+
 
         GUILayout.Space(20);
         EditorGUILayout.PropertyField(SystemName, PopUpLabel("Layers start name", ""));
 
+        // Asset Container
         GUILayout.Label("Asset Container", headerStyle);
-        EditorGUILayout.PropertyField(
-            assetContainer,
-            PopUpLabel("Asset Container", "Asset Container stores all generated animations and Blend Trees.")
-        );
+        EditorGUILayout.PropertyField(assetContainer,
+        PopUpLabel("Asset Container", "Asset Container stores all generated animations and Blend Trees."));
 
+        // Avatar animator masks
         GUILayout.Label("Avatar animator masks", headerStyle);
         EditorGUILayout.PropertyField(fxMask);
-
         if (wizard.createEyeTracking)
         {
             EditorGUILayout.PropertyField(EyeLeftMask);
             EditorGUILayout.PropertyField(EyeRightMask);
         }
-
         EditorGUILayout.PropertyField(gestureMask);
         EditorGUILayout.PropertyField(GestureLeftMask);
         EditorGUILayout.PropertyField(GestureRightMask);
 
+        // Hand Poses
         GUILayout.Label("Hand Poses", headerStyle);
         GUILayout.Label("Array index maps to hand gesture parameter. Array length should be 8!", headerStyle2);
-
         EditorGUILayout.PropertyField(MirrorHandposes, PopUpLabel("Mirror Hand Poses", ""));
         GUILayout.Space(10);
 
         if (wizard.MirrorHandposes)
         {
-            EditorGUILayout.PropertyField(LeftHandPoses, PopUpLabel("Hand Poses", ""), true);
+            EditorGUILayout.PropertyField(LeftHandPoses, PopUpLabel("Hand Poses", ""));
         }
+
         else
         {
-            EditorGUILayout.PropertyField(LeftHandPoses, true);
+            EditorGUILayout.PropertyField(LeftHandPoses);
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(RightHandPoses, true);
+            EditorGUILayout.PropertyField(RightHandPoses);
         }
 
+        // Facial expressions
         GUILayout.Label("Facial expressions", headerStyle);
-        GUILayout.Label(
-            "Brow and mouth blendshapes controlled by left and right hands. index maps to hand Gesture parameter. Array length should be 8!",
-            headerStyle2
-        );
-
+        GUILayout.Label("Brow and mouth blendshapes controlled by left and right hands." +
+            "\nArray index maps to hand Gesture parameter. Array length should be 8!", headerStyle2);
         GUILayout.Space(10);
-        EditorGUILayout.PropertyField(
-            createFacialExpressionsControl,
-            PopUpLabel(
-                "Create Facial Expressions Control",
-                "When created, adds a parameter to the VRC to disable/enable expression binding to hands."
-            )
-        );
-
+        EditorGUILayout.PropertyField(createFacialExpressionsControl,
+        PopUpLabel("Create Facial Expressions Control", "When created, adds a parameter to the VRC to disable/enable expression binding to hands."));
         GUILayout.Space(10);
         EditorGUILayout.PropertyField(mouthPrefix);
-        EditorGUILayout.PropertyField(mouthShapeNames, true);
-
+        EditorGUILayout.PropertyField(mouthShapeNames);
         GUILayout.Space(20);
         EditorGUILayout.PropertyField(browPrefix);
-        EditorGUILayout.PropertyField(browShapeNames, true);
+        EditorGUILayout.PropertyField(browShapeNames);
 
+        // Animator creation flags
         GUILayout.Label("Animator creation flags", headerStyle);
-        GUILayout.Label("Choose what parts of the animator are generated. features saves VRC params budget!", headerStyle2);
-
+        GUILayout.Label("Choose what parts of the animator are generated." +
+            "\nDisabling features saves VRC params budget!", headerStyle2);
         GUILayout.Space(10);
         EditorGUILayout.PropertyField(createShapePreferences);
         EditorGUILayout.PropertyField(createClothCustomization);
         EditorGUILayout.PropertyField(createColorCustomization);
         EditorGUILayout.PropertyField(createFaceToggle);
-
         if (wizard.createFaceTracking || wizard.createEyeTracking)
             EditorGUILayout.PropertyField(createOSCsmooth);
-
         EditorGUILayout.PropertyField(createEyeTracking);
         EditorGUILayout.PropertyField(createFaceTracking);
 
+        // Shape Preferences
         if (wizard.createShapePreferences)
         {
             GUILayout.Label("Shape Preferences", headerStyle);
             GUILayout.Label("Creates VRC params for blendshapes with these prefixes.", headerStyle2);
-
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(shapePreferenceSliderPrefix);
             EditorGUILayout.PropertyField(shapePreferenceTogglesPrefix);
         }
 
+        // Cloths customization
         if (wizard.createClothCustomization)
         {
             GUILayout.Label("Cloths customization", headerStyle);
-            GUILayout.Label("Creates an algorithm to switch clothes, animations VRC params with these prefixes.", headerStyle2);
-
+            GUILayout.Label("Creates an algorithm to switch clothes, animations \nand VRC params with these prefixes.", headerStyle2);
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(
-                ClothTogglesPrefix,
-                PopUpLabel(
-                    "Cloth Toggles Prefix",
-                    "Prefixes roll up clothes and body into tube, as well as regulates the fit of the cloth lower body to the cloth upper body."
-                )
-            );
-
+            EditorGUILayout.PropertyField(ClothTogglesPrefix,
+            PopUpLabel("Cloth Toggles Prefix", "Prefixes roll up clothes and body into \"tube\",\n" +
+            "as well as regulates the fit of the cloth lower body to the cloth upper body."));
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(ClothUpperBodyNames, true);
-            EditorGUILayout.PropertyField(ClothLowerBodyNames, true);
-            EditorGUILayout.PropertyField(ClothFootNames, true);
+            EditorGUILayout.PropertyField(ClothUpperBodyNames);
+            EditorGUILayout.PropertyField(ClothLowerBodyNames);
+            EditorGUILayout.PropertyField(ClothFootNames);
         }
 
+        // Color customization
         if (wizard.createColorCustomization)
         {
             GUILayout.Label("Color customization UV-offset animations", headerStyle);
-            GUILayout.Label(
-                "Animations controlling color palette texture UV-offsets ToonLit shader in-game color customization.",
-                headerStyle2
-            );
-
+            GUILayout.Label("Animations controlling color palette texture UV-offsets (ToonLit shader)" +
+                "\nfor in-game color customization.", headerStyle2);
             EditorGUILayout.PropertyField(primaryColor0);
             EditorGUILayout.PropertyField(primaryColor1);
             EditorGUILayout.PropertyField(secondColor0);
             EditorGUILayout.PropertyField(secondColor1);
         }
 
+        // Face Toggle
         if (wizard.createFaceToggle)
         {
             GUILayout.Label("FaceToggle setup animations", headerStyle);
             GUILayout.Label("Creates an algorithm to switch face animations.", headerStyle2);
-            EditorGUILayout.PropertyField(FaceToggleNames, true);
+            EditorGUILayout.PropertyField(FaceToggleNames);
         }
 
+        // OSC smooth
         if ((wizard.createFaceTracking || wizard.createEyeTracking) && wizard.createOSCsmooth)
         {
             GUILayout.Label("OSC smooth setup", headerStyle);
-            GUILayout.Label(
-                "OSC smooth is needed to fix Face/Eye Tracking params in-game, without it animation is choppy and jerky, as if its lacking FPS.",
-                headerStyle2
-            );
-
+            GUILayout.Label("OSC smooth is needed to fix Face/Eye Tracking params in-game, " +
+                "\nas without it animation is choppy and jerky, as if it's lacking FPS.", headerStyle2);
             EditorGUILayout.PropertyField(localSmoothness);
             EditorGUILayout.PropertyField(remoteSmoothness);
         }
-
+        // EyeTracking
         if (wizard.createEyeTracking)
         {
-            GUILayout.Label("EyeTracking Simplified Eye Parameters settings", headerStyle);
+            GUILayout.Label("EyeTracking (Simplified Eye Parameters) settings", headerStyle);
             GUILayout.Label("Creates EyeTracking with these animations.", headerStyle2);
-
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
             EditorGUILayout.PropertyField(maxEyeMotionValue);
-            EditorGUILayout.PropertyField(MirrorEyeposes, PopUpLabel("Mirror Eye poses", "Dont use other animations for the right side."));
-
+            EditorGUILayout.PropertyField(MirrorEyeposes, PopUpLabel("Mirror Eye poses", "Don't use other animations for the right side."));
             GUILayout.Space(10);
             if (wizard.MirrorEyeposes)
             {
-                EditorGUILayout.PropertyField(LeftEyePoses, PopUpLabel("Eye Poses", ""), true);
+                EditorGUILayout.PropertyField(LeftEyePoses, PopUpLabel("Eye Poses", ""));
             }
             else
             {
-                EditorGUILayout.PropertyField(LeftEyePoses, true);
-                EditorGUILayout.PropertyField(RightEyePoses, true);
+                EditorGUILayout.PropertyField(LeftEyePoses);
+                EditorGUILayout.PropertyField(RightEyePoses);
             }
         }
 
+        // FaceTracking
         if (wizard.createFaceTracking)
         {
-            GUILayout.Label("FaceTracking Universal Shapes settings", headerStyle);
+            GUILayout.Label("FaceTracking (Universal Shapes) settings", headerStyle);
             GUILayout.Label("Creates FaceTracking with these animations.", headerStyle2);
-
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
+            GUILayout.Space(10);
+            EditorGUILayout.PropertyField(createFTLipSyncControl,
+            PopUpLabel("Create Face Tracking LipSync Control", "Adds LypSync off/on feature."));
+            GUILayout.Space(10);
+            EditorGUILayout.PropertyField(MirrorFTparams,
+             PopUpLabel("Mirroring shapes", "Reflect automatically blendshapes if they have “Left” in their name."));
 
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(
-                createFTLipSyncControl,
-                PopUpLabel("Create Face Tracking LipSync Control", "Adds LypSync off/on feature.")
-            );
-
-            if (wizard.createFTLipSyncControl)
-                EditorGUILayout.PropertyField(lipSyncName);
-
+            EditorGUILayout.PropertyField(ftShapes, PopUpLabel("FT Single Shapes", "Single shapes controlled by a float parameter."));
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(
-                MirrorFTparams,
-                PopUpLabel("Mirroring shapes", "Reflect automatically blendshapes if they have Left in their name.")
-            );
-
-            GUILayout.Space(10);
-            EditorGUILayout.PropertyField(ftShapes, PopUpLabel("FT Single Shapes", "Single shapes controlled by a float parameter."), true);
-
-            GUILayout.Space(10);
-            EditorGUILayout.PropertyField(
-                ftDualShapes,
-                PopUpLabel("FT Dual Shapes", "Mutually exclusive shape pairs controlled by a single float parameter."),
-                true
-            );
+            EditorGUILayout.PropertyField(ftDualShapes, PopUpLabel("FT Dual Shapes", "Mutually exclusive shape pairs controlled by a single float parameter."));
         }
 
         serializedObject.ApplyModifiedProperties();
@@ -398,11 +363,6 @@ public class AnimatorGeneratorEditor : Editor
     private static GUIContent PopUpLabel(string propertyFieldLabel, string label)
     {
         return new GUIContent(propertyFieldLabel, label);
-    }
-
-    private void Create()
-    {
-        ((AnimatorWizard)target).Create();
     }
 }
 

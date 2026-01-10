@@ -157,84 +157,104 @@ public partial class AnimatorWizard : MonoBehaviour
 
         var processedPaths = new HashSet<string>();
 
-        for (int pass = 0; pass < 2; pass++)
+        UnityEditor.AssetDatabase.StartAssetEditing();
+        try
         {
-            var isBase = pass == 0;
-            var layers = isBase ? avatar.baseAnimationLayers : avatar.specialAnimationLayers;
-            var changed = false;
-
-            for (int i = 0; i < layers.Length; i++)
+            for (int pass = 0; pass < 2; pass++)
             {
-                var layer = layers[i];
-                if (layer.isDefault)
-                    continue;
+                var isBase = pass == 0;
+                var layers = isBase ? avatar.baseAnimationLayers : avatar.specialAnimationLayers;
+                var changed = false;
 
-                if (layer.type != VRCAvatarDescriptor.AnimLayerType.FX &&
-                    layer.type != VRCAvatarDescriptor.AnimLayerType.Gesture &&
-                    layer.type != VRCAvatarDescriptor.AnimLayerType.Additive)
-                    continue;
-
-                var sourceController = layer.animatorController as AnimatorController;
-                if (sourceController == null)
-                    continue;
-
-                var originalPath = UnityEditor.AssetDatabase.GetAssetPath(sourceController);
-                if (string.IsNullOrEmpty(originalPath))
-                    continue;
-
-                if (processedPaths.Contains(originalPath))
+                for (int i = 0; i < layers.Length; i++)
                 {
-                    var reused = UnityEditor.AssetDatabase.LoadAssetAtPath<AnimatorController>(originalPath);
-                    if (reused != null)
+                    var layer = layers[i];
+                    if (layer.isDefault)
+                        continue;
+
+                    if (layer.type != VRCAvatarDescriptor.AnimLayerType.FX &&
+                        layer.type != VRCAvatarDescriptor.AnimLayerType.Gesture &&
+                        layer.type != VRCAvatarDescriptor.AnimLayerType.Additive)
+                        continue;
+
+                    var sourceController = layer.animatorController as AnimatorController;
+                    if (sourceController == null)
+                        continue;
+
+                    var originalPath = UnityEditor.AssetDatabase.GetAssetPath(sourceController);
+                    if (string.IsNullOrEmpty(originalPath))
+                        continue;
+
+                    if (processedPaths.Contains(originalPath))
                     {
-                        layer.animatorController = reused;
+                        var reused = UnityEditor.AssetDatabase.LoadAssetAtPath<AnimatorController>(originalPath);
+                        if (reused != null)
+                        {
+                            layer.animatorController = reused;
+                            layers[i] = layer;
+                            changed = true;
+                        }
+                        continue;
+                    }
+
+                    var expectedOriginalName = System.IO.Path.GetFileNameWithoutExtension(originalPath);
+                    var originalFileName = System.IO.Path.GetFileName(originalPath);
+
+                    var tempFolderName = "AnimatorWizard_Temp_" + System.Guid.NewGuid().ToString("N");
+                    UnityEditor.AssetDatabase.CreateFolder("Assets", tempFolderName);
+                    var tempFolderPath = "Assets/" + tempFolderName;
+
+                    var tempPath = tempFolderPath + "/" + originalFileName;
+
+                    var newController = new AnimatorController { name = expectedOriginalName };
+                    UnityEditor.AssetDatabase.CreateAsset(newController, tempPath);
+                    UnityEditor.AssetDatabase.SaveAssets();
+
+                    AnimatorCloner.MergeControllers(newController, sourceController, null, false);
+                    UnityEditor.AssetDatabase.SaveAssets();
+
+                    var absTempPath = System.IO.Path.GetFullPath(tempPath);
+                    var absOriginalPath = System.IO.Path.GetFullPath(originalPath);
+                    System.IO.File.Copy(absTempPath, absOriginalPath, true);
+
+                    UnityEditor.AssetDatabase.ImportAsset(originalPath, UnityEditor.ImportAssetOptions.ForceUpdate);
+
+                    var finalController = UnityEditor.AssetDatabase.LoadAssetAtPath<AnimatorController>(originalPath);
+                    if (finalController != null)
+                    {
+                        finalController.name = expectedOriginalName;
+                        UnityEditor.EditorUtility.SetDirty(finalController);
+
+                        layer.animatorController = finalController;
                         layers[i] = layer;
                         changed = true;
                     }
-                    continue;
+
+                    UnityEditor.AssetDatabase.DeleteAsset(tempFolderPath);
+                    UnityEditor.AssetDatabase.SaveAssets();
+
+                    processedPaths.Add(originalPath);
                 }
 
-                var newController = new AnimatorController { name = sourceController.name };
-                var tempPath = UnityEditor.AssetDatabase.GenerateUniqueAssetPath(
-                    System.IO.Path.Combine(
-                        System.IO.Path.GetDirectoryName(originalPath),
-                        System.IO.Path.GetFileNameWithoutExtension(originalPath) + "_Tmp" +
-                        System.IO.Path.GetExtension(originalPath)));
-
-                UnityEditor.AssetDatabase.CreateAsset(newController, tempPath);
-                UnityEditor.AssetDatabase.SaveAssets();
-
-                AnimatorCloner.MergeControllers(newController, sourceController, null, false);
-                UnityEditor.AssetDatabase.SaveAssets();
-                UnityEditor.AssetDatabase.DeleteAsset(originalPath);
-                UnityEditor.AssetDatabase.MoveAsset(tempPath, originalPath);
-                UnityEditor.AssetDatabase.SaveAssets();
-                UnityEditor.AssetDatabase.Refresh();
-
-                var finalController = UnityEditor.AssetDatabase.LoadAssetAtPath<AnimatorController>(originalPath);
-                if (finalController != null)
+                if (changed)
                 {
-                    layer.animatorController = finalController;
-                    layers[i] = layer;
-                    changed = true;
+                    if (isBase)
+                        avatar.baseAnimationLayers = layers;
+                    else
+                        avatar.specialAnimationLayers = layers;
+
+                    UnityEditor.EditorUtility.SetDirty(avatar);
                 }
-
-                processedPaths.Add(originalPath);
-            }
-
-            if (changed)
-            {
-                if (isBase)
-                    avatar.baseAnimationLayers = layers;
-                else
-                    avatar.specialAnimationLayers = layers;
-
-                UnityEditor.EditorUtility.SetDirty(avatar);
-                UnityEditor.AssetDatabase.SaveAssets();
-                UnityEditor.AssetDatabase.Refresh();
             }
         }
+        finally
+        {
+            UnityEditor.AssetDatabase.StopAssetEditing();
+            UnityEditor.AssetDatabase.SaveAssets();
+            UnityEditor.AssetDatabase.Refresh();
+        }
     }
+
 }
 
 #endif
