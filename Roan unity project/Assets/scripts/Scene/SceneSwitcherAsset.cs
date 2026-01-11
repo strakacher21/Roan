@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SceneSwitcher", menuName = "SceneSwitcher/Switcher Asset")]
+[CreateAssetMenu(fileName = "Scene Switcher", menuName = "Scene Switcher/Scene Asset")]
 public class SceneSwitcherAsset : ScriptableObject
 {
     public SceneAsset[] scenes;

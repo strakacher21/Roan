@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55f724bec77dfd4458b5266ca2bdf8a1, type: 3}
-  m_Name: Scene av Quest & IOS Texture Asset
+  m_Name: av Quest & IOS Texture Switcher
   m_EditorClassIdentifier: 
   textures:
   - texture: {fileID: 2800000, guid: 8e645fd601dbd084f8791c5507fe8c2f, type: 3}
-    maxSize: 4096
+    maxSize: 2048
   - texture: {fileID: 2800000, guid: 2037c84023c7471489f4827bac83c7b6, type: 3}
-    maxSize: 4096
-  - texture: {fileID: 2800000, guid: 6023932e1f7e0cf49be07beaa31d7cb0, type: 3}
     maxSize: 2048
