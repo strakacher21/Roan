@@ -6,7 +6,7 @@ import os
 export_path = bpy.path.abspath(r"//../Roan unity project/Assets")
 file_name = "Roan model.fbx"
 desired_model_name = "Body"
-export_uv_map = "UVMap"
+export_uv_map = "UVMap (atlas)"
 export_vertex_colors = True
 export_collection_name = "main"
 exclude_collection_name = "disabled"
@@ -81,6 +81,7 @@ if bpy.context.selected_objects:
         colors_type="LINEAR" if export_vertex_colors else "NONE",
         use_armature_deform_only=True,
         use_triangles=False
+        #mesh_smooth_type='SMOOTH_GROUP'
     )
 
     bpy.ops.ed.undo_push()
