@@ -78,62 +78,64 @@ public partial class AnimatorWizard : MonoBehaviour
         if (!createFaceTracking)
             return;
 
-        if (_masterTree == null || _fxTreeLayer == null)
-            throw new Exception("FX master tree is not initialized (_masterTree/_fxTreeLayer).");
-
-        // Face Tracking
         var layer = _aac.CreateSupportingFxLayer("face animations toggle").WithAvatarMask(fxMask);
 
         var ftActiveParam = CreateBoolParam(layer, FullFaceTrackingPrefix + "LipTrackingActive", true, false);
         var ftBlendParam = layer.FloatParameter(FullFaceTrackingPrefix + "LipTrackingActive-float");
 
-        AacFlBoolParameter lipSyncActiveParam;
-        if (createFTLipSyncControl)
-            lipSyncActiveParam = CreateBoolParam(layer, FullFaceTrackingPrefix + lipSyncName, true, false);
-        else
-            lipSyncActiveParam = layer.BoolParameter(FullFaceTrackingPrefix + lipSyncName);
-
-        // State face tracking off
-        var offFaceTrackingState = layer.NewState("face tracking off")
-            .Drives(ftBlendParam, 0)
-            .TrackingTracks(AacAv3.Av3TrackingElement.Mouth);
-
-        // State face tracking on
-        var onFaceTrackingState = layer.NewState("face tracking on")
-            .Drives(ftBlendParam, 1)
-            .TrackingAnimates(AacAv3.Av3TrackingElement.Mouth);
-
-        // Transitions
+        // States with Lip Sync Control
         if (createFTLipSyncControl)
         {
-            var offFaceTrackingLipSyncState = layer.NewState("face tracking off LipSync")
+            AacFlBoolParameter lipSyncActiveParam;
+            if (createFTLipSyncControl)
+                lipSyncActiveParam = CreateBoolParam(layer, FullFaceTrackingPrefix + lipSyncName, true, false);
+            else
+                lipSyncActiveParam = layer.BoolParameter(FullFaceTrackingPrefix + lipSyncName);
+
+            var offFaceTrackingLipSyncTrackingAnimatesState = layer.NewState("face tracking off")
+            .Drives(ftBlendParam, 0)
+            .TrackingAnimates(AacAv3.Av3TrackingElement.Mouth);
+
+            var onFaceTrackingLipSyncTrackingAnimatesState = layer.NewState("face tracking on")
+                .Drives(ftBlendParam, 1)
+                .TrackingAnimates(AacAv3.Av3TrackingElement.Mouth);
+
+            var offFaceTrackingLipSyncTrackingTracksState = layer.NewState("face tracking off (LipSync Enabled)")
                 .Drives(ftBlendParam, 0)
                 .TrackingTracks(AacAv3.Av3TrackingElement.Mouth);
 
-            var onFaceTrackingLipSyncState = layer.NewState("face tracking on LipSync")
+            var onFaceTrackingLipSyncTrackingTracksState = layer.NewState("face tracking on (LipSync Enabled)")
                 .Drives(ftBlendParam, 1)
                 .TrackingTracks(AacAv3.Av3TrackingElement.Mouth);
 
-            var offFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(offFaceTrackingLipSyncState)
+            var offFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingTracksState)
                 .When(ftActiveParam.IsFalse())
                 .And(lipSyncActiveParam.IsTrue());
 
-            var onFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(onFaceTrackingLipSyncState)
+            var onFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingTracksState)
                 .WithTransitionToSelf()
                 .When(ftActiveParam.IsTrue())
                 .And(lipSyncActiveParam.IsTrue());
 
-            layer.AnyTransitionsTo(offFaceTrackingState)
+            layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingAnimatesState)
                 .When(ftActiveParam.IsFalse())
                 .And(lipSyncActiveParam.IsFalse());
 
-            layer.AnyTransitionsTo(onFaceTrackingState)
+            layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingAnimatesState)
                 .WithTransitionToSelf()
                 .When(ftActiveParam.IsTrue())
                 .And(lipSyncActiveParam.IsFalse());
         }
+
+        // States without Lip Sync Control
         else
         {
+            var offFaceTrackingState = layer.NewState("face tracking off")
+                .Drives(ftBlendParam, 0);
+
+            var onFaceTrackingState = layer.NewState("face tracking on")
+                .Drives(ftBlendParam, 1);
+
             layer.AnyTransitionsTo(offFaceTrackingState).When(ftActiveParam.IsFalse());
             layer.AnyTransitionsTo(onFaceTrackingState).When(ftActiveParam.IsTrue());
         }
