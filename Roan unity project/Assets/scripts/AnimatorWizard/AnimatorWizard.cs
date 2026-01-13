@@ -125,7 +125,15 @@ public partial class AnimatorWizard : MonoBehaviour
         else
             expTrackActiveParam = fxLayer.BoolParameter(FullFaceTrackingPrefix + expTrackName);
 
-        InitializeGestureExpressions(skin, ftActiveParam, expTrackActiveParam, faceToggleActiveParam);
+        var customGestureBlocksNames = new List<AacFlBoolParameter>();
+        foreach (var name in GestureExpressionsBlockParamNames)
+        {
+            if (string.IsNullOrWhiteSpace(name)) continue;
+            customGestureBlocksNames.Add(fxLayer.BoolParameter(name));
+        }
+
+        InitializeGestureExpressions(skin, ftActiveParam, expTrackActiveParam, faceToggleActiveParam, customGestureBlocksNames);
+
     }
 }
 

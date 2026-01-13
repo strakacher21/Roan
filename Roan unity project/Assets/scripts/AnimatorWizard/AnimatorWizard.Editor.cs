@@ -69,6 +69,8 @@ public class AnimatorGeneratorEditor : Editor
 
     private SerializedProperty FaceToggleNames;
 
+    private SerializedProperty GestureExpressionsBlockParamNames;
+
     private SerializedProperty lipSyncName;
 
     private SerializedProperty ftShapes;
@@ -137,6 +139,8 @@ public class AnimatorGeneratorEditor : Editor
         ClothFootNames = serializedObject.FindProperty("ClothFootNames");
 
         FaceToggleNames = serializedObject.FindProperty("FaceToggleNames");
+
+        GestureExpressionsBlockParamNames = serializedObject.FindProperty("GestureExpressionsBlockParamNames");
 
         primaryColor0 = serializedObject.FindProperty("primaryColor0");
         secondColor0 = serializedObject.FindProperty("secondColor0");
@@ -247,6 +251,10 @@ public class AnimatorGeneratorEditor : Editor
         GUILayout.Space(20);
         EditorGUILayout.PropertyField(browPrefix);
         EditorGUILayout.PropertyField(browShapeNames);
+        // Custom gesture blocks
+        GUILayout.Space(5);
+        EditorGUILayout.PropertyField(GestureExpressionsBlockParamNames,
+            PopUpLabel("Gesture Expressions Block bool list", "Each element is a VRC bool parameter name. When any is True, gestures won't drive expressions."));
 
         // Animator creation flags
         GUILayout.Label("Animator creation flags", headerStyle);

@@ -8,6 +8,14 @@ using UnityEngine;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
+    public bool createFaceTracking = true;
+    public bool createFaceToggle = true;
+
+    public string[] GestureExpressionsBlockParamNames =
+    {
+        "contact/confuse"
+    };
+
     public bool createFacialExpressionsControl = false;
     public string expTrackName = "ExpressionTrackingActive";
 
@@ -37,20 +45,19 @@ public partial class AnimatorWizard : MonoBehaviour
         "down",
     };
 
-    public bool createFaceTracking = true;
-    public bool createFaceToggle = false;
-
     protected void InitializeGestureExpressions(
         SkinnedMeshRenderer skin,
         AacFlBoolParameter ftActiveParam,
         AacFlBoolParameter ExpTrackActiveParam,
-        AacFlBoolParameter FaceToggleActive)
+        AacFlBoolParameter FaceToggleActive,
+        List<AacFlBoolParameter> customGestureBlocksNames
+        )
     {
         // brow Gesture expressions
-        MapHandPosesToShapes("brow expressions", skin, browShapeNames, browPrefix, false, ftActiveParam, ExpTrackActiveParam, FaceToggleActive);
+        MapHandPosesToShapes("brow expressions", skin, browShapeNames, browPrefix, false, ftActiveParam, ExpTrackActiveParam, FaceToggleActive, customGestureBlocksNames);
 
         // mouth Gesture expressions
-        MapHandPosesToShapes("mouth expressions", skin, mouthShapeNames, mouthPrefix, true, ftActiveParam, ExpTrackActiveParam, FaceToggleActive);
+        MapHandPosesToShapes("mouth expressions", skin, mouthShapeNames, mouthPrefix, true, ftActiveParam, ExpTrackActiveParam, FaceToggleActive, customGestureBlocksNames);
     }
 
     private void MapHandPosesToShapes(
@@ -61,7 +68,9 @@ public partial class AnimatorWizard : MonoBehaviour
         bool rightHand,
         AacFlBoolParameter ftActiveParam,
         AacFlBoolParameter ExpTrackActiveParam,
-        AacFlBoolParameter FaceToggleActive)
+        AacFlBoolParameter FaceToggleActive,
+        List<AacFlBoolParameter> customGestureBlocksNames
+        )
     {
         var layer = _aac.CreateSupportingFxLayer(layerName).WithAvatarMask(fxMask);
         var Gesture = layer.IntParameter("Gesture" + (rightHand ? Right : Left));
@@ -131,6 +140,17 @@ public partial class AnimatorWizard : MonoBehaviour
                 {
                     enter.And(FaceToggleActive.IsFalse());
                     exit.Or().When(FaceToggleActive.IsTrue());
+                }
+            }
+
+            if (customGestureBlocksNames != null && customGestureBlocksNames.Count > 0)
+            {
+                foreach (var block in customGestureBlocksNames)
+                {
+                    if (block == null) continue;
+
+                    if (i == 0) { enter.Or().When(block.IsTrue()); exit.And(block.IsFalse()); }
+                    else { enter.And(block.IsFalse()); exit.Or().When(block.IsTrue()); }
                 }
             }
         }

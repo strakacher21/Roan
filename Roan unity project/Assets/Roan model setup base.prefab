@@ -93,6 +93,9 @@ MonoBehaviour:
   SystemName: Roan
   shapePreferenceSliderPrefix: pref/slider/
   shapePreferenceTogglesPrefix: pref/toggle/
+  createFaceTracking: 1
+  createFaceToggle: 0
+  GestureExpressionsBlockParamNames: []
   createFacialExpressionsControl: 0
   expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
@@ -115,8 +118,6 @@ MonoBehaviour:
   - worried
   - curious
   - down
-  createFaceTracking: 1
-  createFaceToggle: 0
   createEyeTracking: 1
   MirrorEyeposes: 1
   maxEyeMotionValue: 0.7
