@@ -2,7 +2,6 @@
 
 using AnimatorAsCode.V1;
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
-using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Animations;
@@ -35,15 +34,21 @@ public partial class AnimatorWizard : MonoBehaviour
         SkinnedMeshRenderer skin = GetComponentInChildren<SkinnedMeshRenderer>();
         VRCAvatarDescriptor avatar = GetComponentInChildren<VRCAvatarDescriptor>();
 
-        if (skin == null || avatar == null)
-            throw new Exception("SkinnedMeshRenderer or VRCAvatarDescriptor not found on avatar!");
-
         _vrcParams = new List<VRCExpressionParameters.Parameter>();
 
-        InitializeAAC(avatar);
+        _aac = AacV1.Create(new AacConfiguration
+        {
+            SystemName = SystemName,
+            AnimatorRoot = avatar.transform,
+            DefaultValueRoot = avatar.transform,
+            AssetContainer = assetContainer,
+            ContainerMode = AacConfiguration.Container.Everything,
+            AssetKey = SystemName,
+            DefaultsProvider = new AacDefaultsProvider(UseWriteDefaults),
+            //AssetContainerProvider = null
+        }.WithAvatarDescriptor(avatar));
 
-        // clear assetContainer
-        //_aac.ClearPreviousAssets(); // Broken in new version
+        //_aac.ClearPreviousAssets();
         ClearAssetContainer();
         DeleteAnimatorWizardLayers(avatar, SystemName);
 
@@ -68,21 +73,6 @@ public partial class AnimatorWizard : MonoBehaviour
         SortAnimatorWizardLayers(avatar, SystemName);
     }
 
-    private void InitializeAAC(VRCAvatarDescriptor avatar)
-    {
-        _aac = AacV1.Create(new AacConfiguration
-        {
-            SystemName = SystemName,
-            AnimatorRoot = avatar.transform,
-            DefaultValueRoot = avatar.transform,
-            AssetContainer = assetContainer,
-            ContainerMode = AacConfiguration.Container.Everything,
-            AssetKey = SystemName,
-            DefaultsProvider = new AacDefaultsProvider(UseWriteDefaults),
-            //AssetContainerProvider = null
-        }.WithAvatarDescriptor(avatar));
-    }
-
     private void ClearAssetContainer()
     {
         foreach (var asset in AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(assetContainer)))
@@ -92,13 +82,8 @@ public partial class AnimatorWizard : MonoBehaviour
         }
     }
 
-    public AacFlBase GetAAC() => _aac;
-    public List<VRCExpressionParameters.Parameter> GetVRCParams() => _vrcParams;
-
     private void InitializeFXLayer(SkinnedMeshRenderer skin)
     {
-        if (skin == null)
-            throw new Exception("SkinnedMeshRenderer is null (InitializeFXLayer).");
 
         // FX layer
         var fxLayer = _aac.CreateMainFxLayer().WithAvatarMask(fxMask);
