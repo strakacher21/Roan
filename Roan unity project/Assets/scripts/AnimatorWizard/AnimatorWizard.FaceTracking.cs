@@ -15,7 +15,6 @@ public struct DualShape
     public string paramName;
     public string minShapeName;
     public string maxShapeName;
-
     public float minValue;
     public float neutralValue;
     public float maxValue;
@@ -43,6 +42,8 @@ public struct DualShape
 
 public partial class AnimatorWizard : MonoBehaviour
 {
+    public bool createFaceTracking = true;
+
     public bool MirrorFTparams = false;
 
     public bool createFTLipSyncControl = false;

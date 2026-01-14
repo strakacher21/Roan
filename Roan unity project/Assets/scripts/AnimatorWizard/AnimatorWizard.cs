@@ -29,6 +29,8 @@ public partial class AnimatorWizard : MonoBehaviour
     public string shapePreferenceSliderPrefix = "pref/slider/";
     public string shapePreferenceTogglesPrefix = "pref/toggle/";
 
+    public string FullFaceTrackingPrefix = "v2/";
+
     public void Create()
     {
         SkinnedMeshRenderer skin = GetComponentInChildren<SkinnedMeshRenderer>();

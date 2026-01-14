@@ -7,6 +7,11 @@ using UnityEngine;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
+    public bool createOSCsmooth = true;
+
+    public float localSmoothness = 0.1f;
+    public float remoteSmoothness = 0.7f;
+
     partial void ApplyOSCSmoothing(
         AacFlLayer layer,
         float localSmoothness,

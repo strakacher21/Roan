@@ -93,7 +93,7 @@ MonoBehaviour:
   SystemName: Roan
   shapePreferenceSliderPrefix: pref/slider/
   shapePreferenceTogglesPrefix: pref/toggle/
-  createFaceTracking: 1
+  FullFaceTrackingPrefix: v2/
   createFaceToggle: 0
   GestureExpressionsBlockParamNames: []
   createFacialExpressionsControl: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   createEyeTracking: 1
   MirrorEyeposes: 1
   maxEyeMotionValue: 0.7
-  EyeLeftMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
   EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
   LeftEyePoses:
   - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
@@ -134,20 +134,17 @@ MonoBehaviour:
   - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
   - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
   RightEyePoses:
-  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
-  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
-  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
-  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
-  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
-  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
-  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
-  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
-  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
-  createOSCsmooth: 1
-  localSmoothness: 0.1
-  remoteSmoothness: 0.7
-  FullFaceTrackingPrefix: v2/
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   FaceToggleNames: []
+  createFaceTracking: 1
   MirrorFTparams: 0
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
@@ -254,6 +251,9 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 26f53419730baba4fa8e37c41e9a4921, type: 2}
   - {fileID: 7400000, guid: 3f0a3c8792a34184b864b7c4c82b0722, type: 2}
   - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
+  createOSCsmooth: 1
+  localSmoothness: 0.1
+  remoteSmoothness: 0.7
   createShapePreferences: 0
 --- !u!114 &7671356844076179755
 MonoBehaviour:

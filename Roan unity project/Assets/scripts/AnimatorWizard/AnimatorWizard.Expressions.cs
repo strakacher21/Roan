@@ -8,7 +8,6 @@ using UnityEngine;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
-    public bool createFaceTracking = true;
     public bool createFaceToggle = true;
 
     public string[] GestureExpressionsBlockParamNames =

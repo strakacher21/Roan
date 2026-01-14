@@ -12,7 +12,9 @@ using VRC.SDK3.Avatars.Components;
 public partial class AnimatorWizard : MonoBehaviour
 {
     public bool createEyeTracking = true;
+
     public bool MirrorEyeposes = true;
+
     public float maxEyeMotionValue = 0.7f;
 
     public AvatarMask EyeLeftMask;
@@ -20,14 +22,6 @@ public partial class AnimatorWizard : MonoBehaviour
 
     public Motion[] LeftEyePoses;
     public Motion[] RightEyePoses;
-
-    // Shared settings for Eye/Face Tracking smoothing (do not duplicate in other modules)
-    public bool createOSCsmooth = true;
-    public float localSmoothness = 0.1f;
-    public float remoteSmoothness = 0.7f;
-
-    // Shared prefix for FT/ET params (do not duplicate in other modules)
-    public string FullFaceTrackingPrefix = "v2/";
 
     private void InitializeEyeTracking(SkinnedMeshRenderer skin, VRCAvatarDescriptor avatar)
     {
