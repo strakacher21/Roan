@@ -5,14 +5,11 @@ ___
 
 <details open>
 <summary><b>Media (tag 3.0-rc-2)</b></summary>
-<div style="text-align: center;">
   <img src="Gallery/Roan.jpg" alt="Roan preview" width="90%">
   <img src="Gallery/Roan showcase shaded.jpg" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan showcase mesh.jpg" alt="Roan mesh" width="45%">
 
   ### [:arrow_forward:Sketchfab Preview (tag 2.2)](https://skfb.ly/pAzHI)
-
-</div>
 </details>
 
 ___

@@ -11,7 +11,7 @@ public partial class AnimatorWizard : MonoBehaviour
     public AvatarMask GestureLeftMask;
     public AvatarMask GestureRightMask;
 
-    public bool MirrorHandposes = true;
+    public bool UseSameHandAnimationsForBothHands = true;
 
     public Motion[] LeftHandPoses;
     public Motion[] RightHandPoses;
@@ -35,7 +35,7 @@ public partial class AnimatorWizard : MonoBehaviour
         var Gesture = layer.IntParameter("Gesture" + side);
         var GestureWeight = layer.FloatParameter("Gesture" + side + "Weight");
 
-        Motion[] poses = side == Left || MirrorHandposes ? LeftHandPoses : RightHandPoses;
+        Motion[] poses = side == Left || UseSameHandAnimationsForBothHands ? LeftHandPoses : RightHandPoses;
 
         if (poses == null || poses.Length != 8)
             throw new Exception($"The {side} hand poses array must contain exactly 8 motions!");

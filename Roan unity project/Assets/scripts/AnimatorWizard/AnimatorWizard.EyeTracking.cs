@@ -13,7 +13,7 @@ public partial class AnimatorWizard : MonoBehaviour
 {
     public bool createEyeTracking = true;
 
-    public bool MirrorEyeposes = true;
+    public bool UseSameEyeAnimationsForBothEyes = true;
 
     public float maxEyeMotionValue = 0.7f;
 
@@ -39,7 +39,7 @@ public partial class AnimatorWizard : MonoBehaviour
         AacFlFloatParameter EyeYParam = CreateFloatParam(AdditiveLayer, FullFaceTrackingPrefix + "EyeY", false, 0.0f);
 
         Motion[] leftPoses = LeftEyePoses;
-        Motion[] rightPoses = MirrorEyeposes ? LeftEyePoses : RightEyePoses;
+        Motion[] rightPoses = UseSameEyeAnimationsForBothEyes ? LeftEyePoses : RightEyePoses;
 
         BlendTree leftEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, Left, maxEyeMotionValue, leftPoses, EyeLeftMask);
         BlendTree rightEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, Right, maxEyeMotionValue, rightPoses, EyeRightMask);

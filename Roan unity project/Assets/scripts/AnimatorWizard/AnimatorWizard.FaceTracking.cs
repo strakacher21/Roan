@@ -1,5 +1,4 @@
 #if UNITY_EDITOR
-
 using AnimatorAsCode.V1;
 using AnimatorAsCode.V1.VRC;
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
@@ -10,7 +9,20 @@ using UnityEngine;
 using VRC.SDK3.Avatars.Components;
 
 [Serializable]
-public struct DualShape
+public struct SingleFtShape
+{
+    public string shapeName;
+    public bool leftAndRightShapes;
+
+    public SingleFtShape(string shapeName, bool leftAndRightShapes = false)
+    {
+        this.shapeName = shapeName;
+        this.leftAndRightShapes = leftAndRightShapes;
+    }
+}
+
+[Serializable]
+public struct DualFtShape
 {
     public string paramName;
     public string minShapeName;
@@ -18,8 +30,9 @@ public struct DualShape
     public float minValue;
     public float neutralValue;
     public float maxValue;
+    public bool leftAndRightShapes;
 
-    public DualShape(string paramName, string minShapeName, string maxShapeName, float minValue, float neutralValue, float maxValue)
+    public DualFtShape(string paramName, string minShapeName, string maxShapeName, float minValue, float neutralValue, float maxValue, bool leftAndRightShapes = false)
     {
         this.paramName = paramName;
         this.minShapeName = minShapeName;
@@ -27,9 +40,10 @@ public struct DualShape
         this.minValue = minValue;
         this.neutralValue = neutralValue;
         this.maxValue = maxValue;
+        this.leftAndRightShapes = leftAndRightShapes;
     }
 
-    public DualShape(string paramName, string minShapeName, string maxShapeName)
+    public DualFtShape(string paramName, string minShapeName, string maxShapeName, bool leftAndRightShapes = false)
     {
         this.paramName = paramName;
         this.minShapeName = minShapeName;
@@ -37,41 +51,41 @@ public struct DualShape
         minValue = -1;
         neutralValue = 0;
         maxValue = 1;
+        this.leftAndRightShapes = leftAndRightShapes;
     }
+
 }
 
 public partial class AnimatorWizard : MonoBehaviour
 {
     public bool createFaceTracking = true;
-
     public bool MirrorFTparams = false;
-
     public bool createFTLipSyncControl = false;
     public string lipSyncName = "LipSyncTrackingActive";
 
-    public string[] ftShapes = new[]
+    public SingleFtShape[] SingleFtShapes = new[]
     {
-        "JawOpen",
-        "LipFunnel",
-        "LipPucker",
-        "MouthClosed",
-        "MouthStretch",
-        "MouthUpperUpLeft",
-        "MouthLowerDownLeft",
-        "MouthRaiserLower",
-        "TongueOut",
-        "EyeSquintLeft",
+        new SingleFtShape("JawOpen"),
+        new SingleFtShape("LipFunnel"),
+        new SingleFtShape("LipPucker"),
+        new SingleFtShape("MouthClosed"),
+        new SingleFtShape("MouthStretch"),
+        new SingleFtShape("MouthUpperUpLeft"),
+        new SingleFtShape("MouthLowerDownLeft"),
+        new SingleFtShape("MouthRaiserLower"),
+        new SingleFtShape("TongueOut"),
+        new SingleFtShape("EyeSquintLeft"),
     };
 
-    public DualShape[] ftDualShapes = new[]
+    public DualFtShape[] DualFtShapes = new[]
     {
-        new DualShape("SmileSad", "MouthSad", "MouthSmile"),
-        new DualShape("JawX", "JawLeft", "JawRight"),
-        new DualShape("JawZ", "JawBackward", "JawForward"),
-        new DualShape("MouthX", "MouthLeft", "MouthRight"),
-        new DualShape("EyeLidLeft", "EyeClosedLeft", "EyeWideLeft", 0, 0.75f, 1),
-        new DualShape("BrowExpressionLeft", "BrowDown", "BrowUp"),
-        new DualShape("CheekPuffSuck", "CheekSuck", "CheekPuff"),
+        new DualFtShape("SmileSad", "MouthSad", "MouthSmile"),
+        new DualFtShape("JawX", "JawLeft", "JawRight"),
+        new DualFtShape("JawZ", "JawBackward", "JawForward"),
+        new DualFtShape("MouthX", "MouthLeft", "MouthRight"),
+        new DualFtShape("EyeLidLeft", "EyeClosedLeft", "EyeWideLeft", 0, 0.75f, 1),
+        new DualFtShape("BrowExpressionLeft", "BrowDown", "BrowUp"),
+        new DualFtShape("CheekPuffSuck", "CheekSuck", "CheekPuff"),
     };
 
     private void InitializeFaceTracking(SkinnedMeshRenderer skin, VRCAvatarDescriptor avatar)
@@ -149,20 +163,24 @@ public partial class AnimatorWizard : MonoBehaviour
         var allShapes = new List<string>();
 
         // adding blend shapes
-        for (int i = 0; i < ftShapes.Length; i++)
+        for (int i = 0; i < SingleFtShapes.Length; i++)
         {
-            string shapeName = ftShapes[i];
+            var entry = SingleFtShapes[i];
+            string shapeName = entry.shapeName;
 
-            if (MirrorFTparams)
+            if (entry.leftAndRightShapes)
             {
-                for (int flip = 0; flip < EachSide(ref shapeName); flip++)
-                {
-                    var param = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + shapeName, false, 0);
-                    tree.AddChild(BlendshapeTree(_fxTreeLayer, skin, param));
+                var baseName = StripSide(shapeName);
+                var leftName = baseName + Left;
+                var rightName = baseName + Right;
 
-                    if (createOSCsmooth)
-                        allShapes.Add(FullFaceTrackingPrefix + shapeName);
-                }
+                var leftParam = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + leftName, false, 0);
+                tree.AddChild(BlendshapeTree(_fxTreeLayer, skin, leftParam));
+                if (createOSCsmooth) allShapes.Add(FullFaceTrackingPrefix + leftName);
+
+                var rightParam = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + rightName, false, 0);
+                tree.AddChild(BlendshapeTree(_fxTreeLayer, skin, rightParam));
+                if (createOSCsmooth) allShapes.Add(FullFaceTrackingPrefix + rightName);
             }
             else
             {
@@ -175,34 +193,48 @@ public partial class AnimatorWizard : MonoBehaviour
         }
 
         // adding dual blend shapes
-        for (int i = 0; i < ftDualShapes.Length; i++)
+        for (int i = 0; i < DualFtShapes.Length; i++)
         {
-            DualShape dualshape = ftDualShapes[i];
+            DualFtShape dualshape = DualFtShapes[i];
             string dualshapeName = dualshape.paramName;
 
-            if (MirrorFTparams)
+            if (dualshape.leftAndRightShapes)
             {
-                for (int flip = 0; flip < EachSide(ref dualshapeName); flip++)
-                {
-                    var param = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + dualshapeName, false, 0);
-                    tree.AddChild(DualBlendshapeTree(
-                        _fxTreeLayer,
-                        param,
-                        skin,
-                        FullFaceTrackingPrefix + dualshape.minShapeName + GetSide(param.Name),
-                        FullFaceTrackingPrefix + dualshape.maxShapeName + GetSide(param.Name),
-                        dualshape.minValue,
-                        dualshape.neutralValue,
-                        dualshape.maxValue
-                    ));
+                var baseParam = StripSide(dualshape.paramName);
+                var baseMin = StripSide(dualshape.minShapeName);
+                var baseMax = StripSide(dualshape.maxShapeName);
 
-                    if (createOSCsmooth)
-                        allShapes.Add(FullFaceTrackingPrefix + dualshapeName);
-                }
+                var leftParamName = baseParam + Left;
+                var leftParam = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + leftParamName, false, 0);
+                tree.AddChild(DualBlendshapeTree(
+                    _fxTreeLayer,
+                    leftParam,
+                    skin,
+                    FullFaceTrackingPrefix + baseMin + Left,
+                    FullFaceTrackingPrefix + baseMax + Left,
+                    dualshape.minValue,
+                    dualshape.neutralValue,
+                    dualshape.maxValue
+                ));
+                if (createOSCsmooth) allShapes.Add(FullFaceTrackingPrefix + leftParamName);
+
+                var rightParamName = baseParam + Right;
+                var rightParam = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + rightParamName, false, 0);
+                tree.AddChild(DualBlendshapeTree(
+                    _fxTreeLayer,
+                    rightParam,
+                    skin,
+                    FullFaceTrackingPrefix + baseMin + Right,
+                    FullFaceTrackingPrefix + baseMax + Right,
+                    dualshape.minValue,
+                    dualshape.neutralValue,
+                    dualshape.maxValue
+                ));
+                if (createOSCsmooth) allShapes.Add(FullFaceTrackingPrefix + rightParamName);
             }
             else
             {
-                var param = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + dualshape.paramName, false, 0);
+                var param = CreateFloatParam(_fxTreeLayer, FullFaceTrackingPrefix + dualshapeName, false, 0);
                 tree.AddChild(DualBlendshapeTree(
                     _fxTreeLayer,
                     param,
@@ -215,7 +247,7 @@ public partial class AnimatorWizard : MonoBehaviour
                 ));
 
                 if (createOSCsmooth)
-                    allShapes.Add(FullFaceTrackingPrefix + dualshape.paramName);
+                    allShapes.Add(FullFaceTrackingPrefix + dualshapeName);
             }
         }
 
@@ -231,5 +263,4 @@ public partial class AnimatorWizard : MonoBehaviour
         }
     }
 }
-
 #endif

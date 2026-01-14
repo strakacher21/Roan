@@ -119,7 +119,7 @@ MonoBehaviour:
   - curious
   - down
   createEyeTracking: 1
-  MirrorEyeposes: 1
+  UseSameEyeAnimationsForBothEyes: 1
   maxEyeMotionValue: 0.7
   EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
   EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
@@ -134,105 +134,99 @@ MonoBehaviour:
   - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
   - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
   RightEyePoses:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 38516e689f55a6f44ab492e0efcabfd4, type: 2}
+  - {fileID: 7400000, guid: d4d847e27156e1a45916a7a0fff5ed71, type: 2}
+  - {fileID: 7400000, guid: f3c788404e5bad34b8f25f8a5c367302, type: 2}
+  - {fileID: 7400000, guid: cdb2ee8d508e6764fa1a67ddc8e777e8, type: 2}
+  - {fileID: 7400000, guid: 3120e85eb2940074a9e03f97ee4a77bd, type: 2}
+  - {fileID: 7400000, guid: 0652075c7a43ce2419b2fbe08166217e, type: 2}
+  - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
+  - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
+  - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
   FaceToggleNames: []
   createFaceTracking: 1
   MirrorFTparams: 0
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
-  ftShapes:
-  - JawOpen
-  - LipFunnel
-  - LipPucker
-  - MouthClosed
-  - MouthStretchLeft
-  - MouthStretchRight
-  - MouthUpperUpLeft
-  - MouthUpperUpRight
-  - MouthLowerDownLeft
-  - MouthLowerDownRight
-  - MouthRaiserUpper
-  - MouthRaiserLower
-  - TongueOut
-  - EyeSquintLeft
-  - EyeSquintRight
-  - NoseSneerLeft
-  - NoseSneerRight
-  - CheekSquintLeft
-  - CheekSquintRight
-  ftDualShapes:
-  - paramName: SmileSadRight
-    minShapeName: MouthFrownRight
-    maxShapeName: MouthSmileRight
+  SingleFtShapes:
+  - shapeName: JawOpen
+    leftAndRightShapes: 0
+  - shapeName: LipFunnel
+    leftAndRightShapes: 0
+  - shapeName: LipPucker
+    leftAndRightShapes: 0
+  - shapeName: MouthClosed
+    leftAndRightShapes: 0
+  - shapeName: MouthStretch
+    leftAndRightShapes: 0
+  - shapeName: MouthUpperUp
+    leftAndRightShapes: 1
+  - shapeName: MouthLowerDown
+    leftAndRightShapes: 1
+  - shapeName: MouthRaiserLower
+    leftAndRightShapes: 0
+  - shapeName: TongueOut
+    leftAndRightShapes: 0
+  - shapeName: EyeSquint
+    leftAndRightShapes: 1
+  - shapeName: NoseSneer
+    leftAndRightShapes: 1
+  - shapeName: CheekSquint
+    leftAndRightShapes: 1
+  DualFtShapes:
+  - paramName: SmileSad
+    minShapeName: MouthSad
+    maxShapeName: MouthSmile
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: SmileSadLeft
-    minShapeName: MouthFrownLeft
-    maxShapeName: MouthFrownLeft
-    minValue: -1
-    neutralValue: 0
-    maxValue: 1
+    leftAndRightShapes: 1
   - paramName: JawX
     minShapeName: JawLeft
     maxShapeName: JawRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
+    leftAndRightShapes: 0
   - paramName: JawZ
     minShapeName: JawBackward
     maxShapeName: JawForward
     minValue: -1
     neutralValue: 0
     maxValue: 1
+    leftAndRightShapes: 0
   - paramName: MouthX
     minShapeName: MouthLeft
     maxShapeName: MouthRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: EyeLidLeft
-    minShapeName: EyeClosedLeft
-    maxShapeName: EyeWideLeft
+    leftAndRightShapes: 0
+  - paramName: EyeLid
+    minShapeName: EyeClosed
+    maxShapeName: EyeWide
     minValue: 0
     neutralValue: 0.75
     maxValue: 1
-  - paramName: EyeLidRight
-    minShapeName: EyeClosedRight
-    maxShapeName: EyeWideRight
-    minValue: 0
-    neutralValue: 0.75
-    maxValue: 1
-  - paramName: BrowExpressionLeft
-    minShapeName: BrowDownLeft
-    maxShapeName: BrowUpLeft
+    leftAndRightShapes: 1
+  - paramName: BrowExpression
+    minShapeName: BrowDown
+    maxShapeName: BrowUp
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: BrowExpressionRight
-    minShapeName: BrowDownRight
-    maxShapeName: BrowUpRight
-    minValue: -1
-    neutralValue: 0
-    maxValue: 1
+    leftAndRightShapes: 1
   - paramName: CheekPuffSuck
     minShapeName: CheekSuck
     maxShapeName: CheekPuff
     minValue: -1
     neutralValue: 0
     maxValue: 1
+    leftAndRightShapes: 0
   gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
   GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
   GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
-  MirrorHandposes: 0
+  UseSameHandAnimationsForBothHands: 1
   LeftHandPoses:
   - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
   - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}

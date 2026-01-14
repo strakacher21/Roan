@@ -9,9 +9,8 @@ public class AnimatorGeneratorEditor : Editor
     private SerializedProperty saveVRCExpressionParameters;
     private SerializedProperty SystemName;
 
-    private SerializedProperty MirrorFTparams;
-    private SerializedProperty MirrorHandposes;
-    private SerializedProperty MirrorEyeposes;
+    private SerializedProperty UseSameHandAnimationsForBothHands;
+    private SerializedProperty UseSameEyeAnimationsForBothEyes;
 
     private SerializedProperty assetContainer;
 
@@ -73,8 +72,8 @@ public class AnimatorGeneratorEditor : Editor
 
     private SerializedProperty lipSyncName;
 
-    private SerializedProperty ftShapes;
-    private SerializedProperty ftDualShapes;
+    private SerializedProperty SingleFtShapes;
+    private SerializedProperty DualFtShapes;
 
     private AnimatorWizard wizard;
 
@@ -88,9 +87,8 @@ public class AnimatorGeneratorEditor : Editor
         saveVRCExpressionParameters = serializedObject.FindProperty("saveVRCExpressionParameters");
         SystemName = serializedObject.FindProperty("SystemName");
 
-        MirrorFTparams = serializedObject.FindProperty("MirrorFTparams");
-        MirrorHandposes = serializedObject.FindProperty("MirrorHandposes");
-        MirrorEyeposes = serializedObject.FindProperty("MirrorEyeposes");
+        UseSameHandAnimationsForBothHands = serializedObject.FindProperty("UseSameHandAnimationsForBothHands");
+        UseSameEyeAnimationsForBothEyes = serializedObject.FindProperty("UseSameEyeAnimationsForBothEyes");
 
         assetContainer = serializedObject.FindProperty("assetContainer");
 
@@ -152,8 +150,8 @@ public class AnimatorGeneratorEditor : Editor
         LeftEyePoses = serializedObject.FindProperty("LeftEyePoses");
         RightEyePoses = serializedObject.FindProperty("RightEyePoses");
 
-        ftShapes = serializedObject.FindProperty("ftShapes");
-        ftDualShapes = serializedObject.FindProperty("ftDualShapes");
+        SingleFtShapes = serializedObject.FindProperty("SingleFtShapes");
+        DualFtShapes = serializedObject.FindProperty("DualFtShapes");
     }
 
     public override void OnInspectorGUI()
@@ -223,10 +221,10 @@ public class AnimatorGeneratorEditor : Editor
         // Hand Poses
         GUILayout.Label("Hand Poses", headerStyle);
         GUILayout.Label("Array index maps to hand gesture parameter. Array length should be 8!", headerStyle2);
-        EditorGUILayout.PropertyField(MirrorHandposes, PopUpLabel("Mirror Hand Poses", ""));
+        EditorGUILayout.PropertyField(UseSameHandAnimationsForBothHands, PopUpLabel("Same Animations", "Use the same animations for both hands"));
         GUILayout.Space(10);
 
-        if (wizard.MirrorHandposes)
+        if (wizard.UseSameHandAnimationsForBothHands)
         {
             EditorGUILayout.PropertyField(LeftHandPoses, PopUpLabel("Hand Poses", ""));
         }
@@ -244,7 +242,7 @@ public class AnimatorGeneratorEditor : Editor
             "\nArray index maps to hand Gesture parameter. Array length should be 8!", headerStyle2);
         GUILayout.Space(10);
         EditorGUILayout.PropertyField(createFacialExpressionsControl,
-        PopUpLabel("Create Facial Expressions Control", "When created, adds a parameter to the VRC to disable/enable expression binding to hands."));
+        PopUpLabel("Facial Expressions Control", "Adds a parameter to the VRC to disable/enable expression binding to hands."));
         GUILayout.Space(10);
         EditorGUILayout.PropertyField(mouthPrefix);
         EditorGUILayout.PropertyField(mouthShapeNames);
@@ -327,14 +325,14 @@ public class AnimatorGeneratorEditor : Editor
         // EyeTracking
         if (wizard.createEyeTracking)
         {
-            GUILayout.Label("EyeTracking (Simplified Eye Parameters) settings", headerStyle);
-            GUILayout.Label("Creates EyeTracking with these animations.", headerStyle2);
+            GUILayout.Label("Eye Tracking (Simplified Eye Parameters) settings", headerStyle);
+            GUILayout.Label("Creates Eye Tracking with these animations.", headerStyle2);
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
             EditorGUILayout.PropertyField(maxEyeMotionValue);
-            EditorGUILayout.PropertyField(MirrorEyeposes, PopUpLabel("Mirror Eye poses", "Don't use other animations for the right side."));
+            EditorGUILayout.PropertyField(UseSameEyeAnimationsForBothEyes, PopUpLabel("Same Animations", "Use the same animations for both eyes."));
             GUILayout.Space(10);
-            if (wizard.MirrorEyeposes)
+            if (wizard.UseSameEyeAnimationsForBothEyes)
             {
                 EditorGUILayout.PropertyField(LeftEyePoses, PopUpLabel("Eye Poses", ""));
             }
@@ -348,21 +346,15 @@ public class AnimatorGeneratorEditor : Editor
         // FaceTracking
         if (wizard.createFaceTracking)
         {
-            GUILayout.Label("FaceTracking (Universal Shapes) settings", headerStyle);
-            GUILayout.Label("Creates FaceTracking with these animations.", headerStyle2);
-            GUILayout.Space(10);
+            GUILayout.Label("Face Tracking (Universal Shapes) settings", headerStyle);
+            GUILayout.Label("Creates Face Tracking with these animations.", headerStyle2);
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
-            GUILayout.Space(10);
             EditorGUILayout.PropertyField(createFTLipSyncControl,
-            PopUpLabel("Create Face Tracking LipSync Control", "Adds LypSync off/on feature."));
+            PopUpLabel("Face Tracking LipSync Control", "Adds LypSync off/on feature."));
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(MirrorFTparams,
-             PopUpLabel("Mirroring shapes", "Reflect automatically blendshapes if they have “Left” in their name."));
-
+            EditorGUILayout.PropertyField(SingleFtShapes, PopUpLabel("FT Single Shapes", "Single shapes controlled by a float parameter."));
             GUILayout.Space(10);
-            EditorGUILayout.PropertyField(ftShapes, PopUpLabel("FT Single Shapes", "Single shapes controlled by a float parameter."));
-            GUILayout.Space(10);
-            EditorGUILayout.PropertyField(ftDualShapes, PopUpLabel("FT Dual Shapes", "Mutually exclusive shape pairs controlled by a single float parameter."));
+            EditorGUILayout.PropertyField(DualFtShapes, PopUpLabel("FT Dual Shapes", "Mutually exclusive shape pairs controlled by a single float parameter."));
         }
 
         serializedObject.ApplyModifiedProperties();

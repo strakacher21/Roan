@@ -80,6 +80,12 @@ public partial class AnimatorWizard : MonoBehaviour
         tree.blendType = BlendTreeType.Simple1D;
         return tree;
     }
+    protected static string StripSide(string str)
+    {
+        if (str.EndsWith(Right)) return str.Substring(0, str.Length - Right.Length);
+        if (str.EndsWith(Left)) return str.Substring(0, str.Length - Left.Length);
+        return str;
+    }
 
     protected static int EachSide(ref string str)
     {
