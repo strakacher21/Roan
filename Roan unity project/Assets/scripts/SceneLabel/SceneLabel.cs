@@ -1,8 +1,8 @@
 ﻿#if UNITY_EDITOR
 
 using UnityEditor;
-using UnityEngine;
 using UnityEditor.SceneManagement;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [InitializeOnLoad]
@@ -38,6 +38,8 @@ public class SceneLabel
 
     private static void OnScene(SceneView sceneview)
     {
+        EnsureSwitcherAssetLoaded();
+
         Handles.BeginGUI();
 
         float pixelWidth = sceneview.camera.pixelWidth;
@@ -54,40 +56,40 @@ public class SceneLabel
         const float BUTTON_HEIGHT = 30f;
         const float SPACING = 5f;
 
-        float singleH = EditorGUIUtility.singleLineHeight;
+        //float singleH = EditorGUIUtility.singleLineHeight;
         float y = height - BOTTOM_MARGIN;
-        y -= singleH;
+        //y -= singleH;
 
-        Rect fieldRect = new Rect(LEFT_MARGIN, y, BUTTON_WIDTH, singleH);
+        //Rect fieldRect = new Rect(LEFT_MARGIN, y, BUTTON_WIDTH, singleH);
 
-        EditorGUI.BeginChangeCheck();
-        var newAsset = (SceneSwitcherAsset)EditorGUI.ObjectField(
-            fieldRect,
-            switcherAsset,
-            typeof(SceneSwitcherAsset),
-            false
-        );
+        //EditorGUI.BeginChangeCheck();
+        //var newAsset = (SceneSwitcherAsset)EditorGUI.ObjectField(
+        //    fieldRect,
+        //    switcherAsset,
+        //    typeof(SceneSwitcherAsset),
+        //    false
+        //);
 
-        if (EditorGUI.EndChangeCheck())
-        {
-            switcherAsset = newAsset;
-            if (switcherAsset != null)
-            {
-                string path = AssetDatabase.GetAssetPath(switcherAsset);
-                EditorPrefs.SetString(PrefKey, path);
-            }
-            else
-            {
-                EditorPrefs.DeleteKey(PrefKey);
-            }
-        }
+        //if (EditorGUI.EndChangeCheck())
+        //{
+        //    switcherAsset = newAsset;
+        //    if (switcherAsset != null)
+        //    {
+        //        string path = AssetDatabase.GetAssetPath(switcherAsset);
+        //        EditorPrefs.SetString(PrefKey, path);
+        //    }
+        //    else
+        //    {
+        //        EditorPrefs.DeleteKey(PrefKey);
+        //    }
+        //}
 
         if (switcherAsset != null && switcherAsset.scenes != null && switcherAsset.scenes.Length > 0)
         {
             int sceneCount = switcherAsset.scenes.Length;
             float totalHeight = sceneCount * (BUTTON_HEIGHT + SPACING) - SPACING;
             float startY = y - SPACING - totalHeight;
-            string activePath = EditorSceneManager.GetActiveScene().path;
+            //string activePath = EditorSceneManager.GetActiveScene().path;
 
             for (int i = 0; i < sceneCount; i++)
             {
@@ -133,6 +135,28 @@ public class SceneLabel
 
         Handles.EndGUI();
     }
-}
+    private static void EnsureSwitcherAssetLoaded()
+    {
+        if (switcherAsset != null) return;
 
+        string path = EditorPrefs.GetString(PrefKey, "");
+
+        if (!string.IsNullOrEmpty(path))
+            switcherAsset = AssetDatabase.LoadAssetAtPath<SceneSwitcherAsset>(path);
+
+        if (switcherAsset == null)
+        {
+            EditorPrefs.DeleteKey(PrefKey);
+
+            string[] guids = AssetDatabase.FindAssets("t:SceneSwitcherAsset");
+            if (guids == null || guids.Length == 0) return;
+
+            path = AssetDatabase.GUIDToAssetPath(guids[0]);
+            switcherAsset = AssetDatabase.LoadAssetAtPath<SceneSwitcherAsset>(path);
+        }
+
+        if (switcherAsset != null)
+            EditorPrefs.SetString(PrefKey, AssetDatabase.GetAssetPath(switcherAsset));
+    }
+}
 #endif
