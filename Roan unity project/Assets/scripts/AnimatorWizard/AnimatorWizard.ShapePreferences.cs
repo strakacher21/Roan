@@ -1,10 +1,10 @@
 #if UNITY_EDITOR
 
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
-using System;
+using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
-using VRC.SDKBase;
+using VRC.SDK3.Avatars.Components;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
@@ -14,9 +14,6 @@ public partial class AnimatorWizard : MonoBehaviour
     {
         if (!createShapePreferences)
             return;
-
-        if (_masterTree == null || _fxTreeLayer == null)
-            throw new Exception("FX master tree is not initialized (_masterTree/_fxTreeLayer).");
 
         // Toggle drivers (common to prefs and cloth)
         // this state transitions to itself every half second to update toggles. it sucks
@@ -28,7 +25,8 @@ public partial class AnimatorWizard : MonoBehaviour
             .WithTransitionDurationSeconds(0.5f)
             .WithTransitionToSelf();
 
-        var drivers = fxDriverState.State.AddStateMachineBehaviour<VRC_AvatarParameterDriver>();
+        var drivers = fxDriverState.State.AddStateMachineBehaviour<VRCAvatarParameterDriver>();
+        drivers.parameters ??= new List<VRCAvatarParameterDriver.Parameter>();
 
         var tree = _masterTree.CreateBlendTreeChild(0);
         tree.name = "Shape Preferences";
@@ -49,9 +47,9 @@ public partial class AnimatorWizard : MonoBehaviour
                 var boolParam = CreateBoolParam(_fxTreeLayer, blendShapeName, true, false);
                 var floatParam = _fxTreeLayer.FloatParameter(blendShapeName + "-float");
 
-                drivers.parameters.Add(new VRC_AvatarParameterDriver.Parameter
+                drivers.parameters.Add(new VRCAvatarParameterDriver.Parameter
                 {
-                    type = VRC_AvatarParameterDriver.ChangeType.Copy,
+                    type = VRCAvatarParameterDriver.ChangeType.Copy,
                     source = boolParam.Name,
                     name = floatParam.Name
                 });
