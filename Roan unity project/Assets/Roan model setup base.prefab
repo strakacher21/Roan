@@ -235,7 +235,7 @@ MonoBehaviour:
   gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
   GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
   GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
-  UseSameHandAnimationsForBothHands: 1
+  UseSameHandAnimationsForBothHands: 0
   LeftHandPoses:
   - {fileID: 7400000, guid: fcb7b5e309a9bc047870ec3ecf976d8d, type: 2}
   - {fileID: 7400000, guid: cc827d4a49f7ddd4c9bb97883d86dde2, type: 2}
