@@ -63,6 +63,11 @@ public partial class AnimatorWizard : MonoBehaviour
     public bool createFTLipSyncControl = false;
     public string lipSyncName = "LipSyncTrackingActive";
 
+    public string[] FaceTrackingBlockParamNames =
+    {
+        "AFK"
+    };
+
     public SingleFtShape[] SingleFtShapes = new[]
     {
         new SingleFtShape("JawOpen"),
@@ -93,8 +98,8 @@ public partial class AnimatorWizard : MonoBehaviour
         if (!createFaceTracking)
             return;
 
-        var layer = _aac.CreateSupportingFxLayer("face animations toggle").WithAvatarMask(fxMask);
-
+        var layer = _aac.CreateSupportingFxLayer("face tracking toggle").WithAvatarMask(fxMask);
+        var customFaceTrackingBlocksNames = BuildBlockBoolListParams(layer, FaceTrackingBlockParamNames);
         var ftActiveParam = CreateBoolParam(layer, FullFaceTrackingPrefix + "LipTrackingActive", true, false);
         var ftBlendParam = layer.FloatParameter(FullFaceTrackingPrefix + "LipTrackingActive-float");
 
@@ -123,23 +128,39 @@ public partial class AnimatorWizard : MonoBehaviour
                 .Drives(ftBlendParam, 1)
                 .TrackingTracks(AacAv3.Av3TrackingElement.Mouth);
 
-            var offFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingTracksState)
-                .When(ftActiveParam.IsFalse())
-                .And(lipSyncActiveParam.IsTrue());
+            // Transitions
+            var offLipSyncTracksTransition = layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingTracksState)
+                .When(lipSyncActiveParam.IsTrue())
+                .And(ftActiveParam.IsFalse());
 
-            var onFaceTrackingLipSyncTransition = layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingTracksState)
-                .WithTransitionToSelf()
-                .When(ftActiveParam.IsTrue())
-                .And(lipSyncActiveParam.IsTrue());
+            var onLipSyncTracksTransition = layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingTracksState)
+                //.WithTransitionToSelf()
+                .When(lipSyncActiveParam.IsTrue())
+                .And(ftActiveParam.IsTrue());
 
-            layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingAnimatesState)
-                .When(ftActiveParam.IsFalse())
-                .And(lipSyncActiveParam.IsFalse());
+            var offLipSyncAnimatesTransition = layer.AnyTransitionsTo(offFaceTrackingLipSyncTrackingAnimatesState)
+                .When(lipSyncActiveParam.IsFalse())
+                .And(ftActiveParam.IsFalse());
 
-            layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingAnimatesState)
-                .WithTransitionToSelf()
-                .When(ftActiveParam.IsTrue())
-                .And(lipSyncActiveParam.IsFalse());
+            var onLipSyncAnimatesTransition = layer.AnyTransitionsTo(onFaceTrackingLipSyncTrackingAnimatesState)
+                //.WithTransitionToSelf()
+                .When(lipSyncActiveParam.IsFalse())
+                .And(ftActiveParam.IsTrue());
+
+            if (customFaceTrackingBlocksNames != null && customFaceTrackingBlocksNames.Count > 0)
+                foreach (var block in customFaceTrackingBlocksNames)
+                {
+                    if (block == null) continue;
+
+                    offLipSyncTracksTransition
+                        .Or().When(lipSyncActiveParam.IsTrue()).And(block.IsTrue());
+
+                    offLipSyncAnimatesTransition
+                        .Or().When(lipSyncActiveParam.IsFalse()).And(block.IsTrue());
+
+                    onLipSyncTracksTransition.And(block.IsFalse());
+                    onLipSyncAnimatesTransition.And(block.IsFalse());
+                }
         }
 
         // States without Lip Sync Control
@@ -151,8 +172,21 @@ public partial class AnimatorWizard : MonoBehaviour
             var onFaceTrackingState = layer.NewState("face tracking on")
                 .Drives(ftBlendParam, 1);
 
-            layer.AnyTransitionsTo(offFaceTrackingState).When(ftActiveParam.IsFalse());
-            layer.AnyTransitionsTo(onFaceTrackingState).When(ftActiveParam.IsTrue());
+            // Transitions
+            var offFaceTrackingTransition = layer.AnyTransitionsTo(offFaceTrackingState)
+                .When(ftActiveParam.IsFalse());
+
+            var onFaceTrackingTransition = layer.AnyTransitionsTo(onFaceTrackingState)
+                //.WithTransitionToSelf()
+                .When(ftActiveParam.IsTrue());
+
+            if (customFaceTrackingBlocksNames != null && customFaceTrackingBlocksNames.Count > 0)
+                foreach (var block in customFaceTrackingBlocksNames)
+                {
+                    if (block == null) continue;
+                    offFaceTrackingTransition.Or().When(block.IsTrue());
+                    onFaceTrackingTransition.And(block.IsFalse());
+                }
         }
 
         // Tree face tracking

@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
 using VRC.SDK3.Avatars.Components;
-
 public partial class AnimatorWizard : MonoBehaviour
 {
     public bool createEyeTracking = true;
@@ -23,13 +22,18 @@ public partial class AnimatorWizard : MonoBehaviour
     public Motion[] LeftEyePoses;
     public Motion[] RightEyePoses;
 
+    public string[] EyeTrackingBlockParamNames =
+    {
+        "AFK"
+    };
+
     private void InitializeEyeTracking(SkinnedMeshRenderer skin, VRCAvatarDescriptor avatar)
     {
         if (!createEyeTracking)
             return;
 
         var AdditiveLayer = _aac.CreateMainIdleLayer();
-
+        var customEyeTrackingBlocksNames = BuildBlockBoolListParams(AdditiveLayer, EyeTrackingBlockParamNames);
         AacFlBoolParameter etActiveParam = CreateBoolParam(AdditiveLayer, FullFaceTrackingPrefix + "EyeTrackingActive", true, false);
 
         // WORKAROUND OSCsmooth does not work if the Blend param is not updated. need to fix this!
@@ -41,8 +45,8 @@ public partial class AnimatorWizard : MonoBehaviour
         Motion[] leftPoses = LeftEyePoses;
         Motion[] rightPoses = UseSameEyeAnimationsForBothEyes ? LeftEyePoses : RightEyePoses;
 
-        BlendTree leftEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, Left, maxEyeMotionValue, leftPoses, EyeLeftMask);
-        BlendTree rightEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, Right, maxEyeMotionValue, rightPoses, EyeRightMask);
+        BlendTree leftEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, customEyeTrackingBlocksNames, Left, maxEyeMotionValue, leftPoses, EyeLeftMask);
+        BlendTree rightEyeTree = setupEyeTracking(EyeXParam, EyeYParam, etActiveParam, customEyeTrackingBlocksNames, Right, maxEyeMotionValue, rightPoses, EyeRightMask);
 
         // OSC Eye Tracking smooth
         if (createOSCsmooth)
@@ -52,11 +56,11 @@ public partial class AnimatorWizard : MonoBehaviour
             ApplyOSCSmoothing(OSCLayerEye, localSmoothness, remoteSmoothness, allEyeParams, new List<BlendTree> { leftEyeTree, rightEyeTree });
         }
     }
-
     private BlendTree setupEyeTracking(
         AacFlFloatParameter EyeXParam,
         AacFlFloatParameter EyeYParam,
         AacFlBoolParameter etActiveParam,
+        List<AacFlBoolParameter> customEyeTrackingBlocksNames,
         string side,
         float maxMotionValue,
         Motion[] poses,
@@ -112,12 +116,23 @@ public partial class AnimatorWizard : MonoBehaviour
             .WithAnimation(EyeTrackingTree)
             .TrackingAnimates(AacAv3.Av3TrackingElement.Eyes);
 
-        layer.AnyTransitionsTo(VRCEyeControlState).When(etActiveParam.IsFalse());
-        layer.AnyTransitionsTo(EyeTrackingState).WithTransitionToSelf().When(etActiveParam.IsTrue());
+        var eyeTrackingOffTransition = layer.AnyTransitionsTo(VRCEyeControlState)
+            .When(etActiveParam.IsFalse());
+
+        var eyeTrackingOnTransition = layer.AnyTransitionsTo(EyeTrackingState)
+            .WithTransitionToSelf()
+            .When(etActiveParam.IsTrue());
+
+        if (customEyeTrackingBlocksNames != null && customEyeTrackingBlocksNames.Count > 0)
+            foreach (var block in customEyeTrackingBlocksNames)
+            {
+                if (block == null) continue;
+                eyeTrackingOffTransition.Or().When(block.IsTrue());
+                eyeTrackingOnTransition.And(block.IsFalse());
+            }
 
         return EyeTrackingTree;
     }
-
     partial void ApplyOSCSmoothing(
         AacFlLayer layer,
         float localSmoothness,

@@ -54,39 +54,6 @@ public partial class AnimatorWizard : MonoBehaviour
         ClearAssetContainer();
         DeleteAnimatorWizardLayers(avatar, SystemName);
 
-        InitializeGestureLayers();
-        InitializeFXLayer(skin);
-
-        InitializeEyeTracking(skin, avatar);
-        InitializeFaceTracking(skin, avatar);
-
-        InitializeClothingCustomization(skin);
-        InitializeColorCustomization();
-        InitializeShapePreferences(skin);
-        InitializeFaceToggle();
-
-        if (saveVRCExpressionParameters)
-        {
-            avatar.expressionParameters.parameters = _vrcParams.ToArray();
-            EditorUtility.SetDirty(avatar.expressionParameters);
-        }
-
-        RepackAnimatorControllers(avatar);
-        SortAnimatorWizardLayers(avatar, SystemName);
-    }
-
-    private void ClearAssetContainer()
-    {
-        foreach (var asset in AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(assetContainer)))
-        {
-            if (asset is AnimationClip or BlendTree)
-                AssetDatabase.RemoveObjectFromAsset(asset);
-        }
-    }
-
-    private void InitializeFXLayer(SkinnedMeshRenderer skin)
-    {
-
         // FX layer
         var fxLayer = _aac.CreateMainFxLayer().WithAvatarMask(fxMask);
 
@@ -106,21 +73,34 @@ public partial class AnimatorWizard : MonoBehaviour
         var ftActiveParam = fxLayer.BoolParameter(FullFaceTrackingPrefix + "LipTrackingActive");
         var faceToggleActiveParam = fxLayer.BoolParameter("FaceToggleActive");
 
-        AacFlBoolParameter expTrackActiveParam;
-        if (createFacialExpressionsControl)
-            expTrackActiveParam = CreateBoolParam(fxLayer, FullFaceTrackingPrefix + expTrackName, true, true);
-        else
-            expTrackActiveParam = fxLayer.BoolParameter(FullFaceTrackingPrefix + expTrackName);
+        InitializeGestureLayers();
+        InitializeGestureExpressions(skin, ftActiveParam);
 
-        var customGestureBlocksNames = new List<AacFlBoolParameter>();
-        foreach (var name in GestureExpressionsBlockParamNames)
+        InitializeEyeTracking(skin, avatar);
+        InitializeFaceTracking(skin, avatar);
+
+        InitializeClothingCustomization(skin);
+        InitializeColorCustomization();
+        InitializeShapePreferences(skin);
+        InitializeFaceToggle();
+
+        if (!saveVRCExpressionParameters)
         {
-            if (string.IsNullOrWhiteSpace(name)) continue;
-            customGestureBlocksNames.Add(fxLayer.BoolParameter(name));
+            avatar.expressionParameters.parameters = _vrcParams.ToArray();
+            EditorUtility.SetDirty(avatar.expressionParameters);
         }
 
-        InitializeGestureExpressions(skin, ftActiveParam, expTrackActiveParam, faceToggleActiveParam, customGestureBlocksNames);
+        RepackAnimatorControllers(avatar);
+        SortAnimatorWizardLayers(avatar, SystemName);
+    }
 
+    private void ClearAssetContainer()
+    {
+        foreach (var asset in AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(assetContainer)))
+        {
+            if (asset is AnimationClip or BlendTree)
+                AssetDatabase.RemoveObjectFromAsset(asset);
+        }
     }
 }
 

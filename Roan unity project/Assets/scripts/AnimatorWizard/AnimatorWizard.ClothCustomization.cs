@@ -4,6 +4,7 @@ using AnimatorAsCode.V1;
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
 using System.Collections.Generic;
 using UnityEngine;
+using VRC.SDK3.Avatars.Components;
 using VRC.SDKBase;
 
 public partial class AnimatorWizard : MonoBehaviour
@@ -48,7 +49,7 @@ public partial class AnimatorWizard : MonoBehaviour
 
         var waitingState = layer.NewState("Waiting command");
         var waitingTransition = layer.AnyTransitionsTo(waitingState);
-        var ClothDriverSetsFalse = waitingState.State.AddStateMachineBehaviour<VRC_AvatarParameterDriver>();
+        var ClothDriverSetsFalse = waitingState.State.AddStateMachineBehaviour<VRCAvatarParameterDriver>();
 
         var clothStates = new Dictionary<string, AacFlState>();
 
@@ -62,7 +63,7 @@ public partial class AnimatorWizard : MonoBehaviour
         foreach (var clothName in allPossibleClothes)
         {
             var clothState = layer.NewState(clothName);
-            var ClothDriverSetsTrue = clothState.State.AddStateMachineBehaviour<VRC_AvatarParameterDriver>();
+            var ClothDriverSetsTrue = clothState.State.AddStateMachineBehaviour<VRCAvatarParameterDriver>();
             var ClothClip = _aac.NewClip($"Cloth_{clothName}");
 
             AacFlBoolParameter boolParam = null;
@@ -75,17 +76,17 @@ public partial class AnimatorWizard : MonoBehaviour
                 {
                     boolParam = CreateBoolParam(layer, ClothTogglesPrefix + clothName, true, false);
 
-                    ClothDriverSetsFalse.parameters.Add(new VRC_AvatarParameterDriver.Parameter
+                    ClothDriverSetsFalse.parameters.Add(new VRCAvatarParameterDriver.Parameter
                     {
                         name = ClothTogglesPrefix + clothName,
-                        type = VRC_AvatarParameterDriver.ChangeType.Set,
+                        type = VRCAvatarParameterDriver.ChangeType.Set,
                         value = 0
                     });
 
-                    ClothDriverSetsTrue.parameters.Add(new VRC_AvatarParameterDriver.Parameter
+                    ClothDriverSetsTrue.parameters.Add(new VRCAvatarParameterDriver.Parameter
                     {
                         name = ClothTogglesPrefix + clothName,
-                        type = VRC_AvatarParameterDriver.ChangeType.Set,
+                        type = VRCAvatarParameterDriver.ChangeType.Set,
                         value = 1
                     });
 
@@ -99,10 +100,10 @@ public partial class AnimatorWizard : MonoBehaviour
                 {
                     if (otherClothName != clothName)
                     {
-                        ClothDriverSetsTrue.parameters.Add(new VRC_AvatarParameterDriver.Parameter
+                        ClothDriverSetsTrue.parameters.Add(new VRCAvatarParameterDriver.Parameter
                         {
                             name = ClothTogglesPrefix + otherClothName,
-                            type = VRC_AvatarParameterDriver.ChangeType.Set,
+                            type = VRCAvatarParameterDriver.ChangeType.Set,
                             value = 0
                         });
 

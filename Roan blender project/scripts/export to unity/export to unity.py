@@ -135,17 +135,24 @@ class EXPORT_TO_UNITY_OT_export(bpy.types.Operator):
             bpy.context.active_object.name = desired_model_name
 
         # Delete all UV maps except the selected one
-
         obj = bpy.context.active_object
         uv_layers = obj.data.uv_layers
 
-        if export_uv_map in uv_layers:
-            uv_layers.active = uv_layers[export_uv_map]
-            layers_to_remove = [uv for uv in uv_layers if uv.name != export_uv_map]
-            for uv in layers_to_remove:
+        target_name = export_uv_map.strip()
+        target = uv_layers.get(target_name)
+
+        if target is None:
+            raise ValueError(f"UV map '{export_uv_map}' not found. Existing: {[uv.name for uv in uv_layers]}")
+
+        uv_layers.active = target
+
+        names_to_remove = [uv.name for uv in uv_layers if uv.name != target.name]
+        for name in names_to_remove:
+            uv = uv_layers.get(name)
+            if uv is not None:
                 uv_layers.remove(uv)
-        else:
-            raise ValueError(f"UV map '{export_uv_map}' not found.")
+
+        uv_layers.active = uv_layers.get(target.name)
 
         # Set export collection as active layer collection
 
@@ -168,8 +175,8 @@ class EXPORT_TO_UNITY_OT_export(bpy.types.Operator):
             bake_anim_simplify_factor=0.0,
             colors_type="LINEAR" if export_vertex_colors else "NONE",
             use_armature_deform_only=True,
+            mesh_smooth_type='EDGE',
             use_triangles=False
-            #mesh_smooth_type='SMOOTH_GROUP'
         )
 
         # keep unchanged after export

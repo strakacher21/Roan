@@ -80,6 +80,23 @@ public partial class AnimatorWizard : MonoBehaviour
         tree.blendType = BlendTreeType.Simple1D;
         return tree;
     }
+    protected static List<AacFlBoolParameter> BuildBlockBoolListParams(AacFlLayer layer, IEnumerable<string> names)
+    {
+        var result = new List<AacFlBoolParameter>();
+        if (layer == null || names == null) return result;
+
+        var seen = new HashSet<string>();
+        foreach (var name in names)
+        {
+            if (string.IsNullOrWhiteSpace(name)) continue;
+            if (!seen.Add(name)) continue; // avoid duplicate parameter names
+            result.Add(layer.BoolParameter(name));
+        }
+
+        return result;
+    }
+
+
     protected static string StripSide(string str)
     {
         if (str.EndsWith(Right)) return str.Substring(0, str.Length - Right.Length);
@@ -174,7 +191,7 @@ public partial class AnimatorWizard : MonoBehaviour
         set.Add(systemName + "__clothlowerbody");
         set.Add(systemName + "__clothfoot");
 
-        set.Add(systemName + "__face animations toggle");
+        set.Add(systemName + "__face tracking toggle");
         set.Add(systemName + "__OSC smoothing");
 
         set.Add(systemName + "__Left hand");

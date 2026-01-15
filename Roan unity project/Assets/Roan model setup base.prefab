@@ -94,8 +94,8 @@ MonoBehaviour:
   shapePreferenceSliderPrefix: pref/slider/
   shapePreferenceTogglesPrefix: pref/toggle/
   FullFaceTrackingPrefix: v2/
-  createFaceToggle: 0
-  GestureExpressionsBlockParamNames: []
+  GestureExpressionsBlockParamNames:
+  - AFK
   createFacialExpressionsControl: 0
   expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
@@ -143,11 +143,20 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 930b2e2a422ccbb4fb29655b1686ce42, type: 2}
   - {fileID: 7400000, guid: ffe7bfda0c46fa64b89b8669e23871f9, type: 2}
   - {fileID: 7400000, guid: fabaa03842dea1346b36860ebff4c25a, type: 2}
+  EyeTrackingBlockParamNames:
+  - AFK
+  createFaceToggle: 0
   FaceToggleNames: []
+  FaceToggleBlockParamNames:
+  - FaceToggleActive
+  - contact/confuse
+  - AFK
   createFaceTracking: 1
   MirrorFTparams: 0
   createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
+  FaceTrackingBlockParamNames:
+  - AFK
   SingleFtShapes:
   - shapeName: JawOpen
     leftAndRightShapes: 0

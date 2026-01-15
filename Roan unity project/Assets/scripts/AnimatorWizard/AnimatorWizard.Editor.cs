@@ -32,7 +32,6 @@ public class AnimatorGeneratorEditor : Editor
     private SerializedProperty createEyeTracking;
     private SerializedProperty createFaceTracking;
 
-    private SerializedProperty createFacialExpressionsControl;
     private SerializedProperty createFTLipSyncControl;
     private SerializedProperty createOSCsmooth;
 
@@ -69,6 +68,9 @@ public class AnimatorGeneratorEditor : Editor
     private SerializedProperty FaceToggleNames;
 
     private SerializedProperty GestureExpressionsBlockParamNames;
+    private SerializedProperty FaceToggleBlockParamNames;
+    private SerializedProperty FaceTrackingBlockParamNames;
+    private SerializedProperty EyeTrackingBlockParamNames;
 
     private SerializedProperty lipSyncName;
 
@@ -110,7 +112,6 @@ public class AnimatorGeneratorEditor : Editor
         createEyeTracking = serializedObject.FindProperty("createEyeTracking");
         createFaceTracking = serializedObject.FindProperty("createFaceTracking");
 
-        createFacialExpressionsControl = serializedObject.FindProperty("createFacialExpressionsControl");
         createFTLipSyncControl = serializedObject.FindProperty("createFTLipSyncControl");
         createOSCsmooth = serializedObject.FindProperty("createOSCsmooth");
 
@@ -139,6 +140,9 @@ public class AnimatorGeneratorEditor : Editor
         FaceToggleNames = serializedObject.FindProperty("FaceToggleNames");
 
         GestureExpressionsBlockParamNames = serializedObject.FindProperty("GestureExpressionsBlockParamNames");
+        FaceToggleBlockParamNames = serializedObject.FindProperty("FaceToggleBlockParamNames");
+        FaceTrackingBlockParamNames = serializedObject.FindProperty("FaceTrackingBlockParamNames");
+        EyeTrackingBlockParamNames = serializedObject.FindProperty("EyeTrackingBlockParamNames");
 
         primaryColor0 = serializedObject.FindProperty("primaryColor0");
         secondColor0 = serializedObject.FindProperty("secondColor0");
@@ -240,19 +244,16 @@ public class AnimatorGeneratorEditor : Editor
         GUILayout.Label("Facial expressions", headerStyle);
         GUILayout.Label("Brow and mouth blendshapes controlled by left and right hands." +
             "\nArray index maps to hand Gesture parameter. Array length should be 8!", headerStyle2);
-        GUILayout.Space(10);
-        EditorGUILayout.PropertyField(createFacialExpressionsControl,
-        PopUpLabel("Facial Expressions Control", "Adds a parameter to the VRC to disable/enable expression binding to hands."));
+        // Custom gesture blocks
+        GUILayout.Space(5);
+        EditorGUILayout.PropertyField(GestureExpressionsBlockParamNames,
+            PopUpLabel("Gesture Expressions Block bool list", "Each element is a VRC bool parameter name. When any is True, gestures won't drive expressions."));
         GUILayout.Space(10);
         EditorGUILayout.PropertyField(mouthPrefix);
         EditorGUILayout.PropertyField(mouthShapeNames);
         GUILayout.Space(20);
         EditorGUILayout.PropertyField(browPrefix);
         EditorGUILayout.PropertyField(browShapeNames);
-        // Custom gesture blocks
-        GUILayout.Space(5);
-        EditorGUILayout.PropertyField(GestureExpressionsBlockParamNames,
-            PopUpLabel("Gesture Expressions Block bool list", "Each element is a VRC bool parameter name. When any is True, gestures won't drive expressions."));
 
         // Animator creation flags
         GUILayout.Label("Animator creation flags", headerStyle);
@@ -310,6 +311,11 @@ public class AnimatorGeneratorEditor : Editor
         {
             GUILayout.Label("FaceToggle setup animations", headerStyle);
             GUILayout.Label("Creates an algorithm to switch face animations.", headerStyle2);
+            // Custom Face Toggle blocks
+            GUILayout.Space(5);
+            EditorGUILayout.PropertyField(FaceToggleBlockParamNames,
+                PopUpLabel("Face Toggle Block bool list", "Each element is a VRC bool parameter name. When any is True, Face Toggle won't work."));
+            GUILayout.Space(10);
             EditorGUILayout.PropertyField(FaceToggleNames);
         }
 
@@ -322,7 +328,7 @@ public class AnimatorGeneratorEditor : Editor
             EditorGUILayout.PropertyField(localSmoothness);
             EditorGUILayout.PropertyField(remoteSmoothness);
         }
-        // EyeTracking
+        // Eye Tracking
         if (wizard.createEyeTracking)
         {
             GUILayout.Label("Eye Tracking (Simplified Eye Parameters) settings", headerStyle);
@@ -331,6 +337,10 @@ public class AnimatorGeneratorEditor : Editor
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
             EditorGUILayout.PropertyField(maxEyeMotionValue);
             EditorGUILayout.PropertyField(UseSameEyeAnimationsForBothEyes, PopUpLabel("Same Animations", "Use the same animations for both eyes."));
+            // Custom Eye Tracking blocks
+            GUILayout.Space(5);
+            EditorGUILayout.PropertyField(EyeTrackingBlockParamNames,
+                PopUpLabel("Face Tracking Block bool list", "Each element is a VRC bool parameter name. When any is True, Eye Tracking won't work."));
             GUILayout.Space(10);
             if (wizard.UseSameEyeAnimationsForBothEyes)
             {
@@ -343,7 +353,7 @@ public class AnimatorGeneratorEditor : Editor
             }
         }
 
-        // FaceTracking
+        // Face Tracking
         if (wizard.createFaceTracking)
         {
             GUILayout.Label("Face Tracking (Universal Shapes) settings", headerStyle);
@@ -351,6 +361,10 @@ public class AnimatorGeneratorEditor : Editor
             EditorGUILayout.PropertyField(FullFaceTrackingPrefix);
             EditorGUILayout.PropertyField(createFTLipSyncControl,
             PopUpLabel("Face Tracking LipSync Control", "Adds LypSync off/on feature."));
+            // Custom Face Toggle blocks
+            GUILayout.Space(5);
+            EditorGUILayout.PropertyField(FaceTrackingBlockParamNames,
+                PopUpLabel("Face Tracking Block bool list", "Each element is a VRC bool parameter name. When any is True, Face Tracking won't work."));
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(SingleFtShapes, PopUpLabel("FT Single Shapes", "Single shapes controlled by a float parameter."));
             GUILayout.Space(10);

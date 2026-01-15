@@ -80,8 +80,8 @@ if bpy.context.selected_objects:
         bake_anim_simplify_factor=0.0,
         colors_type="LINEAR" if export_vertex_colors else "NONE",
         use_armature_deform_only=True,
+        mesh_smooth_type='EDGE'
         use_triangles=False
-        #mesh_smooth_type='SMOOTH_GROUP'
     )
 
     bpy.ops.ed.undo_push()

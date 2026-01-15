@@ -14,11 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
-  - name: v2/LipTrackingActive
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/EyeTrackingActive
     valueType: 2
     saved: 1
@@ -32,6 +27,11 @@ MonoBehaviour:
   - name: v2/EyeY
     valueType: 1
     saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/LipTrackingActive
+    valueType: 2
+    saved: 1
     defaultValue: 0
     networkSynced: 1
   - name: v2/JawOpen
@@ -54,12 +54,7 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthStretchLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/MouthStretchRight
+  - name: v2/MouthStretch
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -80,11 +75,6 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: v2/MouthLowerDownRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/MouthRaiserUpper
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -129,12 +119,12 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/SmileSadRight
+  - name: v2/SmileSadLeft
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/SmileSadLeft
+  - name: v2/SmileSadRight
     valueType: 1
     saved: 0
     defaultValue: 0

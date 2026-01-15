@@ -8,11 +8,12 @@ using UnityEngine;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
-    public bool createFaceToggle = true;
 
     public string[] GestureExpressionsBlockParamNames =
     {
-        "contact/confuse"
+        "FaceToggleActive",
+        "contact/confuse",
+        "AFK"
     };
 
     public bool createFacialExpressionsControl = false;
@@ -46,17 +47,14 @@ public partial class AnimatorWizard : MonoBehaviour
 
     protected void InitializeGestureExpressions(
         SkinnedMeshRenderer skin,
-        AacFlBoolParameter ftActiveParam,
-        AacFlBoolParameter ExpTrackActiveParam,
-        AacFlBoolParameter FaceToggleActive,
-        List<AacFlBoolParameter> customGestureBlocksNames
+        AacFlBoolParameter ftActiveParam
         )
     {
         // brow Gesture expressions
-        MapHandPosesToShapes("brow expressions", skin, browShapeNames, browPrefix, false, ftActiveParam, ExpTrackActiveParam, FaceToggleActive, customGestureBlocksNames);
+        MapHandPosesToShapes("brow expressions", skin, browShapeNames, browPrefix, false, ftActiveParam, GestureExpressionsBlockParamNames);
 
         // mouth Gesture expressions
-        MapHandPosesToShapes("mouth expressions", skin, mouthShapeNames, mouthPrefix, true, ftActiveParam, ExpTrackActiveParam, FaceToggleActive, customGestureBlocksNames);
+        MapHandPosesToShapes("mouth expressions", skin, mouthShapeNames, mouthPrefix, true, ftActiveParam, GestureExpressionsBlockParamNames);
     }
 
     private void MapHandPosesToShapes(
@@ -66,12 +64,11 @@ public partial class AnimatorWizard : MonoBehaviour
         string prefix,
         bool rightHand,
         AacFlBoolParameter ftActiveParam,
-        AacFlBoolParameter ExpTrackActiveParam,
-        AacFlBoolParameter FaceToggleActive,
-        List<AacFlBoolParameter> customGestureBlocksNames
+        IEnumerable<string> blockNames
         )
     {
         var layer = _aac.CreateSupportingFxLayer(layerName).WithAvatarMask(fxMask);
+        var customGestureBlocksNames = BuildBlockBoolListParams(layer, blockNames);
         var Gesture = layer.IntParameter("Gesture" + (rightHand ? Right : Left));
 
         List<string> allExpressions = new List<string>();
@@ -111,34 +108,6 @@ public partial class AnimatorWizard : MonoBehaviour
                 {
                     enter.And(ftActiveParam.IsFalse());
                     exit.Or().When(ftActiveParam.IsTrue());
-                }
-            }
-
-            if (createFacialExpressionsControl)
-            {
-                if (i == 0)
-                {
-                    enter.Or().When(ExpTrackActiveParam.IsFalse());
-                    exit.And(ExpTrackActiveParam.IsTrue());
-                }
-                else
-                {
-                    enter.And(ExpTrackActiveParam.IsTrue());
-                    exit.Or().When(ExpTrackActiveParam.IsFalse());
-                }
-            }
-
-            if (createFaceToggle)
-            {
-                if (i == 0)
-                {
-                    enter.Or().When(FaceToggleActive.IsTrue());
-                    exit.And(FaceToggleActive.IsFalse());
-                }
-                else
-                {
-                    enter.And(FaceToggleActive.IsFalse());
-                    exit.Or().When(FaceToggleActive.IsTrue());
                 }
             }
 
