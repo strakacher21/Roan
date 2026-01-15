@@ -119,12 +119,12 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/SmileSadLeft
+  - name: v2/SmileFrownLeft
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/SmileSadRight
+  - name: v2/SmileFrownRight
     valueType: 1
     saved: 0
     defaultValue: 0

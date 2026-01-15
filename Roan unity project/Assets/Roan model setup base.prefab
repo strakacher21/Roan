@@ -183,8 +183,8 @@ MonoBehaviour:
   - shapeName: CheekSquint
     leftAndRightShapes: 1
   DualFtShapes:
-  - paramName: SmileSad
-    minShapeName: MouthSad
+  - paramName: SmileFrown
+    minShapeName: MouthFrown
     maxShapeName: MouthSmile
     minValue: -1
     neutralValue: 0
@@ -256,7 +256,7 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 19bc73ff33d8d3e48a376ebe0c2349cc, type: 2}
   createOSCsmooth: 1
   localSmoothness: 0.1
-  remoteSmoothness: 0.7
+  remoteSmoothness: 0.5
   createShapePreferences: 0
 --- !u!114 &7671356844076179755
 MonoBehaviour:
