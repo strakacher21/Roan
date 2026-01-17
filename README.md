@@ -9,7 +9,7 @@ ___
   <img src="Gallery/Roan showcase shaded.jpg" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan showcase mesh.jpg" alt="Roan mesh" width="45%">
 
-  ### [:arrow_forward:Sketchfab Preview (tag 2.2)](https://skfb.ly/pAzHI)
+  ### [:arrow_forward:Sketchfab Preview (tag 3.0)](https://skfb.ly/pAzHI)
 </details>
 
 ___
@@ -28,11 +28,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat avatar (tag 2.2)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
-(basic face tracking and in-game color change for PC only)
-
-### [:arrow_forward:Link to the VRChat *only VRCFT* avatar (tag 2.2)](https://vrchat.com/home/avatar/avtr_7260a101-a39a-4ac1-9139-1c206a64d397)
-(better face tracking but no in-game color change. ***This will become the main version soon, meaning "only VRCFT" version will be removed will be removed soon***)
+### [:arrow_forward:Link to the VRChat avatar (tag 3.0)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
 (where I test the latest changes)
