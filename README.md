@@ -24,7 +24,13 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 # Get
 
-### [:arrow_forward:Download Project](https://github.com/strakacher21/Roan/releases)
+### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
+(stable versions)
+### Or clone the repository
+   ```
+   https://github.com/strakacher21/Roan.git
+   ```
+(latest development)
 
 ## Avatar Links
 
