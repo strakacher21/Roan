@@ -26,7 +26,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 (stable versions)
-### :arrow_forward:Or clone the repository
+### :arrow_forward:Clone the repository
    ```
    https://github.com/strakacher21/Roan.git
    ```
