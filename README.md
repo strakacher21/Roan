@@ -27,7 +27,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 (stable versions)
 ### [:arrow_forward:Download 'main' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
-(latest development, no Git needed)
+(latest development)
 ### :arrow_forward:Clone the Repository
    ```
    https://github.com/strakacher21/Roan.git
