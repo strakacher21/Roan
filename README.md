@@ -5,9 +5,9 @@ ___
 
 <details open>
 <summary><b>Media (tag 3.0)</b></summary>
-  <img src="Gallery/Roan.jpg" alt="Roan preview" width="90%">
-  <img src="Gallery/Roan showcase shaded.jpg" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan showcase mesh.jpg" alt="Roan mesh" width="45%">
+  <img src="Gallery/Roan.png" alt="Roan preview" width="90%">
+  <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
+  <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
 
   ### [:arrow_forward:Sketchfab Preview (tag 3.0)](https://skfb.ly/pAzHI)
 </details>
