@@ -1455,7 +1455,7 @@ MonoBehaviour:
   - viseme/ih
   - viseme/oh
   - viseme/ou
-  unityVersion: 
+  unityVersion: 2022.3.22f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   networkIDs: []
@@ -1466,30 +1466,30 @@ MonoBehaviour:
   enableEyeLook: 1
   customEyeLookSettings:
     eyeMovement:
-      confidence: 1
-      excitement: 1
+      confidence: 0.2
+      excitement: 0.8
     leftEye: {fileID: 6943342513899499238}
     rightEye: {fileID: 7054098430902567880}
     eyesLookingStraight:
       linked: 1
-      left: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
-      right: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+      left: {x: 0.00000003090862, y: 0.70710677, z: 0.70710677, w: -0.00000003090862}
+      right: {x: 0.00000003090862, y: 0.70710677, z: 0.70710677, w: -0.00000003090862}
     eyesLookingUp:
       linked: 1
-      left: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
-      right: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
+      left: {x: 0.000000016727626, y: 0.9238795, z: 0.38268346, w: -0.000000040384055}
+      right: {x: 0.000000016727626, y: 0.9238795, z: 0.38268346, w: -0.000000040384055}
     eyesLookingDown:
       linked: 1
-      left: {x: 0.9238795, y: 0, z: 0, w: 0.38268343}
-      right: {x: 0.9238795, y: 0, z: 0, w: 0.38268343}
+      left: {x: 0.000000016727626, y: 0.38268346, z: 0.9238795, w: -0.000000040384055}
+      right: {x: 0.000000016727626, y: 0.38268346, z: 0.9238795, w: -0.000000040384055}
     eyesLookingLeft:
       linked: 1
-      left: {x: 0.65328145, y: -0.27059805, z: 0.27059805, w: 0.65328145}
-      right: {x: 0.65328145, y: -0.27059805, z: 0.27059805, w: 0.65328145}
+      left: {x: -0.27059805, y: 0.65328145, z: 0.65328145, w: 0.27059805}
+      right: {x: -0.27059805, y: 0.65328145, z: 0.65328145, w: 0.27059805}
     eyesLookingRight:
       linked: 1
-      left: {x: 0.65328145, y: 0.27059805, z: -0.27059805, w: 0.65328145}
-      right: {x: 0.65328145, y: 0.27059805, z: -0.27059805, w: 0.65328145}
+      left: {x: -0.27059805, y: -0.65328145, z: -0.65328145, w: 0.27059805}
+      right: {x: -0.27059805, y: -0.65328145, z: -0.65328145, w: 0.27059805}
     eyelidType: 2
     upperLeftEyelid: {fileID: 0}
     upperRightEyelid: {fileID: 0}
@@ -1551,7 +1551,7 @@ MonoBehaviour:
     type: 3
     animatorController: {fileID: 9100000, guid: 26ce0b94a2f994e448dc6d3ff14477d0,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
     isDefault: 0
   - isEnabled: 0
     type: 4
@@ -1562,7 +1562,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: c3a0066f2452bb3478d4a2151c40a69f,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0
@@ -1583,27 +1583,27 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
-  - hash: 1256214857
+  - hash: -945202046
     name: Proning
-  - hash: -13884245
+  - hash: -216566114
     name: Standing
-  - hash: -843081352
+  - hash: -1694472695
     name: Crouching
-  - hash: -205779520
+  - hash: 563524136
     name: Avatar  Showcase
-  - hash: -1536771405
+  - hash: -1922821475
     name: JumpAndFall.Short Fall
-  - hash: 724575528
+  - hash: -246445566
     name: JumpAndFall.HardLand
-  - hash: -1616780693
+  - hash: 1172196673
     name: JumpAndFall.LongFall
-  - hash: 976865536
+  - hash: -1948966390
     name: JumpAndFall.RestoreTracking
-  - hash: -333680968
+  - hash: 912507282
     name: JumpAndFall.SmallHop
-  - hash: 1506794239
+  - hash: -1966747381
     name: JumpAndFall.RestoreToHop
-  - hash: -49821148
+  - hash: 644250717
     name: JumpAndFall.QuickLand
   - hash: 2008513115
     name: VRC Eye Left Control
@@ -1649,6 +1649,8 @@ MonoBehaviour:
     name: rig_hand 6 gun
   - hash: 1713256113
     name: rig_hand 7 thumbs up
+  - hash: 1376474967
+    name: master tree
   - hash: -1905250930
     name: basis
   - hash: 341124537
@@ -1681,25 +1683,29 @@ MonoBehaviour:
     name: grimace 2
   - hash: -1605802678
     name: sad 1
-  - hash: 1376474967
-    name: master tree
-  - hash: 619640793
+  - hash: 559359603
     name: face tracking off
-  - hash: 1541769089
+  - hash: -496812474
     name: face tracking on
   - hash: -2086182126
     name: OSC Local
   - hash: 131470683
     name: OSC Remote
+  - hash: 1431504073
+    name: Waiting command
+  - hash: 1583328356
+    name: AFK
+  - hash: 306979463
+    name: Waiting command (EyeTrackingActive)
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
     isMirrored: 1
     state: 0
     transform: {fileID: 7010972210466711444}
-    radius: 0.00083629135
+    radius: 0.0008362916
     height: 0
-    position: {x: 0, y: 0.00070537574, z: 1.2005331e-10}
+    position: {x: 0, y: 0.0007053778, z: 7.639756e-11}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
@@ -1713,7 +1719,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.00096776267
+    radius: 0.00096776336
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1721,7 +1727,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1782010271883283104}
-    radius: 0.00096776226
+    radius: 0.000967764
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1729,32 +1735,32 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 2034179461728463320}
-    radius: 0.00023441306
-    height: 0.00093765225
-    position: {x: 0.000024183179, y: 0.0007965966, z: 0.000007987877}
-    rotation: {x: 0.7101129, y: 0, z: -0.039982766, w: 0.7029517}
+    radius: 0.00023441292
+    height: 0.00093765167
+    position: {x: 0.000024181914, y: 0.00079659757, z: 0.000007988372}
+    rotation: {x: 0.71002054, y: 0, z: -0.042129576, w: 0.7029196}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 6939038875490361205}
-    radius: 0.00023441258
-    height: 0.00093765033
-    position: {x: -0.00002418038, y: 0.0007965967, z: 0.000007988142}
-    rotation: {x: 0.710113, y: 0, z: 0.039982833, w: 0.70295155}
+    radius: 0.00023441293
+    height: 0.0009376517
+    position: {x: -0.000024179819, y: 0.0007965978, z: 0.0000079879665}
+    rotation: {x: 0.7100201, y: 0, z: 0.042129617, w: 0.70292}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.00010310122
-    height: 0.0005155061
+    radius: 0.00010310102
+    height: 0.0005155051
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.000116585485
-    height: 0.00058292743
+    radius: 0.000116586
+    height: 0.00058293
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
@@ -1769,40 +1775,40 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 3939360399094425349}
-    radius: 0.00007459089
-    height: 0.00037295447
+    radius: 0.00007459021
+    height: 0.00037295104
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.00010310124
-    height: 0.00051550625
+    radius: 0.00010310172
+    height: 0.0005155086
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.0001165855
-    height: 0.0005829275
+    radius: 0.00011658473
+    height: 0.00058292365
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 1510899563417515397}
-    radius: 0.000080478676
-    height: 0.0004023934
+    radius: 0.0000804782
+    height: 0.00040239102
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 904776832859149725}
-    radius: 0.00007459044
-    height: 0.0003729522
+    radius: 0.00007459096
+    height: 0.0003729548
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &192166115873691097
