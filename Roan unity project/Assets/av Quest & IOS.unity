@@ -185,6 +185,26 @@ PrefabInstance:
       propertyPath: fallbackStatus
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: platformOverrides.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: platformOverrides.Array.data[1].avatar
+      value: 
+      objectReference: {fileID: 1998558050}
+    - target: {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: platformOverrides.Array.data[0].platform
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: platformOverrides.Array.data[1].platform
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2952084187836899171, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -383,10 +403,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7671356844076179755, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
+    - {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
+--- !u!114 &1998558050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1998558049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 542108242, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
