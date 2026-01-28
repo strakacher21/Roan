@@ -805,7 +805,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.5
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1928,7 +1928,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.8
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2366,7 +2366,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.65
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2546,7 +2546,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.5
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
