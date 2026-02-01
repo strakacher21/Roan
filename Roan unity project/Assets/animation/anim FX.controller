@@ -1003,7 +1003,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "Roan__\u0410FK Emote"
+  m_Name: "Roan__\u0410FK Emote (custom layer)"
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 8379019541922034019}
@@ -5710,7 +5710,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: "Roan__\u0410FK Emote"
+    m_Name: "Roan__\u0410FK Emote (custom layer)"
     m_StateMachine: {fileID: -7264749695182524632}
     m_Mask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
     m_Motions: []

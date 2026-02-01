@@ -1129,7 +1129,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  isAnimated: 0
+  isAnimated: 1
   resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
@@ -1339,7 +1339,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  isAnimated: 0
+  isAnimated: 1
   resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
