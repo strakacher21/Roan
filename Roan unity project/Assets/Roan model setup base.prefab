@@ -1862,7 +1862,7 @@ MonoBehaviour:
   foldout_stretchsquish: 1
   foldout_limits: 1
   foldout_grabpose: 1
-  foldout_options: 0
+  foldout_options: 1
   foldout_gizmos: 0
   version: 1
   integrationType: 0
@@ -2096,7 +2096,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  isAnimated: 0
+  isAnimated: 1
   resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
