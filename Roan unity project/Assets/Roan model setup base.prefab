@@ -52,7 +52,9 @@ MonoBehaviour:
     favourite: {fileID: 0}
     initialPose: 0
     userIndex: 0
+    cullingDistance: 0
     isOnFriendsList: 0
+    simulateCulling: 0
     loadStored: 0
     isRemote: 0
     vrMode: 0
@@ -550,7 +552,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.05
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -805,7 +807,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 0.5
+  gravity: 0.25
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1928,7 +1930,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 0.8
+  gravity: 0.4
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2162,7 +2164,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 1
+  gravity: 0.05
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2366,7 +2368,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 0.65
+  gravity: 0.325
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2546,7 +2548,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 0.5
+  gravity: 0.25
   gravityCurve:
     serializedVersion: 2
     m_Curve: []
