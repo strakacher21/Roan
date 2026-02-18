@@ -9,7 +9,7 @@ ___
   <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
   <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
 
-  ### [:arrow_forward:Sketchfab Preview (tag 3.0)](https://skfb.ly/pAzHI)
+  ### [:arrow_forward:Sketchfab Preview (tag 3.1)](https://skfb.ly/pAzHI)
 </details>
 
 ___
@@ -36,7 +36,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat avatar (tag 3.0)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Link to the VRChat avatar (tag 3.1)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
 (where I test the latest changes)
@@ -74,10 +74,10 @@ ___
 - [ ] make an adequate "weight paint" for the whole character to move better!
 - [ ] revise visemes
 - [x] create simple expressions
-- [ ] revise the character's physical bones
+- [x] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
 - [ ] idle anims
-- [ ] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
+- [x] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
 - [ ] make locomotion better!
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file?
 -->
