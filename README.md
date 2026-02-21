@@ -20,7 +20,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 
-### [:arrow_forward:Download 'upstream' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+### [:arrow_forward:Download 'upstream' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/upstream.zip)
 
 ### :arrow_forward:Clone the Repository
    ```
