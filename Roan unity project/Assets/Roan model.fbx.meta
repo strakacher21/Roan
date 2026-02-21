@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roan Round glasses
+    second: {fileID: 2100000, guid: 33594e96e03991a4aa048e6e4d2baa89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roan Sweater shader
     second: {fileID: 2100000, guid: bd78d0c511f0d6742b94932932456c12, type: 2}
   - first:
@@ -94,6 +99,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: vrcfox
     second: {fileID: 2100000, guid: 69d47536874444ecabb559b613060c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vrcfox.Round glasses
+    second: {fileID: 2100000, guid: a4d0c344b89dcce45b96a3ef4e3be700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vrcfox.Round glasses_lenses
+    second: {fileID: 2100000, guid: 33594e96e03991a4aa048e6e4d2baa89, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

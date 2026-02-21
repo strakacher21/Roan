@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44390887, g: 0.26371786, b: 0.26546258, a: 1}
+  m_IndirectSpecularColor: {r: 0.43661228, g: 0.26272535, b: 0.2629314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -183,7 +183,7 @@ PrefabInstance:
     - target: {fileID: 192166115873691097, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: fallbackStatus
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 288660830988521399, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -787,6 +787,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[5]
       value: 0
       objectReference: {fileID: 0}
@@ -814,6 +819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000100583264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553285461931392757, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: ColorProfiles.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6652543790086514731, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}

@@ -85,10 +85,7 @@ MonoBehaviour:
   - boots
   - slaps
   createColorCustomization: 0
-  primaryColor0: {fileID: 0}
-  primaryColor1: {fileID: 0}
-  secondColor0: {fileID: 0}
-  secondColor1: {fileID: 0}
+  ColorProfiles: []
   assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
   fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
   saveVRCExpressionParameters: 0
@@ -260,6 +257,8 @@ MonoBehaviour:
   localSmoothness: 0.1
   remoteSmoothness: 0.7
   createShapePreferences: 0
+  shapePreferencePrefix: pref/body/
+  shapePreferences: []
 --- !u!114 &7671356844076179755
 MonoBehaviour:
   m_ObjectHideFlags: 0
