@@ -2,16 +2,9 @@
 
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
+<img src="Roan.png" alt="Roan preview" width="90%">
 
-<details open>
-<summary><b>Media (Lab Edition)</b></summary>
-  <img src="Gallery/Roan.png" alt="Roan preview" width="90%">
-  <img src="Gallery/Roan showcase shaded.png" alt="Roan shaded" width="45%">
-  <img src="Gallery/Roan showcase mesh.png" alt="Roan mesh" width="45%">
-
-  ### [:arrow_forward:Sketchfab Preview (tag 3.1)](https://skfb.ly/pAzHI)
-</details>
-
+### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
 ___
 
 # А Request
@@ -25,21 +18,17 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 # Get
 
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
-(stable versions)
+
 ### [:arrow_forward:Download 'main' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
-(latest development)
+
 ### :arrow_forward:Clone the Repository
    ```
    https://github.com/strakacher21/Roan.git
    ```
-(latest development, easy to update)
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat avatar (tag 3.1)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
-
-### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
-(where I test the latest changes)
+### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ___
 # Info
