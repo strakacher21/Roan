@@ -37,9 +37,9 @@ ___
 The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1** project.
 
 > [!WARNING]
-> **To properly export a model from Blender to Unity, use the built-in `Export to Unity` custom tool in Blender!** <br>
-> Click **Export to Unity** in Blender’s 3D Viewport header (Workspace: **Layout**) to open the export popover.
-> Press **Export to Unity!** to export to Unity in one click.
+> **To properly export a model from Blender to Unity, use the built-in `Blender auto fbx export` custom tool in Blender!** <br>
+> Click **FBX Export** in Blender’s 3D Viewport header (Workspace: **Layout**) to open the export popover.
+> Press **Export FBX!** to export to Unity in one click.
 >
 > To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
 
