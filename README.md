@@ -2,7 +2,7 @@
 
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
-<img src="Roan.png" alt="Roan preview" width="90%">
+<img src="Roan.png" alt="Roan preview" width="100%">
 
 ### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
 ___
@@ -72,7 +72,15 @@ ___
 -->
 
 ## Attribution
-[**AnimatorWizard**](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators. **OSC smooth** in AnimatorWizard was inspired by the idea from the [OSCmooth project ](https://github.com/regzo2/OSCmooth)[(regzo2)](https://github.com/regzo2). Also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) [(AnimatorCloner)](https://github.com/VRLabs/Avatars-3.0-Manager/blob/main/Editor/AnimatorCloner.cs) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
+[**AnimatorWizard**](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators. 
+
+**OSC smooth** in AnimatorWizard was inspired by the idea from the [OSCmooth project ](https://github.com/regzo2/OSCmooth)[(regzo2)](https://github.com/regzo2). 
+
+Also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) [(AnimatorCloner)](https://github.com/VRLabs/Avatars-3.0-Manager/blob/main/Editor/AnimatorCloner.cs) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
+
+<!---
+The automatic export script from Blender to Unity was taken from the [Blender-auto-fbx-export](https://github.com/strakacher21/Blender-auto-fbx-export) repository [(strakacher21)](https://github.com/strakacher21).
+-->
 
 The texture of the pants and sweater was taken from: [ambientCG](https://ambientcg.com). <br>
 The hdr of the preview image was taken from [sketchfab](https://github.com/sketchfab/sketchfab-legacy-environments).
