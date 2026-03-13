@@ -62,7 +62,7 @@ ___
 
 ### Minor:
 - [ ] make an adequate "weight paint" for the whole character to move better!
-- [ ] revise visemes
+- [x] revise visemes
 - [x] create simple expressions
 - [x] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
