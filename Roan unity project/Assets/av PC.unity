@@ -873,52 +873,52 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[55].hash
-      value: 559359603
+      value: -2115241334
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[55].name
-      value: face tracking off
+      value: bool preferences drivers
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[56].hash
-      value: -496812474
+      value: 559359603
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[56].name
-      value: face tracking on
+      value: face tracking off
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[57].hash
-      value: -2086182126
+      value: -496812474
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[57].name
-      value: OSC Local
+      value: face tracking on
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[58].hash
-      value: 131470683
+      value: -2086182126
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[58].name
-      value: OSC Remote
+      value: OSC Local
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[59].hash
-      value: -1560183125
+      value: 131470683
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[59].name
-      value: preferences drivers
+      value: OSC Remote
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -974,11 +974,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000100583264
-      objectReference: {fileID: 0}
-    - target: {fileID: 6553285461931392757, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: ColorProfiles.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6652543790086514731, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -1076,7 +1071,6 @@ PrefabInstance:
       value: Roan model setup base (PC)
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 7671356844076179755, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
     - {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

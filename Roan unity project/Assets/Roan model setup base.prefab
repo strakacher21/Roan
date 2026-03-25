@@ -84,8 +84,19 @@ MonoBehaviour:
   - shoes
   - boots
   - slaps
-  createColorCustomization: 0
-  ColorProfiles: []
+  createColorCustomization: 1
+  ColorProfiles:
+  - name: Round_glasses_shade
+    primaryColor0: {fileID: 7400000, guid: 731b153207ab7fd458db7c5eebafb023, type: 2}
+    primaryColor1: {fileID: 7400000, guid: 757ecb7923eba1e428f4768eb9bccde5, type: 2}
+    secondColor0: {fileID: 0}
+    secondColor1: {fileID: 0}
+  createParamsCompressor: 0
+  compressedParamEntries:
+  - paramName: 
+    useFloat: 1
+    useInt: 0
+    lastMode: 0
   assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
   fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
   saveVRCExpressionParameters: 0
@@ -2758,6 +2769,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3335849815563880696}
     m_Modifications:
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950973515276452505, guid: f0f2bd652ff817c43ad52f8f308490ea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

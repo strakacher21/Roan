@@ -14,6 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
+  - name: pref/body/bool/round_glasses
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
+  - name: pref/color/Round_glasses_shade/slider/pcol
+    valueType: 1
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
   - name: v2/EyeTrackingActive
     valueType: 2
     saved: 1
@@ -168,9 +178,4 @@ MonoBehaviour:
     valueType: 1
     saved: 0
     defaultValue: 0
-    networkSynced: 1
-  - name: pref/body/bool/round_glasses
-    valueType: 2
-    saved: 1
-    defaultValue: 1
     networkSynced: 1
