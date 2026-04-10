@@ -14,6 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parameters: {fileID: 11400000, guid: 6a93b3714f16ad446b02f56ad3e99a89, type: 2}
   controls:
+  - name: <b><color=orange>Round glasses
+    icon: {fileID: 2800000, guid: c66281c63f1bd634baca42c6ed533d59, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ed0d30c4d9bcacd498a9909280dd0cc5, type: 2}
+    subParameters: []
+    labels: []
   - name: <b><color=green>Face Tracking
     icon: {fileID: 2800000, guid: 743878a5117f92540bbee7831acd3530, type: 3}
     type: 103
