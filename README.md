@@ -4,7 +4,7 @@
 ___
 <img src="Roan.png" alt="Roan preview" width="100%">
 
-### [:arrow_forward:Sketchfab Preview (tag 3.1)](https://skfb.ly/pAzHI)
+### [:arrow_forward:Sketchfab Preview (tag 3.2)](https://skfb.ly/pAzHI)
 
 ___
 
@@ -20,7 +20,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 
-### [:arrow_forward:Download 'upstream' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/upstream.zip)
+### [:arrow_forward:Download 'main' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
 
 ### :arrow_forward:Clone the Repository
    ```
@@ -29,7 +29,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
+### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
 
 ___
 # Info
