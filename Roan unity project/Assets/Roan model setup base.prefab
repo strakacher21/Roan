@@ -84,11 +84,19 @@ MonoBehaviour:
   - shoes
   - boots
   - slaps
-  createColorCustomization: 0
-  primaryColor0: {fileID: 0}
-  primaryColor1: {fileID: 0}
-  secondColor0: {fileID: 0}
-  secondColor1: {fileID: 0}
+  createColorCustomization: 1
+  ColorProfiles:
+  - name: Round_glasses_shade
+    primaryColor0: {fileID: 7400000, guid: 731b153207ab7fd458db7c5eebafb023, type: 2}
+    primaryColor1: {fileID: 7400000, guid: 757ecb7923eba1e428f4768eb9bccde5, type: 2}
+    secondColor0: {fileID: 0}
+    secondColor1: {fileID: 0}
+  createParamsCompressor: 0
+  compressedParamEntries:
+  - paramName: 
+    useFloat: 1
+    useInt: 0
+    lastMode: 0
   assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
   fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
   saveVRCExpressionParameters: 0
@@ -259,7 +267,13 @@ MonoBehaviour:
   createOSCsmooth: 1
   localSmoothness: 0.1
   remoteSmoothness: 0.7
-  createShapePreferences: 0
+  createShapePreferences: 1
+  shapePreferencePrefix: pref/body/
+  shapePreferences:
+  - blendShapeName: round_glasses
+    useBool: 1
+    useFloat: 0
+    lastMode: 0
 --- !u!114 &7671356844076179755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +329,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00000010058292
+      objectReference: {fileID: 0}
+    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000009415696
+      objectReference: {fileID: 0}
+    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000009415697
+      objectReference: {fileID: 0}
+    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: -6784868095069136516, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -396,6 +430,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000019446024
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[9]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[10]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -415,6 +464,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00000015199197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00000012363188
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000006468204
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: 2879525656767549024, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -1468,7 +1537,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 6285505686932134747}
-    eyelidsBlendshapes: 040000000500000006000000
+    eyelidsBlendshapes: 090000000a0000000b000000
   customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
@@ -1663,7 +1732,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1782010271883283104}
-    radius: 0.0009677636
+    radius: 0.00096776336
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1673,78 +1742,78 @@ MonoBehaviour:
     transform: {fileID: 2034179461728463320}
     radius: 0.00023441296
     height: 0.00093765184
-    position: {x: 0.000024181913, y: 0.00079659757, z: 0.000007988267}
-    rotation: {x: 0.7100205, y: 0, z: -0.042129572, w: 0.70291966}
+    position: {x: 0.000024181283, y: 0.0007965971, z: 0.000007988452}
+    rotation: {x: 0.7100204, y: 0, z: -0.042129606, w: 0.7029197}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 6939038875490361205}
-    radius: 0.00023441292
-    height: 0.00093765167
-    position: {x: -0.000024179175, y: 0.00079659745, z: 0.000007989027}
-    rotation: {x: 0.71002024, y: 0, z: 0.042129662, w: 0.7029199}
+    radius: 0.00023441293
+    height: 0.0009376517
+    position: {x: -0.000024180597, y: 0.00079659786, z: 0.000007988898}
+    rotation: {x: 0.7100203, y: 0, z: 0.042129654, w: 0.70291984}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.000103100996
-    height: 0.000515505
+    radius: 0.00010310146
+    height: 0.0005155073
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.000116586016
-    height: 0.00058293005
+    radius: 0.00011658551
+    height: 0.00058292755
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7857137870595440185}
-    radius: 0.00008047912
-    height: 0.00040239558
+    radius: 0.00008047892
+    height: 0.00040239462
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 3939360399094425349}
-    radius: 0.00007459069
-    height: 0.00037295342
+    radius: 0.000074591415
+    height: 0.00037295706
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.00010310165
-    height: 0.0005155083
+    radius: 0.00010310027
+    height: 0.00051550136
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.0001165847
-    height: 0.0005829235
+    radius: 0.0001165852
+    height: 0.00058292603
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 1510899563417515397}
-    radius: 0.00008047817
-    height: 0.00040239084
+    radius: 0.00008047824
+    height: 0.00040239122
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 904776832859149725}
-    radius: 0.000074590986
-    height: 0.0003729549
+    radius: 0.00007459092
+    height: 0.00037295462
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &192166115873691097
@@ -2700,6 +2769,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3335849815563880696}
     m_Modifications:
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068536131120720935, guid: f0f2bd652ff817c43ad52f8f308490ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950973515276452505, guid: f0f2bd652ff817c43ad52f8f308490ea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

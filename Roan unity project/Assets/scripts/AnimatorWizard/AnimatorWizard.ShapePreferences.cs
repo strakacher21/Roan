@@ -1,5 +1,6 @@
 #if UNITY_EDITOR
 
+using AnimatorAsCode.V1;
 using AnimatorAsCode.V1.VRCDestructiveWorkflow;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 using VRC.SDK3.Avatars.Components;
+using VRC.SDKBase;
 
 public partial class AnimatorWizard : MonoBehaviour
 {
@@ -27,12 +29,12 @@ public partial class AnimatorWizard : MonoBehaviour
     // User-defined list: each entry maps a blendshape name to either bool-style or float-style preference
     public List<ShapePreferenceEntry> shapePreferences = new List<ShapePreferenceEntry>();
 
-    private void InitializeShapePreferences(SkinnedMeshRenderer skin)
+    private void InitializeShapePreferences(SkinnedMeshRenderer[] skins)
     {
         if (!createShapePreferences)
             return;
 
-        if (skin == null) return;
+        if (skins == null || skins.Length == 0) return;
 
         // Normalize prefix once so we can safely build parameter names
         var prefix = string.IsNullOrWhiteSpace(shapePreferencePrefix) ? "pref/body/" : shapePreferencePrefix.Trim();
@@ -41,8 +43,8 @@ public partial class AnimatorWizard : MonoBehaviour
         // Toggle drivers (common to prefs and cloth)
         // this state transitions to itself every half second to update toggles. it sucks
         // TODO: not use this awful driver updating
-        var fxDriverLayer = _aac.CreateSupportingFxLayer("preferences drivers").WithAvatarMask(fxMask);
-        var fxDriverState = fxDriverLayer.NewState("preferences drivers");
+        var fxDriverLayer = _aac.CreateSupportingFxLayer("bool preferences drivers").WithAvatarMask(fxMask);
+        var fxDriverState = fxDriverLayer.NewState("bool preferences drivers");
         fxDriverState.TransitionsTo(fxDriverState)
             .AfterAnimationFinishes()
             .WithTransitionDurationSeconds(0.5f)
@@ -70,13 +72,17 @@ public partial class AnimatorWizard : MonoBehaviour
             // Full blendshape name on the mesh (includes prefix)
             var fullBlendShapeName = prefix + shortName;
 
+            if (!HasBlendShapeOnAnyMesh(skins, fullBlendShapeName))
+                continue;
+
             var boolParamName = $"{prefix}bool/{shortName}";
             var floatParamName = $"{prefix}float/{shortName}";
 
             if (entry.useFloat)
             {
                 var param = CreateFloatParam(_fxTreeLayer, floatParamName, true, 0);
-                tree.AddChild(BlendshapeTree(_fxTreeLayer, skin, fullBlendShapeName, param));
+                tree.AddChild(BuildBlendshapeTreeForSkins(fullBlendShapeName, param, skins));
+                ApplyCompressedParams(floatParamName, false);
             }
             else if (entry.useBool)
             {
@@ -91,8 +97,49 @@ public partial class AnimatorWizard : MonoBehaviour
                     name = floatParam.Name
                 });
 
-                tree.AddChild(BlendshapeTree(_fxTreeLayer, skin, fullBlendShapeName, floatParam));
+                tree.AddChild(BuildBlendshapeTreeForSkins(fullBlendShapeName, floatParam, skins));
             }
+        }
+    }
+
+    private BlendTree BuildBlendshapeTreeForSkins(string shapeName, AacFlParameter param, SkinnedMeshRenderer[] skins, float min = 0f, float max = 100f)
+    {
+        var state000 = _aac.NewClip();
+        AddPreferenceBlendShapeOnAllMatchingMeshes(state000, skins, shapeName, min);
+        state000.Clip.name = $"{param.Name} 0";
+
+        var state100 = _aac.NewClip();
+        AddPreferenceBlendShapeOnAllMatchingMeshes(state100, skins, shapeName, max);
+        state100.Clip.name = $"{param.Name} 1";
+
+        return Subtree(new Motion[] { state000.Clip, state100.Clip }, new[] { 0f, 1f }, param);
+    }
+
+    private bool HasBlendShapeOnAnyMesh(SkinnedMeshRenderer[] skins, string blendShapeName)
+    {
+        foreach (var skin in skins)
+        {
+            if (skin == null || skin.sharedMesh == null)
+                continue;
+
+            if (skin.sharedMesh.GetBlendShapeIndex(blendShapeName) >= 0)
+                return true;
+        }
+
+        return false;
+    }
+
+    private void AddPreferenceBlendShapeOnAllMatchingMeshes(AacFlClip clip, SkinnedMeshRenderer[] skins, string blendShapeName, float value)
+    {
+        foreach (var skin in skins)
+        {
+            if (skin == null || skin.sharedMesh == null)
+                continue;
+
+            if (skin.sharedMesh.GetBlendShapeIndex(blendShapeName) < 0)
+                continue;
+
+            clip.BlendShape(skin, blendShapeName, value);
         }
     }
 
