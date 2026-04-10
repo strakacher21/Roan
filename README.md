@@ -43,8 +43,8 @@ The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1**
 >
 > To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
 
-The **Unity project** has a **prefab model**, as well as two **scenes** for **PC** and **Quest&IOS** *(Currently, both scenes are the same. Separate scenes are kept for future platform-specific adjustments)*. <br>
-**Texture quality switching** *(currently disabled on the avatar prefab)*: switching scenes via **SceneLabel** can auto-apply per-scene texture max sizes (e.g., 4K → 2K).
+The **Unity project** has a **prefab model**, as well as two **scenes** for **PC** and **Quest&IOS** *(the differences are only in texture quality)*. <br>
+**Texture quality switching**: switching scenes via **SceneLabel** can auto-apply per-scene texture max sizes or quality.
 
 Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
 
