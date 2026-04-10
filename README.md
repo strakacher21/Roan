@@ -4,7 +4,8 @@
 ___
 <img src="Roan.png" alt="Roan preview" width="100%">
 
-### [:arrow_forward:Sketchfab Preview](https://skfb.ly/pAzHI)
+### [:arrow_forward:Sketchfab Preview (tag 3.1)](https://skfb.ly/pAzHI)
+
 ___
 
 # А Request
@@ -19,7 +20,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 
-### [:arrow_forward:Download 'main' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+### [:arrow_forward:Download 'upstream' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/upstream.zip)
 
 ### :arrow_forward:Clone the Repository
    ```
@@ -28,7 +29,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Link to the VRChat *Lab Edition* avatar](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
 
 ___
 # Info
@@ -36,9 +37,9 @@ ___
 The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1** project.
 
 > [!WARNING]
-> **To properly export a model from Blender to Unity, use the built-in `Export to Unity` custom tool in Blender!** <br>
-> Click **Export to Unity** in Blender’s 3D Viewport header (Workspace: **Layout**) to open the export popover.
-> Press **Export to Unity!** to export to Unity in one click.
+> **To properly export a model from Blender to Unity, use the built-in `Blender auto fbx export` custom tool in Blender!** <br>
+> Click **FBX Export** in Blender’s 3D Viewport header (Workspace: **Layout**) to open the export popover.
+> Press **Export FBX!** to export to Unity in one click.
 >
 > To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
 
@@ -61,7 +62,7 @@ ___
 
 ### Minor:
 - [ ] make an adequate "weight paint" for the whole character to move better!
-- [ ] revise visemes
+- [x] revise visemes
 - [x] create simple expressions
 - [x] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
@@ -72,15 +73,13 @@ ___
 -->
 
 ## Attribution
-[**AnimatorWizard**](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators. 
+[**AnimatorWizard**](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators.
 
-**OSC smooth** in AnimatorWizard was inspired by the idea from the [OSCmooth project ](https://github.com/regzo2/OSCmooth)[(regzo2)](https://github.com/regzo2). 
+**Parameter Compressor** is based on the ideas behind [LauraParamCompressor](https://github.com/LauraRozier/LauraParamCompressor) [(LauraRozier)](https://github.com/LauraRozier).
 
 Also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) [(AnimatorCloner)](https://github.com/VRLabs/Avatars-3.0-Manager/blob/main/Editor/AnimatorCloner.cs) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
 
-<!---
 The automatic export script from Blender to Unity was taken from the [Blender-auto-fbx-export](https://github.com/strakacher21/Blender-auto-fbx-export) [(strakacher21)](https://github.com/strakacher21) repository.
--->
 
 The texture of the pants and sweater was taken from: [ambientCG](https://ambientcg.com). <br>
 The hdr of the preview image was taken from [sketchfab](https://github.com/sketchfab/sketchfab-legacy-environments).
