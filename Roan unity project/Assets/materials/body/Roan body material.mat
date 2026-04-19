@@ -11,9 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: e765db0afa7ecfc44ade2e4e2491f65a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - USE_DETAIL_MAPS
-  - USE_NORMAL_MAPS
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -29,16 +27,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 2800000, guid: 8e645fd601dbd084f8791c5507fe8c2f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: 6a5ec72f1a1bc8d428d70f25134714d8, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 2800000, guid: 2037c84023c7471489f4827bac83c7b6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -80,12 +82,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
+    - _ColorMaskBlendMode: 0
+    - _ColorMaskEmissionStrength1: 0
+    - _ColorMaskEmissionStrength2: 0
+    - _ColorMaskEmissionStrength3: 0
+    - _ColorMaskEmissionStrength4: 0
     - _Culling: 2
     - _DetailHueShift: 0
     - _DetailMaskChannel: 0
-    - _DetailMode: 2
+    - _DetailMode: 0
     - _DetailNormalMapScale: 1
-    - _DetailUV: 1
+    - _DetailUV: 0
     - _EmissionHueShift: 0
     - _EmissionStrength: 1
     - _EmissionUV: 0
@@ -114,6 +121,10 @@ Material:
     - _VertexColor: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMaskColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMaskColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMaskColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMaskColor4: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

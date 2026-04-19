@@ -70,20 +70,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5233619ea40ff14a8f36911e534b24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  createClothCustomization: 0
+  createClothCustomization: 1
   ClothTogglesPrefix: cloth/toggle/
   ClothUpperBodyNames:
-  - coat
-  - coat_v2
   - T-shirt
   ClothLowerBodyNames:
-  - jeans
-  - pants
   - shorts
-  ClothFootNames:
-  - shoes
-  - boots
-  - slaps
+  ClothFootNames: []
   createColorCustomization: 1
   ColorProfiles:
   - name: Round_glasses_shade
@@ -367,13 +360,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5724851
+      objectReference: {fileID: 0}
+    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.23156975
+      value: -0.23051025
+      objectReference: {fileID: 0}
+    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68410057
       objectReference: {fileID: 0}
     - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.39054424
+      value: -0.38875738
       objectReference: {fileID: 0}
     - target: {fileID: -1626699344970278550, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -1710,7 +1713,7 @@ MonoBehaviour:
     transform: {fileID: 7010972210466711444}
     radius: 0.0008362916
     height: 0
-    position: {x: 0, y: 0.0007053778, z: 7.639756e-11}
+    position: {x: 4.5539267e-13, y: 0.00063561, z: 0.0000019104518}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
@@ -1724,7 +1727,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.00096776336
+    radius: 0.0008566633
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1732,7 +1735,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1782010271883283104}
-    radius: 0.00096776336
+    radius: 0.0008566631
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1740,80 +1743,80 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 2034179461728463320}
-    radius: 0.00023441296
-    height: 0.00093765184
-    position: {x: 0.000024181283, y: 0.0007965971, z: 0.000007988452}
-    rotation: {x: 0.7100204, y: 0, z: -0.042129606, w: 0.7029197}
+    radius: 0.00021687865
+    height: 0.0008675146
+    position: {x: 0.000022709028, y: 0.0007369949, z: 0.000008056492}
+    rotation: {x: 0.7078212, y: 0, z: -0.0781802, w: 0.702052}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 6939038875490361205}
-    radius: 0.00023441293
-    height: 0.0009376517
-    position: {x: -0.000024180597, y: 0.00079659786, z: 0.000007988898}
-    rotation: {x: 0.7100203, y: 0, z: 0.042129654, w: 0.70291984}
+    radius: 0.00021687869
+    height: 0.00086751475
+    position: {x: -0.000022709539, y: 0.0007369952, z: 0.000008056558}
+    rotation: {x: 0.7078214, y: 0, z: 0.07818018, w: 0.70205176}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.00010310146
-    height: 0.0005155073
+    radius: 0.00009755871
+    height: 0.00048779353
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.00011658551
-    height: 0.00058292755
+    radius: 0.00010794728
+    height: 0.0005397364
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7857137870595440185}
-    radius: 0.00008047892
-    height: 0.00040239462
+    radius: 0.00007369579
+    height: 0.00036847894
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 3939360399094425349}
-    radius: 0.000074591415
-    height: 0.00037295706
+    radius: 0.00006820846
+    height: 0.0003410423
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.00010310027
-    height: 0.00051550136
+    radius: 0.00009755822
+    height: 0.0004877911
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.0001165852
-    height: 0.00058292603
+    radius: 0.000107946704
+    height: 0.0005397335
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 1510899563417515397}
-    radius: 0.00008047824
-    height: 0.00040239122
+    radius: 0.000073695286
+    height: 0.0003684764
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 904776832859149725}
-    radius: 0.00007459092
-    height: 0.00037295462
+    radius: 0.00006820902
+    height: 0.0003410451
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &192166115873691097
@@ -1830,7 +1833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: avtr_2a8b73c0-5a67-499c-b3f3-67398d269035
+  blueprintId: avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 3
