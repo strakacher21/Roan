@@ -1759,16 +1759,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.00009755871
-    height: 0.00048779353
+    radius: 0.000097558775
+    height: 0.00048779388
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.00010794728
-    height: 0.0005397364
+    radius: 0.00010794706
+    height: 0.0005397353
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
@@ -1799,8 +1799,8 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.000107946704
-    height: 0.0005397335
+    radius: 0.00010794666
+    height: 0.0005397333
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
@@ -2047,7 +2047,7 @@ MonoBehaviour:
     allowSelf: 1
     allowOthers: 1
     contentTypes: -1
-  radius: 0.00125
+  radius: 0.0015
   radiusCurve:
     serializedVersion: 2
     m_Curve:
