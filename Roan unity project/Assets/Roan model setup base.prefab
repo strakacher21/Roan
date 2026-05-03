@@ -183,8 +183,6 @@ MonoBehaviour:
     leftAndRightShapes: 1
   - shapeName: NoseSneer
     leftAndRightShapes: 1
-  - shapeName: CheekSquint
-    leftAndRightShapes: 1
   DualFtShapes:
   - paramName: SmileFrown
     minShapeName: MouthFrown
@@ -331,7 +329,7 @@ PrefabInstance:
     - target: {fileID: -2794234727817359449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1626699344970278550, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -391,17 +389,17 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[1]
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[2]
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}

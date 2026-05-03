@@ -129,16 +129,6 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/CheekSquintLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/CheekSquintRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/SmileFrownLeft
     valueType: 1
     saved: 0
