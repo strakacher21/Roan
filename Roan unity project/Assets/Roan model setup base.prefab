@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8454987788746133284}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -323,60 +323,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000010058292
       objectReference: {fileID: 0}
-    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+    - target: {fileID: -3310269451258485989, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.00000009415696
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
+    - target: {fileID: -2794234727817359449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.00000009415697
-      objectReference: {fileID: 0}
-    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071069
-      objectReference: {fileID: 0}
-    - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: -6784868095069136516, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.471
-      objectReference: {fileID: 0}
-    - target: {fileID: -6784868095069136516, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 247.416
-      objectReference: {fileID: 0}
-    - target: {fileID: -6784868095069136516, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 1.458
-      objectReference: {fileID: 0}
-    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5724851
-      objectReference: {fileID: 0}
-    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.23051025
-      objectReference: {fileID: 0}
-    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.68410057
-      objectReference: {fileID: 0}
-    - target: {fileID: -4207872768154498626, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.38875738
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -1626699344970278550, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -435,18 +390,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[9]
-      value: 0
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[10]
-      value: 0
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[11]
-      value: 0
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -468,26 +423,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000015199197
       objectReference: {fileID: 0}
-    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.00000012363188
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.00000006468204
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071069
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071067
-      objectReference: {fileID: 0}
     - target: {fileID: 2879525656767549024, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -502,6 +437,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000058292052
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -559,10 +504,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4630427921662663161}
+    - targetCorrespondingSourceObject: {fileID: 168090933649262201, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3341496854087538345}
     - targetCorrespondingSourceObject: {fileID: -1073330655475221773, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4838223036633165102}
+    - targetCorrespondingSourceObject: {fileID: -3310269451258485989, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4831208119794104376}
   m_SourcePrefab: {fileID: 100100000, guid: eb740f0e558e17a4489fdfb72251b859, type: 3}
 --- !u!4 &116981351970642571 stripped
 Transform:
@@ -768,6 +721,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4727413456578233865}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1410939522116904210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3310269451258485989, guid: eb740f0e558e17a4489fdfb72251b859,
+    type: 3}
+  m_PrefabInstance: {fileID: 4727413456578233865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4831208119794104376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410939522116904210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 1
+  insideBounds: 0
+  radius: 0.0008
+  height: 0.006
+  position: {x: 0, y: 0.0025, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &1510899563417515397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6155556853262873484, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -808,8 +788,8 @@ MonoBehaviour:
   shapeType: 1
   insideBounds: 0
   radius: 0.001
-  height: 0.006
-  position: {x: 0, y: 0.003, z: 0}
+  height: 0.005
+  position: {x: 0, y: 0.00125, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
   globalCollisionFlags: 0
@@ -1209,6 +1189,33 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &4885852187812397168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168090933649262201, guid: eb740f0e558e17a4489fdfb72251b859,
+    type: 3}
+  m_PrefabInstance: {fileID: 4727413456578233865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3341496854087538345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4885852187812397168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 1
+  insideBounds: 0
+  radius: 0.0008
+  height: 0.006
+  position: {x: 0, y: 0.0025, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &5004895812901682546 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 355735186214189947, guid: eb740f0e558e17a4489fdfb72251b859,
@@ -1713,7 +1720,7 @@ MonoBehaviour:
     transform: {fileID: 7010972210466711444}
     radius: 0.0008362916
     height: 0
-    position: {x: 4.5539267e-13, y: 0.00063561, z: 0.0000019104518}
+    position: {x: 4.554239e-13, y: 0.0006356098, z: 0.0000019105792}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
@@ -1727,7 +1734,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 4707517818353169124}
-    radius: 0.0008566633
+    radius: 0.00085666287
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1735,7 +1742,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1782010271883283104}
-    radius: 0.0008566631
+    radius: 0.00085666316
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1743,80 +1750,80 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 2034179461728463320}
-    radius: 0.00021687865
-    height: 0.0008675146
-    position: {x: 0.000022709028, y: 0.0007369949, z: 0.000008056492}
-    rotation: {x: 0.7078212, y: 0, z: -0.0781802, w: 0.702052}
+    radius: 0.00024396172
+    height: 0.0009758469
+    position: {x: 0.00002270844, y: 0.0008291194, z: 0.000008056426}
+    rotation: {x: 0.70726055, y: 0, z: -0.078200586, w: 0.70261455}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 6939038875490361205}
-    radius: 0.00021687869
-    height: 0.00086751475
-    position: {x: -0.000022709539, y: 0.0007369952, z: 0.000008056558}
-    rotation: {x: 0.7078214, y: 0, z: 0.07818018, w: 0.70205176}
+    radius: 0.00024396136
+    height: 0.00097584544
+    position: {x: -0.000022709753, y: 0.00082911924, z: 0.000008057721}
+    rotation: {x: 0.707261, y: 0, z: 0.078200705, w: 0.702614}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4114961288842668855}
-    radius: 0.000097558775
-    height: 0.00048779388
+    radius: 0.00009370639
+    height: 0.0004685319
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8418600334658857601}
-    radius: 0.00010794706
-    height: 0.0005397353
+    radius: 0.00010089255
+    height: 0.0005044627
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7857137870595440185}
-    radius: 0.00007369579
-    height: 0.00036847894
+    radius: 0.00006787615
+    height: 0.00033938076
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 3939360399094425349}
-    radius: 0.00006820846
-    height: 0.0003410423
+    radius: 0.00006300551
+    height: 0.00031502752
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 116981351970642571}
-    radius: 0.00009755822
-    height: 0.0004877911
+    radius: 0.0000937068
+    height: 0.000468534
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 8765682955876189395}
-    radius: 0.00010794666
-    height: 0.0005397333
+    radius: 0.000100892
+    height: 0.00050446
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 1510899563417515397}
-    radius: 0.000073695286
-    height: 0.0003684764
+    radius: 0.00006787549
+    height: 0.00033937744
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 904776832859149725}
-    radius: 0.00006820902
-    height: 0.0003410451
+    radius: 0.000063005435
+    height: 0.00031502717
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &192166115873691097
@@ -1907,8 +1914,8 @@ MonoBehaviour:
   shapeType: 1
   insideBounds: 0
   radius: 0.001
-  height: 0.006
-  position: {x: 0, y: 0.003, z: 0}
+  height: 0.005
+  position: {x: 0, y: 0.00125, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
   globalCollisionFlags: 0
@@ -2084,29 +2091,31 @@ MonoBehaviour:
   colliders:
   - {fileID: 1145295210362831006}
   - {fileID: 4630427921662663161}
+  - {fileID: 3341496854087538345}
   - {fileID: 4838223036633165102}
+  - {fileID: 4831208119794104376}
   limitType: 1
-  maxAngleX: 60
+  maxAngleX: 75
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.35
-      inSlope: 0.05446003
-      outSlope: 0.05446003
+      value: 1
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.10580913
+      outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: 1.2588253
-      outSlope: 1.2588253
+      value: 0.5
+      inSlope: -0.8474552
+      outSlope: -0.8474552
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.06639004
+      inWeight: 0.1050359
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
