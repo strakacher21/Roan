@@ -1714,19 +1714,19 @@ MonoBehaviour:
   autoLocomotion: 1
   collider_head:
     isMirrored: 1
-    state: 0
+    state: 1
     transform: {fileID: 7010972210466711444}
-    radius: 0.0008362916
+    radius: 0.001
     height: 0
-    position: {x: 4.554239e-13, y: 0.0006356098, z: 0.0000019105792}
+    position: {x: 0, y: 0.000635, z: 0.00015}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 1
     transform: {fileID: 1251079152672517460}
     radius: 0.0015
-    height: 0.005
-    position: {x: 0, y: -0.0005, z: 0}
+    height: 0.006
+    position: {x: 0, y: -0.000365, z: 0}
     rotation: {x: 0.021814885, y: 0, z: 0, w: 0.999762}
   collider_footR:
     isMirrored: 1
