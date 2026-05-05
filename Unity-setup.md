@@ -10,6 +10,8 @@ Follow these steps to set up the Unity project:
    
    ```
    https://hai-vr.github.io/vpm-listing/index.json
+   ```
+   ```
    https://spokeek.github.io/goloco/index.json
    ```
 
