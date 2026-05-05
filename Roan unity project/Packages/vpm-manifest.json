@@ -20,6 +20,9 @@
     },
     "com.vrchat.avatars": {
       "version": "3.10.3"
+    },
+    "gogoloco": {
+      "version": "1.8.6"
     }
   },
   "locked": {
@@ -65,6 +68,12 @@
       "version": "3.10.3",
       "dependencies": {
         "com.vrchat.base": "3.10.3"
+      }
+    },
+    "gogoloco": {
+      "version": "1.8.6",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.2.2"
       }
     }
   }

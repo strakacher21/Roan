@@ -6,10 +6,11 @@ Follow these steps to set up the Unity project:
    Download the latest version of the [VRChat Creator Companion (VCC)](https://vrchat.com/download/vcc) and follow the [official installation guide](https://vcc.docs.vrchat.com/) to set it up.
 
 2. **Add Custom Packages to the repository**  
-   This project uses custom packages from [hai-vr](https://github.com/hai-vr). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URLs:  
+   This project uses custom packages from [hai-vr](https://github.com/hai-vr) and [Franada](https://github.com/Franada). In VCC, navigate to Settings > Packages > Add Repository, then paste the following URLs:  
    
    ```
    https://hai-vr.github.io/vpm-listing/index.json
+   https://spokeek.github.io/goloco/index.json
    ```
 
 3. **Add the Unity Project to VCC**  
