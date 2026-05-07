@@ -92,7 +92,7 @@ MonoBehaviour:
     lastMode: 0
   assetContainer: {fileID: 9100000, guid: fd564c0efd562dc409ee04f2ea89f410, type: 2}
   fxMask: {fileID: 31900000, guid: 0a3c423fffdc6e241ab5af0bb3b3b217, type: 2}
-  saveVRCExpressionParameters: 0
+  saveVRCExpressionParameters: 1
   SystemName: Roan
   shapePreferenceSliderPrefix: pref/slider/
   shapePreferenceTogglesPrefix: pref/toggle/
