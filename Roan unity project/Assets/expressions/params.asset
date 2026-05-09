@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
-  - name: pref/body/bool/round_glasses
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
   - name: cloth/toggle/T-shirt
     valueType: 2
     saved: 1
     defaultValue: 1
     networkSynced: 1
   - name: cloth/toggle/shorts
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
+  - name: cloth/toggle/round_glasses
     valueType: 2
     saved: 1
     defaultValue: 1

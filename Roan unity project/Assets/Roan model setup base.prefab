@@ -71,12 +71,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createClothCustomization: 1
+  ClothSyncParamsOptimizedAlgorithm: 1
   ClothTogglesPrefix: cloth/toggle/
-  ClothUpperBodyNames:
-  - T-shirt
-  ClothLowerBodyNames:
-  - shorts
-  ClothFootNames: []
+  ClothGroups:
+  - layerName: cloth/T-shirt
+    clothEntries:
+    - clothName: T-shirt
+      invertAnimation: 1
+  - layerName: cloth/shorts
+    clothEntries:
+    - clothName: shorts
+      invertAnimation: 1
+  - layerName: item/round_glasses
+    clothEntries:
+    - clothName: round_glasses
+      invertAnimation: 1
   createColorCustomization: 1
   ColorProfiles:
   - name: Round_glasses_shade
@@ -258,7 +267,7 @@ MonoBehaviour:
   createOSCsmooth: 1
   localSmoothness: 0.1
   remoteSmoothness: 0.7
-  createShapePreferences: 1
+  createShapePreferences: 0
   shapePreferencePrefix: pref/body/
   shapePreferences:
   - blendShapeName: round_glasses

@@ -443,7 +443,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.size
-      value: 552
+      value: 566
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3237,7 +3237,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[269].hash
-      value: 2008513115
+      value: 566602987
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3247,7 +3247,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[270].hash
-      value: 2080078588
+      value: 695453563
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3257,7 +3257,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[271].hash
-      value: 1095855579
+      value: -903552272
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3267,7 +3267,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[272].hash
-      value: 198830284
+      value: -892634119
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3277,7 +3277,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[273].hash
-      value: -2086182126
+      value: 448041902
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3287,7 +3287,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[274].hash
-      value: 131470683
+      value: -979830516
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3347,7 +3347,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[280].hash
-      value: 141204420
+      value: -438811636
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3357,7 +3357,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[281].hash
-      value: 1106416916
+      value: -1270931537
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3367,7 +3367,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[282].hash
-      value: 1214479458
+      value: -1112607015
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3377,7 +3377,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[283].hash
-      value: 1664716010
+      value: 1065298788
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3387,7 +3387,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[284].hash
-      value: 1777767213
+      value: -1673848426
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3397,7 +3397,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[285].hash
-      value: -1146452680
+      value: -2033294557
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3407,7 +3407,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[286].hash
-      value: -820608166
+      value: 223899405
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3417,7 +3417,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[287].hash
-      value: -945399488
+      value: -756472079
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3427,7 +3427,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[288].hash
-      value: -232274857
+      value: 1735736330
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3437,7 +3437,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[289].hash
-      value: 1234586609
+      value: 366013567
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3447,7 +3447,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[290].hash
-      value: 1074242183
+      value: 474023177
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3457,7 +3457,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[291].hash
-      value: -1286471997
+      value: -1190324669
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3467,7 +3467,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[292].hash
-      value: -934924498
+      value: -1038432338
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3477,7 +3477,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[293].hash
-      value: -312196639
+      value: -1074987930
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3487,7 +3487,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[294].hash
-      value: -957002985
+      value: 859357612
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3497,7 +3497,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[295].hash
-      value: 1713256113
+      value: -630326572
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -3507,2562 +3507,2702 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[296].hash
-      value: -705609103
+      value: 141204420
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[296].name
-      value: WaitForActionOrAFK
+      value: rig_hand 0 neutral
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[297].hash
-      value: -1152305067
+      value: 1106416916
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[297].name
-      value: AFK.Prepare AFK Init
+      value: rig_hand 1 fist
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[298].hash
-      value: -2088188865
+      value: 1214479458
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[298].name
-      value: AFK.AFK Init.Proning Afk Init
+      value: rig_hand 2 open
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[299].hash
-      value: -655757368
+      value: 1664716010
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[299].name
-      value: AFK.AFK Init.AFK Standing Loop
+      value: rig_hand 3 point
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[300].hash
-      value: -161437566
+      value: 1777767213
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[300].name
-      value: AFK.AFK Init.AFK Crouching Stop
+      value: rig_hand 4 okay
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[301].hash
-      value: 667419295
+      value: -1146452680
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[301].name
-      value: AFK.AFK Init.AFK Proning Stop
+      value: rig_hand 5 rock n roll
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[302].hash
-      value: -1059003248
+      value: -820608166
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[302].name
-      value: AFK.AFK Init.AFK Standing Stop
+      value: rig_hand 6 gun
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[303].hash
-      value: 91218700
+      value: -945399488
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[303].name
-      value: AFK.AFK Init.Standing Afk Init
+      value: rig_hand 7 thumbs up
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[304].hash
-      value: -1682606055
+      value: -232274857
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[304].name
-      value: AFK.AFK Init.Crouching Afk Init
+      value: rig_hand 0 neutral
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[305].hash
-      value: -295066662
+      value: 1234586609
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[305].name
-      value: AFK.AFK Init.AFK Crouching Loop
+      value: rig_hand 1 fist
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[306].hash
-      value: 1069615559
+      value: 1074242183
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[306].name
-      value: AFK.AFK Init.AFK Proning Loop
+      value: rig_hand 2 open
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[307].hash
-      value: -427491585
+      value: -1286471997
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[307].name
-      value: AFK.Blend Out AFK.Out AFK
+      value: rig_hand 3 point
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[308].hash
-      value: -454116471
+      value: -934924498
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[308].name
-      value: AFK.Blend Out AFK.Out AFK ST
+      value: rig_hand 4 peace
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[309].hash
-      value: 793042139
+      value: -312196639
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[309].name
-      value: AFK.Blend Out AFK.Out AFK (Feet)
+      value: rig_hand 5 middle finger
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[310].hash
-      value: -411250196
+      value: -957002985
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[310].name
-      value: AFK.Blend Out AFK.Out AFK (Feet) ST
+      value: rig_hand 6 gun
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[311].hash
-      value: 32650272
+      value: 1713256113
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[311].name
-      value: AFK.Blend Out AFK.Out AFK Seated
+      value: rig_hand 7 thumbs up
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[312].hash
-      value: 159848010
+      value: -705609103
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[312].name
-      value: AFK.Blend Out AFK.Out AFK (Head) ST
+      value: WaitForActionOrAFK
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[313].hash
-      value: -1374579791
+      value: -1152305067
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[313].name
-      value: AFK.Blend Out AFK.Out AFK (Feet&Head)
+      value: AFK.Prepare AFK Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[314].hash
-      value: -824415958
+      value: -2088188865
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[314].name
-      value: AFK.Blend Out AFK.Out AFK (Feet&Head) ST
+      value: AFK.AFK Init.Proning Afk Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[315].hash
-      value: 817203370
+      value: -655757368
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[315].name
-      value: AFK.Blend Out AFK.Out AFK Seated Head
+      value: AFK.AFK Init.AFK Standing Loop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[316].hash
-      value: -574629833
+      value: -161437566
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[316].name
-      value: AFK.Blend Out AFK.Out AFK (Head)
+      value: AFK.AFK Init.AFK Crouching Stop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[317].hash
-      value: 1841354208
+      value: 667419295
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[317].name
-      value: AFK.Other.Manual AFK Init.Manual Init
+      value: AFK.AFK Init.AFK Proning Stop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[318].hash
-      value: 121242823
+      value: -1059003248
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[318].name
-      value: AFK.Other.Manual AFK Init.AFK Manual
+      value: AFK.AFK Init.AFK Standing Stop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[319].hash
-      value: -1462847504
+      value: 91218700
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[319].name
-      value: AFK.Other.Manual AFK Init.AFK Manual Out
+      value: AFK.AFK Init.Standing Afk Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[320].hash
-      value: -1316199362
+      value: -1682606055
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[320].name
-      value: AFK.Other.AFK Init Seated.AFK Seated Loop
+      value: AFK.AFK Init.Crouching Afk Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[321].hash
-      value: -1450872986
+      value: -295066662
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[321].name
-      value: AFK.Other.AFK Init Seated.AFK Seated Stop
+      value: AFK.AFK Init.AFK Crouching Loop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[322].hash
-      value: -696407379
+      value: 1069615559
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[322].name
-      value: AFK.Other.AFK Init Seated.Seated Afk Init
+      value: AFK.AFK Init.AFK Proning Loop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[323].hash
-      value: 529998659
+      value: -427491585
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[323].name
-      value: Emotes.1-8.6_backflip
+      value: AFK.Blend Out AFK.Out AFK
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[324].hash
-      value: -216907751
+      value: -454116471
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[324].name
-      value: Emotes.1-8.8_die_hold
+      value: AFK.Blend Out AFK.Out AFK ST
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[325].hash
-      value: 1156724850
+      value: 793042139
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[325].name
-      value: Emotes.1-8.7_sadkick
+      value: AFK.Blend Out AFK.Out AFK (Feet)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[326].hash
-      value: 1080240023
+      value: -411250196
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[326].name
-      value: Emotes.1-8.5_dance
+      value: AFK.Blend Out AFK.Out AFK (Feet) ST
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[327].hash
-      value: -686039842
+      value: 32650272
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[327].name
-      value: Emotes.1-8.4_stand_cheer
+      value: AFK.Blend Out AFK.Out AFK Seated
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[328].hash
-      value: 326273783
+      value: 159848010
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[328].name
-      value: Emotes.1-8.3_stand_point
+      value: AFK.Blend Out AFK.Out AFK (Head) ST
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[329].hash
-      value: -119444378
+      value: -1374579791
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[329].name
-      value: Emotes.1-8.2_stand_clap
+      value: AFK.Blend Out AFK.Out AFK (Feet&Head)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[330].hash
-      value: 813862256
+      value: -824415958
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[330].name
-      value: Emotes.1-8.1_stand_wave
+      value: AFK.Blend Out AFK.Out AFK (Feet&Head) ST
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[331].hash
-      value: 2105800992
+      value: 817203370
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[331].name
-      value: Emotes.9-16.12_seated_laught
+      value: AFK.Blend Out AFK.Out AFK Seated Head
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[332].hash
-      value: -1628298507
+      value: -574629833
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[332].name
-      value: Emotes.9-16.15_seated_disapprove
+      value: AFK.Blend Out AFK.Out AFK (Head)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[333].hash
-      value: 564732872
+      value: 1841354208
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[333].name
-      value: Emotes.9-16.10_seated_clap
+      value: AFK.Other.Manual AFK Init.Manual Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[334].hash
-      value: -1339306718
+      value: 121242823
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[334].name
-      value: Emotes.9-16.16_seated_disbelief
+      value: AFK.Other.Manual AFK Init.AFK Manual
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[335].hash
-      value: 1520714313
+      value: -1462847504
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[335].name
-      value: Emotes.9-16.13_seated_drum
+      value: AFK.Other.Manual AFK Init.AFK Manual Out
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[336].hash
-      value: 1650226340
+      value: -1316199362
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[336].name
-      value: Emotes.9-16.11_seated_point
+      value: AFK.Other.AFK Init Seated.AFK Seated Loop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[337].hash
-      value: -582220201
+      value: -1450872986
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[337].name
-      value: Emotes.9-16.14_seated_shake_fist
+      value: AFK.Other.AFK Init Seated.AFK Seated Stop
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[338].hash
-      value: -1284053383
+      value: -696407379
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[338].name
-      value: Emotes.9-16.9_seated_raise_hand
+      value: AFK.Other.AFK Init Seated.Seated Afk Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[339].hash
-      value: -1950911094
+      value: 529998659
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[339].name
-      value: Emotes.17-24.19
+      value: Emotes.1-8.6_backflip
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[340].hash
-      value: -567584012
+      value: -216907751
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[340].name
-      value: Emotes.17-24.24
+      value: Emotes.1-8.8_die_hold
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[341].hash
-      value: 1078972247
+      value: 1156724850
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[341].name
-      value: Emotes.17-24.23
+      value: Emotes.1-8.7_sadkick
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[342].hash
-      value: -649683219
+      value: 1080240023
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[342].name
-      value: Emotes.17-24.20
+      value: Emotes.1-8.5_dance
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[343].hash
-      value: -55556836
+      value: -686039842
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[343].name
-      value: Emotes.17-24.18
+      value: Emotes.1-8.4_stand_cheer
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[344].hash
-      value: 927530945
+      value: 326273783
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[344].name
-      value: Emotes.17-24.22
+      value: Emotes.1-8.3_stand_point
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[345].hash
-      value: -1371427205
+      value: -119444378
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[345].name
-      value: Emotes.17-24.21
+      value: Emotes.1-8.2_stand_clap
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[346].hash
-      value: 1812945037
+      value: 813862256
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[346].name
-      value: Emotes.17-24.17
+      value: Emotes.1-8.1_stand_wave
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[347].hash
-      value: -2085461987
+      value: 2105800992
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[347].name
-      value: Emotes.17-24.Locomotion Enable
+      value: Emotes.9-16.12_seated_laught
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[348].hash
-      value: 1178168296
+      value: -1628298507
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[348].name
-      value: Emotes.25-32.27
+      value: Emotes.9-16.15_seated_disapprove
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[349].hash
-      value: 793292326
+      value: 564732872
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[349].name
-      value: Emotes.25-32.32
+      value: Emotes.9-16.10_seated_clap
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[350].hash
-      value: -1237188708
+      value: -1339306718
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[350].name
-      value: Emotes.25-32.31
+      value: Emotes.9-16.16_seated_disbelief
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[351].hash
-      value: -695830919
+      value: 1520714313
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[351].name
-      value: Emotes.25-32.28
+      value: Emotes.9-16.13_seated_drum
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[352].hash
-      value: 826170238
+      value: 1650226340
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[352].name
-      value: Emotes.25-32.26
+      value: Emotes.9-16.11_seated_point
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[353].hash
-      value: -1052324086
+      value: -582220201
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[353].name
-      value: Emotes.25-32.30
+      value: Emotes.9-16.14_seated_shake_fist
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[354].hash
-      value: -1585363217
+      value: -1284053383
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[354].name
-      value: Emotes.25-32.29
+      value: Emotes.9-16.9_seated_raise_hand
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[355].hash
-      value: -1472787772
+      value: -1950911094
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[355].name
-      value: Emotes.25-32.25
+      value: Emotes.17-24.19
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[356].hash
-      value: 108993210
+      value: -567584012
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[356].name
-      value: Emotes.33-40.35
+      value: Emotes.17-24.24
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[357].hash
-      value: 961837298
+      value: 1078972247
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[357].name
-      value: Emotes.33-40.40
+      value: Emotes.17-24.23
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[358].hash
-      value: 264853137
+      value: -649683219
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[358].name
-      value: Emotes.33-40.39
+      value: Emotes.17-24.20
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[359].hash
-      value: -1619637504
+      value: -55556836
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[359].name
-      value: Emotes.33-40.36
+      value: Emotes.17-24.18
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[360].hash
-      value: 1903700524
+      value: 927530945
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[360].name
-      value: Emotes.33-40.34
+      value: Emotes.17-24.22
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[361].hash
-      value: 2026792455
+      value: -1371427205
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[361].name
-      value: Emotes.33-40.38
+      value: Emotes.17-24.21
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[362].hash
-      value: -395215978
+      value: 1812945037
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[362].name
-      value: Emotes.33-40.37
+      value: Emotes.17-24.17
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[363].hash
-      value: -283328625
+      value: -2085461987
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[363].name
-      value: Emotes.33-40.33
+      value: Emotes.17-24.Locomotion Enable
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[364].hash
-      value: -122480233
+      value: 1178168296
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[364].name
-      value: Emotes.41-48.43
+      value: Emotes.25-32.27
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[365].hash
-      value: 1868677151
+      value: 793292326
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[365].name
-      value: Emotes.41-48.48
+      value: Emotes.25-32.32
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[366].hash
-      value: -2171506
+      value: -1237188708
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[366].name
-      value: Emotes.41-48.47
+      value: Emotes.25-32.31
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[367].hash
-      value: 1725402164
+      value: -695830919
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[367].name
-      value: Emotes.41-48.44
+      value: Emotes.25-32.28
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[368].hash
-      value: -1884018431
+      value: 826170238
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[368].name
-      value: Emotes.41-48.42
+      value: Emotes.25-32.26
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[369].hash
-      value: -1998983912
+      value: -1052324086
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[369].name
-      value: Emotes.41-48.46
+      value: Emotes.25-32.30
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[370].hash
-      value: 298892450
+      value: -1585363217
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[370].name
-      value: Emotes.41-48.45
+      value: Emotes.25-32.29
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[371].hash
-      value: 381515963
+      value: -1472787772
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[371].name
-      value: Emotes.41-48.41
+      value: Emotes.25-32.25
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[372].hash
-      value: -310611522
+      value: 108993210
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[372].name
-      value: Restore Tracking.Animate (Bottom)
+      value: Emotes.33-40.35
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[373].hash
-      value: -253870668
+      value: 961837298
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[373].name
-      value: Restore Tracking.Restore Tracking (Full)
+      value: Emotes.33-40.40
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[374].hash
-      value: -296675139
+      value: 264853137
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[374].name
-      value: Restore Tracking.Animate (Feet)
+      value: Emotes.33-40.39
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[375].hash
-      value: -1820939344
+      value: -1619637504
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[375].name
-      value: Restore Tracking.Animate (Bottom&Head)
+      value: Emotes.33-40.36
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[376].hash
-      value: 764719494
+      value: 1903700524
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[376].name
-      value: Restore Tracking.Restore Tracking (Full&Head)
+      value: Emotes.33-40.34
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[377].hash
-      value: -1992233063
+      value: 2026792455
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[377].name
-      value: Restore Tracking.Animate (Feet&Head)
+      value: Emotes.33-40.38
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[378].hash
-      value: 1626961786
+      value: -395215978
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[378].name
-      value: Funny.Puppet
+      value: Emotes.33-40.37
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[379].hash
-      value: -927363772
+      value: -283328625
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[379].name
-      value: Funny.Hip Drift
+      value: Emotes.33-40.33
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[380].hash
-      value: -411756544
+      value: -122480233
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[380].name
-      value: Prepare Emotes.Prepare Emote Standing
+      value: Emotes.41-48.43
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[381].hash
-      value: -1401336420
+      value: 1868677151
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[381].name
-      value: Prepare Emotes.Prepare Emote Seated
+      value: Emotes.41-48.48
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[382].hash
-      value: 1464909714
+      value: -2171506
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[382].name
-      value: Remote
+      value: Emotes.41-48.47
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[383].hash
-      value: 2020183268
+      value: 1725402164
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[383].name
-      value: Parameters.Parameters Wait
+      value: Emotes.41-48.44
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[384].hash
-      value: -1326843037
+      value: -1884018431
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[384].name
-      value: Parameters.Grounded Check.JumpAndFall ?
+      value: Emotes.41-48.42
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[385].hash
-      value: -1198659085
+      value: -1998983912
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[385].name
-      value: Parameters.Grounded Check.Allow JumpAndFall
+      value: Emotes.41-48.46
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[386].hash
-      value: -2043911581
+      value: 298892450
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[386].name
-      value: Parameters.Grounded Check.Jump Wait
+      value: Emotes.41-48.45
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[387].hash
-      value: 227055783
+      value: 381515963
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[387].name
-      value: Parameters.VRCEmote.VRCEmote Out
+      value: Emotes.41-48.41
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[388].hash
-      value: -1671473848
+      value: -310611522
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[388].name
-      value: Parameters.VRCEmote.Force Tracking
+      value: Restore Tracking.Animate (Bottom)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[389].hash
-      value: -613364328
+      value: -253870668
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[389].name
-      value: Parameters.VRCEmote.Float Driver.248
+      value: Restore Tracking.Restore Tracking (Full)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[390].hash
-      value: 1019797663
+      value: -296675139
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[390].name
-      value: Parameters.VRCEmote.Float Driver.246
+      value: Restore Tracking.Animate (Feet)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[391].hash
-      value: -1514032859
+      value: -1820939344
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[391].name
-      value: Parameters.VRCEmote.Float Driver.245
+      value: Restore Tracking.Animate (Bottom&Head)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[392].hash
-      value: 1285690384
+      value: 764719494
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[392].name
-      value: Parameters.VRCEmote.Float Driver.243
+      value: Restore Tracking.Restore Tracking (Full&Head)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[393].hash
-      value: -1565756100
+      value: -1992233063
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[393].name
-      value: Parameters.VRCEmote.Float Driver.241
+      value: Restore Tracking.Animate (Feet&Head)
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[394].hash
-      value: -710195798
+      value: 1626961786
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[394].name
-      value: Parameters.VRCEmote.Float Driver.240
+      value: Funny.Puppet
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[395].hash
-      value: 1000678534
+      value: -927363772
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[395].name
-      value: Parameters.VRCEmote.Float Driver.242
+      value: Funny.Hip Drift
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[396].hash
-      value: -758742605
+      value: -411756544
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[396].name
-      value: Parameters.VRCEmote.Float Driver.244
+      value: Prepare Emotes.Prepare Emote Standing
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[397].hash
-      value: 1271910409
+      value: -1401336420
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[397].name
-      value: Parameters.VRCEmote.Float Driver.247
+      value: Prepare Emotes.Prepare Emote Seated
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[398].hash
-      value: -1808704673
+      value: 1464909714
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[398].name
-      value: Parameters.VRCEmote.Float Driver.238
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[399].hash
-      value: -97691000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[399].name
-      value: Parameters.VRCEmote.Float Driver.229
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[400].hash
-      value: -1695886483
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[400].name
-      value: Parameters.VRCEmote.Float Driver.230
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[401].hash
-      value: -303176709
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[401].name
-      value: Parameters.VRCEmote.Float Driver.231
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[402].hash
-      value: 1961144897
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[402].name
-      value: Parameters.VRCEmote.Float Driver.232
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[403].hash
-      value: 65241815
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[403].name
-      value: Parameters.VRCEmote.Float Driver.233
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[404].hash
-      value: -482972727
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[404].name
-      value: Parameters.VRCEmote.Float Driver.239
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[405].hash
-      value: 76433102
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[405].name
-      value: Parameters.VRCEmote.Float Driver.237
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[406].hash
-      value: -1401422578
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[406].name
-      value: Parameters.VRCEmote.Float Driver.249
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[407].hash
-      value: -1652091020
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[407].name
-      value: Parameters.VRCEmote.Float Driver.234
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[408].hash
-      value: 1938388568
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[408].name
-      value: Parameters.VRCEmote.Float Driver.236
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[409].hash
-      value: 1438197073
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[409].name
-      value: Parameters.VRCEmote.Float Driver.253
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[410].hash
-      value: 582882759
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[410].name
-      value: Parameters.VRCEmote.Float Driver.252
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[411].hash
-      value: -1145617283
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[411].name
-      value: Parameters.VRCEmote.Float Driver.251
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[412].hash
-      value: -860850965
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[412].name
-      value: Parameters.VRCEmote.Float Driver.250
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[413].hash
-      value: -360699934
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[413].name
-      value: Parameters.VRCEmote.Float Driver.235
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[414].hash
-      value: 452506518
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[414].name
-      value: Parameters.VRCEmote.Float Driver.223
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[415].hash
-      value: 496334735
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[415].name
-      value: Parameters.VRCEmote.Float Driver.227
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[416].hash
-      value: -788526773
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[416].name
-      value: Parameters.VRCEmote.Float Driver.219
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[417].hash
-      value: -185150790
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[417].name
-      value: Parameters.VRCEmote.Float Driver.221
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[418].hash
-      value: -2081299924
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[418].name
-      value: Parameters.VRCEmote.Float Driver.220
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[419].hash
-      value: -1926600162
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[419].name
-      value: Parameters.VRCEmote.Float Driver.228
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[420].hash
-      value: 1845461760
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[420].name
-      value: Parameters.VRCEmote.Float Driver.222
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[421].hash
-      value: 1787971353
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[421].name
-      value: Parameters.VRCEmote.Float Driver.226
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[422].hash
-      value: -2070141387
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[422].name
-      value: Parameters.VRCEmote.Float Driver.224
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[423].hash
-      value: -207939933
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[423].name
-      value: Parameters.VRCEmote.Float Driver.225
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[424].hash
-      value: 744364452
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[424].name
-      value: Parameters.VRCEmote.Float Driver.Adjustment Out
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[425].hash
-      value: -710104191
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[425].name
-      value: Parameters.VRCEmote.Float Driver.PlaySpace True
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[426].hash
-      value: -1509475875
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[426].name
-      value: Parameters.VRCEmote.Float Driver.218
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[427].hash
-      value: 1103041754
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[427].name
-      value: Parameters.VRCEmote.Float Driver.216
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[428].hash
-      value: -659143328
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[428].name
-      value: Parameters.VRCEmote.Float Driver.215
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[429].hash
-      value: 836100181
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[429].name
-      value: Parameters.VRCEmote.Float Driver.213
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[430].hash
-      value: -539262599
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[430].name
-      value: Parameters.VRCEmote.Float Driver.211
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[431].hash
-      value: -1461931537
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[431].name
-      value: Parameters.VRCEmote.Float Driver.210
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[432].hash
-      value: 1188221123
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[432].name
-      value: Parameters.VRCEmote.Float Driver.212
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[433].hash
-      value: -1347324426
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[433].name
-      value: Parameters.VRCEmote.Float Driver.214
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[434].hash
-      value: 918037580
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[434].name
-      value: Parameters.VRCEmote.Float Driver.217
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[435].hash
-      value: -1536387384
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[435].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[436].hash
-      value: -747919778
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[436].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[437].hash
-      value: 1247999972
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[437].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[438].hash
-      value: 1030080370
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[438].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[439].hash
-      value: -1560194351
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[439].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[440].hash
-      value: -737779129
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[440].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[441].hash
-      value: 1292841981
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[441].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[442].hash
-      value: 973603691
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[442].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[443].hash
-      value: -1430839558
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[443].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[444].hash
-      value: -575656340
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[444].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[445].hash
-      value: 2027669620
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[445].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[446].hash
-      value: 266139874
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[446].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[447].hash
-      value: -1764382376
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[447].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[448].hash
-      value: -506291762
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[448].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[449].hash
-      value: 2142637165
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[449].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[450].hash
-      value: 145833211
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[450].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[451].hash
-      value: -1850184383
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[451].name
-      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[452].hash
-      value: -686503884
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[452].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[453].hash
-      value: -1609303902
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[453].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[454].hash
-      value: 958048536
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[454].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[455].hash
-      value: 1310562702
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[455].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[456].hash
-      value: -797373395
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[456].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[457].hash
-      value: -1484899141
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[457].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[458].hash
-      value: 1048014081
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[458].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[459].hash
-      value: 1232100759
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[459].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[460].hash
-      value: -640729082
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[460].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[461].hash
-      value: -1362595696
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[461].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[462].hash
-      value: -861729251
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[462].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[463].hash
-      value: -1146863989
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[463].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[464].hash
-      value: 581791537
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[464].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[465].hash
-      value: 1437228967
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[465].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[466].hash
-      value: -875640316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[466].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[467].hash
-      value: -1127613806
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[467].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[468].hash
-      value: 633383720
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[468].name
-      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[469].hash
-      value: -383954685
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[469].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[470].hash
-      value: -1642438251
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[470].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[471].hash
-      value: 118698031
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[471].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[472].hash
-      value: 1880359097
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[472].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[473].hash
-      value: -294611686
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[473].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[474].hash
-      value: -1720212084
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[474].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[475].hash
-      value: 8320054
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[475].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[476].hash
-      value: 2004468896
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[476].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[477].hash
-      value: -406398671
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[477].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[478].hash
-      value: -1866339929
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[478].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[479].hash
-      value: 1948295819
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[479].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[480].hash
-      value: 52924957
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[480].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[481].hash
-      value: -1708211289
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[481].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[482].hash
-      value: -316017871
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[482].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[483].hash
-      value: 1934452370
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[483].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[484].hash
-      value: 71980548
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[484].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[485].hash
-      value: -1656551490
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[485].name
-      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[486].hash
-      value: -252099590
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[486].name
-      value: Parameters.VRCEmote.Velocity Check.Jump Hold
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[487].hash
-      value: 1750374164
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[487].name
-      value: Parameters.VRCEmote.Velocity Check.On Rail Up
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[488].hash
-      value: -964846623
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[488].name
-      value: Parameters.VRCEmote.Velocity Check.Falling
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[489].hash
-      value: -1652669345
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[489].name
-      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[490].hash
-      value: 2083032632
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[490].name
-      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Disable
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[491].hash
-      value: 717973936
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[491].name
-      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable InStation
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[492].hash
-      value: -1238351477
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[492].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Up
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[493].hash
-      value: -1377901680
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[493].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Down
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[494].hash
-      value: -218395498
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[494].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Spam
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[495].hash
-      value: -1173759630
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[495].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Spam Repeat
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[496].hash
-      value: -1681571914
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[496].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Up Repeat
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[497].hash
-      value: -1170936249
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[497].name
-      value: Parameters.VRCEmote.VRCEmote Driven.PP Down Repeat
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[498].hash
-      value: -1301015767
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[498].name
-      value: Parameters.VRCEmote.VRCEmote Driven.Pose Space Out
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[499].hash
-      value: -1052001363
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[499].name
-      value: Parameters.VRCEmote.VRCEmote Driven.Force VRCEmote 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[500].hash
-      value: -1240562467
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[500].name
-      value: Parameters.VRCEmote.VRCEmote Driven.Head Animate
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[501].hash
-      value: -1494136850
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[501].name
-      value: Parameters.VRCEmote.VRCEmote Driven.Head Tracking
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[502].hash
-      value: -2015808840
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[502].name
-      value: Parameters.VRCEmote.VRCEmote Driven.Float Factor
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[503].hash
-      value: 1302492508
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[503].name
       value: Remote
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: animationHashSet.Array.data[399].hash
+      value: 2020183268
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[399].name
+      value: Parameters.Parameters Wait
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[400].hash
+      value: -1326843037
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[400].name
+      value: Parameters.Grounded Check.JumpAndFall ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[401].hash
+      value: -1198659085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[401].name
+      value: Parameters.Grounded Check.Allow JumpAndFall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[402].hash
+      value: -2043911581
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[402].name
+      value: Parameters.Grounded Check.Jump Wait
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[403].hash
+      value: 227055783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[403].name
+      value: Parameters.VRCEmote.VRCEmote Out
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[404].hash
+      value: -1671473848
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[404].name
+      value: Parameters.VRCEmote.Force Tracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[405].hash
+      value: -613364328
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[405].name
+      value: Parameters.VRCEmote.Float Driver.248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[406].hash
+      value: 1019797663
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[406].name
+      value: Parameters.VRCEmote.Float Driver.246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[407].hash
+      value: -1514032859
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[407].name
+      value: Parameters.VRCEmote.Float Driver.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[408].hash
+      value: 1285690384
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[408].name
+      value: Parameters.VRCEmote.Float Driver.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[409].hash
+      value: -1565756100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[409].name
+      value: Parameters.VRCEmote.Float Driver.241
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[410].hash
+      value: -710195798
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[410].name
+      value: Parameters.VRCEmote.Float Driver.240
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[411].hash
+      value: 1000678534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[411].name
+      value: Parameters.VRCEmote.Float Driver.242
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[412].hash
+      value: -758742605
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[412].name
+      value: Parameters.VRCEmote.Float Driver.244
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[413].hash
+      value: 1271910409
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[413].name
+      value: Parameters.VRCEmote.Float Driver.247
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[414].hash
+      value: -1808704673
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[414].name
+      value: Parameters.VRCEmote.Float Driver.238
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[415].hash
+      value: -97691000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[415].name
+      value: Parameters.VRCEmote.Float Driver.229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[416].hash
+      value: -1695886483
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[416].name
+      value: Parameters.VRCEmote.Float Driver.230
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[417].hash
+      value: -303176709
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[417].name
+      value: Parameters.VRCEmote.Float Driver.231
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[418].hash
+      value: 1961144897
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[418].name
+      value: Parameters.VRCEmote.Float Driver.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[419].hash
+      value: 65241815
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[419].name
+      value: Parameters.VRCEmote.Float Driver.233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[420].hash
+      value: -482972727
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[420].name
+      value: Parameters.VRCEmote.Float Driver.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[421].hash
+      value: 76433102
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[421].name
+      value: Parameters.VRCEmote.Float Driver.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[422].hash
+      value: -1401422578
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[422].name
+      value: Parameters.VRCEmote.Float Driver.249
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[423].hash
+      value: -1652091020
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[423].name
+      value: Parameters.VRCEmote.Float Driver.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[424].hash
+      value: 1938388568
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[424].name
+      value: Parameters.VRCEmote.Float Driver.236
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[425].hash
+      value: 1438197073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[425].name
+      value: Parameters.VRCEmote.Float Driver.253
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[426].hash
+      value: 582882759
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[426].name
+      value: Parameters.VRCEmote.Float Driver.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[427].hash
+      value: -1145617283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[427].name
+      value: Parameters.VRCEmote.Float Driver.251
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[428].hash
+      value: -860850965
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[428].name
+      value: Parameters.VRCEmote.Float Driver.250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[429].hash
+      value: -360699934
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[429].name
+      value: Parameters.VRCEmote.Float Driver.235
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[430].hash
+      value: 452506518
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[430].name
+      value: Parameters.VRCEmote.Float Driver.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[431].hash
+      value: 496334735
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[431].name
+      value: Parameters.VRCEmote.Float Driver.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[432].hash
+      value: -788526773
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[432].name
+      value: Parameters.VRCEmote.Float Driver.219
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[433].hash
+      value: -185150790
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[433].name
+      value: Parameters.VRCEmote.Float Driver.221
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[434].hash
+      value: -2081299924
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[434].name
+      value: Parameters.VRCEmote.Float Driver.220
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[435].hash
+      value: -1926600162
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[435].name
+      value: Parameters.VRCEmote.Float Driver.228
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[436].hash
+      value: 1845461760
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[436].name
+      value: Parameters.VRCEmote.Float Driver.222
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[437].hash
+      value: 1787971353
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[437].name
+      value: Parameters.VRCEmote.Float Driver.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[438].hash
+      value: -2070141387
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[438].name
+      value: Parameters.VRCEmote.Float Driver.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[439].hash
+      value: -207939933
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[439].name
+      value: Parameters.VRCEmote.Float Driver.225
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[440].hash
+      value: 744364452
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[440].name
+      value: Parameters.VRCEmote.Float Driver.Adjustment Out
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[441].hash
+      value: -710104191
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[441].name
+      value: Parameters.VRCEmote.Float Driver.PlaySpace True
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[442].hash
+      value: -1509475875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[442].name
+      value: Parameters.VRCEmote.Float Driver.218
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[443].hash
+      value: 1103041754
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[443].name
+      value: Parameters.VRCEmote.Float Driver.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[444].hash
+      value: -659143328
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[444].name
+      value: Parameters.VRCEmote.Float Driver.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[445].hash
+      value: 836100181
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[445].name
+      value: Parameters.VRCEmote.Float Driver.213
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[446].hash
+      value: -539262599
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[446].name
+      value: Parameters.VRCEmote.Float Driver.211
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[447].hash
+      value: -1461931537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[447].name
+      value: Parameters.VRCEmote.Float Driver.210
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[448].hash
+      value: 1188221123
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[448].name
+      value: Parameters.VRCEmote.Float Driver.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[449].hash
+      value: -1347324426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[449].name
+      value: Parameters.VRCEmote.Float Driver.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[450].hash
+      value: 918037580
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[450].name
+      value: Parameters.VRCEmote.Float Driver.217
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[451].hash
+      value: -1536387384
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[451].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[452].hash
+      value: -747919778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[452].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[453].hash
+      value: 1247999972
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[453].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[454].hash
+      value: 1030080370
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[454].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[455].hash
+      value: -1560194351
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[455].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[456].hash
+      value: -737779129
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[456].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[457].hash
+      value: 1292841981
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[457].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[458].hash
+      value: 973603691
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[458].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[459].hash
+      value: -1430839558
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[459].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[460].hash
+      value: -575656340
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[460].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[461].hash
+      value: 2027669620
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[461].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[462].hash
+      value: 266139874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[462].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[463].hash
+      value: -1764382376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[463].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[464].hash
+      value: -506291762
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[464].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[465].hash
+      value: 2142637165
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[465].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[466].hash
+      value: 145833211
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[466].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[467].hash
+      value: -1850184383
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[467].name
+      value: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[468].hash
+      value: -686503884
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[468].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[469].hash
+      value: -1609303902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[469].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[470].hash
+      value: 958048536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[470].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[471].hash
+      value: 1310562702
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[471].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[472].hash
+      value: -797373395
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[472].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[473].hash
+      value: -1484899141
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[473].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[474].hash
+      value: 1048014081
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[474].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[475].hash
+      value: 1232100759
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[475].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[476].hash
+      value: -640729082
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[476].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[477].hash
+      value: -1362595696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[477].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[478].hash
+      value: -861729251
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[478].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[479].hash
+      value: -1146863989
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[479].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[480].hash
+      value: 581791537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[480].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[481].hash
+      value: 1437228967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[481].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[482].hash
+      value: -875640316
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[482].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[483].hash
+      value: -1127613806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[483].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[484].hash
+      value: 633383720
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[484].name
+      value: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[485].hash
+      value: -383954685
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[485].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[486].hash
+      value: -1642438251
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[486].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[487].hash
+      value: 118698031
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[487].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[488].hash
+      value: 1880359097
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[488].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[489].hash
+      value: -294611686
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[489].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[490].hash
+      value: -1720212084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[490].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[491].hash
+      value: 8320054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[491].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[492].hash
+      value: 2004468896
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[492].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[493].hash
+      value: -406398671
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[493].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[494].hash
+      value: -1866339929
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[494].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[495].hash
+      value: 1948295819
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[495].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[496].hash
+      value: 52924957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[496].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[497].hash
+      value: -1708211289
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[497].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[498].hash
+      value: -316017871
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[498].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[499].hash
+      value: 1934452370
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[499].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[500].hash
+      value: 71980548
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[500].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[501].hash
+      value: -1656551490
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[501].name
+      value: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[502].hash
+      value: -252099590
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[502].name
+      value: Parameters.VRCEmote.Velocity Check.Jump Hold
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[503].hash
+      value: 1750374164
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[503].name
+      value: Parameters.VRCEmote.Velocity Check.On Rail Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: animationHashSet.Array.data[504].hash
-      value: -1465821469
+      value: -964846623
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[504].name
-      value: Timer.Timer Wait
+      value: Parameters.VRCEmote.Velocity Check.Falling
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[505].hash
-      value: 987769669
+      value: -1652669345
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[505].name
-      value: Timer.VRMode 0
+      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[506].hash
-      value: 1306991571
+      value: 2083032632
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[506].name
-      value: Timer.VRMode 1
+      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Disable
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[507].hash
-      value: 1982431605
+      value: 717973936
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[507].name
-      value: Timer.Pose Radial 0
+      value: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable InStation
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[508].hash
-      value: 1124336946
+      value: -1238351477
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[508].name
-      value: Timer.TrackingType 3
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Up
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[509].hash
-      value: -580874095
+      value: -1377901680
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[509].name
-      value: Timer.TrackingType 4
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Down
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[510].hash
-      value: -1436049401
+      value: -218395498
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[510].name
-      value: Timer.TrackingType 5
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Spam
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[511].hash
-      value: 862908861
+      value: -1173759630
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[511].name
-      value: Timer.TrackingType 6
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Spam Repeat
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[512].hash
-      value: -142604042
+      value: -1681571914
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[512].name
-      value: Timer.Flash Grounded.Grounded ?
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Up Repeat
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[513].hash
-      value: -1079309321
+      value: -1170936249
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[513].name
-      value: Timer.Flash Grounded.Grounded True
+      value: Parameters.VRCEmote.VRCEmote Driven.PP Down Repeat
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[514].hash
-      value: 61433529
+      value: -1301015767
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[514].name
-      value: Timer.Pose Space.Timer 125
+      value: Parameters.VRCEmote.VRCEmote Driven.Pose Space Out
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[515].hash
-      value: -859491238
+      value: -1052001363
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[515].name
-      value: Timer.Pose Space.Force Close
+      value: Parameters.VRCEmote.VRCEmote Driven.Force VRCEmote 0
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[516].hash
-      value: 622611891
+      value: -1240562467
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[516].name
-      value: Timer.Pose Space.Pose Space Init
+      value: Parameters.VRCEmote.VRCEmote Driven.Head Animate
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[517].hash
-      value: -957059839
+      value: -1494136850
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[517].name
-      value: Timer.Pose Space.Timer Froce close
+      value: Parameters.VRCEmote.VRCEmote Driven.Head Tracking
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[518].hash
-      value: 190768697
+      value: -2015808840
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[518].name
-      value: Timer.Pose Space.Pose Space End
+      value: Parameters.VRCEmote.VRCEmote Driven.Float Factor
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[519].hash
-      value: -1063925321
+      value: 1302492508
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[519].name
-      value: Timer.JSRF.Jump / Rail / Wall ?
+      value: Remote
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[520].hash
-      value: -2088124069
+      value: -1465821469
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[520].name
-      value: Timer.JSRF.Velocity Timer
+      value: Timer.Timer Wait
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[521].hash
-      value: 1016132197
+      value: 987769669
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[521].name
-      value: Timer.JSRF.Jump
+      value: Timer.VRMode 0
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[522].hash
-      value: 739033647
+      value: 1306991571
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[522].name
-      value: Timer.JSRF.JSRF Grounded
+      value: Timer.VRMode 1
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[523].hash
-      value: 1376474967
+      value: 1982431605
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[523].name
-      value: master tree
+      value: Timer.Pose Radial 0
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[524].hash
-      value: -1905250930
+      value: 1124336946
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[524].name
-      value: basis
+      value: Timer.TrackingType 3
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[525].hash
-      value: 341124537
+      value: -580874095
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[525].name
-      value: down
+      value: Timer.TrackingType 4
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[526].hash
-      value: 479401739
+      value: -1436049401
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[526].name
-      value: up
+      value: Timer.TrackingType 5
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[527].hash
-      value: 741269655
+      value: 862908861
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[527].name
-      value: curious
+      value: Timer.TrackingType 6
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[528].hash
-      value: -442206472
+      value: -142604042
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[528].name
-      value: up 1
+      value: Timer.Flash Grounded.Grounded ?
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[529].hash
-      value: 1467367949
+      value: -1079309321
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[529].name
-      value: worried
+      value: Timer.Flash Grounded.Grounded True
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[530].hash
-      value: 462021868
+      value: 61433529
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[530].name
-      value: curious 1
+      value: Timer.Pose Space.Timer 125
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[531].hash
-      value: -75439228
+      value: -859491238
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[531].name
-      value: down 1
+      value: Timer.Pose Space.Force Close
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[532].hash
-      value: 1573501565
+      value: 622611891
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[532].name
-      value: basis
+      value: Timer.Pose Space.Pose Space Init
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[533].hash
-      value: -1959208665
+      value: -957059839
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[533].name
-      value: sad
+      value: Timer.Pose Space.Timer Froce close
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[534].hash
-      value: -762454971
+      value: 190768697
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[534].name
-      value: smile
+      value: Timer.Pose Space.Pose Space End
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[535].hash
-      value: -299987116
+      value: -1063925321
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[535].name
-      value: grimace
+      value: Timer.JSRF.Jump / Rail / Wall ?
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[536].hash
-      value: -2014789291
+      value: -2088124069
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[536].name
-      value: smile 1
+      value: Timer.JSRF.Velocity Timer
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[537].hash
-      value: 643030680
+      value: 1016132197
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[537].name
-      value: grimace 1
+      value: Timer.JSRF.Jump
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[538].hash
-      value: -1084584158
+      value: 739033647
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[538].name
-      value: grimace 2
+      value: Timer.JSRF.JSRF Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[539].hash
-      value: -1605802678
+      value: 331409080
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[539].name
-      value: sad 1
+      value: master tree
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[540].hash
-      value: -2115241334
+      value: -1798231155
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[540].name
-      value: bool preferences drivers
+      value: basis
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[541].hash
-      value: 559359603
+      value: 1871141805
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[541].name
-      value: face tracking off
+      value: down
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[542].hash
-      value: -496812474
+      value: 1329923094
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[542].name
-      value: face tracking on
+      value: up
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[543].hash
-      value: -2086182126
+      value: -295695168
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[543].name
-      value: OSC Local
+      value: curious
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[544].hash
-      value: 131470683
+      value: -1636431636
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[544].name
-      value: OSC Remote
+      value: up 1
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[545].hash
-      value: 1012166080
+      value: -1791447462
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[545].name
-      value: Waiting command
+      value: worried
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[546].hash
-      value: 886568801
+      value: 1204765538
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[546].name
-      value: T-shirt
+      value: curious 1
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[547].hash
-      value: -1352220011
+      value: 1653805880
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[547].name
-      value: Waiting command
+      value: down 1
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[548].hash
-      value: 985716377
+      value: -992326975
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[548].name
-      value: shorts
+      value: basis
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[549].hash
-      value: -1233969695
+      value: -253057229
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[549].name
-      value: Waiting command
+      value: sad
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[550].hash
-      value: -351227172
+      value: 1268657401
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[550].name
-      value: AFK
+      value: smile
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[551].hash
-      value: -1612743237
+      value: 466814447
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[551].name
-      value: Waiting command (EyeTrackingActive)
+      value: grimace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[552].hash
+      value: 1915046894
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[552].name
+      value: smile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[553].hash
+      value: 739194392
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[553].name
+      value: grimace 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[554].hash
+      value: -1257871454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[554].name
+      value: grimace 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[555].hash
+      value: 962237942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[555].name
+      value: sad 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[556].hash
+      value: 1865021456
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[556].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[557].hash
+      value: -1275088504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[557].name
+      value: T-shirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[558].hash
+      value: -855664283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[558].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[559].hash
+      value: -1137533641
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[559].name
+      value: shorts
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[560].hash
+      value: -1229943232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[560].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[561].hash
+      value: 1314393514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[561].name
+      value: round_glasses
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[562].hash
+      value: 1998975171
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[562].name
+      value: face tracking off
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[563].hash
+      value: 594652531
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[563].name
+      value: face tracking on
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[564].hash
+      value: 448041902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[564].name
+      value: OSC Local
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[565].hash
+      value: -979830516
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[565].name
+      value: OSC Remote
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -6072,21 +6212,6 @@ PrefabInstance:
     - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_DirtyAABB
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[11]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[12]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[13]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6543418216832792865, guid: 6f354e7dcf3727645a9659f35a3046da,
