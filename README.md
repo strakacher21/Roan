@@ -2,7 +2,7 @@
 
 ## [VRChat](https://hello.vrchat.com/) furry fox avatar.
 ___
-<img src="Roan.png" alt="Roan preview" width="100%">
+<img src="Roan%20unity%20project/Assets/icons/Roan%20thumbnail.png" alt="Roan preview" width="100%">
 
 ### [:arrow_forward:Sketchfab Preview (tag 3.2)](https://skfb.ly/pAzHI)
 
