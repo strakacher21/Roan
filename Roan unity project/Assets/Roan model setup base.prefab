@@ -86,6 +86,10 @@ MonoBehaviour:
     clothEntries:
     - clothName: round_glasses
       invertAnimation: 1
+  - layerName: cloth/panama
+    clothEntries:
+    - clothName: panama
+      invertAnimation: 0
   createColorCustomization: 1
   ColorProfiles:
   - name: Round_glasses_shade
@@ -1635,7 +1639,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 6285505686932134747}
-    eyelidsBlendshapes: 0b0000000c0000000b000000
+    eyelidsBlendshapes: 0c0000000d0000000e000000
   customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
@@ -1688,40 +1692,612 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
-  - hash: -945202046
-    name: Proning
-  - hash: -216566114
-    name: Standing
-  - hash: -1694472695
-    name: Crouching
-  - hash: 563524136
-    name: Avatar  Showcase
-  - hash: -1922821475
-    name: JumpAndFall.Short Fall
-  - hash: -246445566
-    name: JumpAndFall.HardLand
-  - hash: 1172196673
-    name: JumpAndFall.LongFall
-  - hash: -1948966390
-    name: JumpAndFall.RestoreTracking
-  - hash: 912507282
-    name: JumpAndFall.SmallHop
-  - hash: -1966747381
-    name: JumpAndFall.RestoreToHop
-  - hash: 644250717
-    name: JumpAndFall.QuickLand
-  - hash: 2008513115
+  - hash: 864058859
+    name: Avatar 3D Thumbnail
+  - hash: -1291001443
+    name: Local
+  - hash: 2061574248
+    name: Remote
+  - hash: 1672270957
+    name: ( 3-4 pt ).VRCEmote Action.Reset ( 3 -4 pt )
+  - hash: -1760920831
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Locomotion
+  - hash: -1262376658
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Stand Motion
+  - hash: -459185092
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Crouch Motion
+  - hash: -1892160636
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Proning Motion
+  - hash: -1562431345
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Jump & Fall ( 3-4 pt ).Jump
+      Desktop
+  - hash: 704380301
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Jump & Fall ( 3-4 pt ).Jump
+      Desktop Mirror
+  - hash: -1574462840
+    name: ( 3-4 pt ).VRCEmote Action.Super VR Ball.SVRB Jump & Fall ( 3-4 pt ).Fall
+  - hash: 401665205
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly On VR Stand
+  - hash: 1663306495
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly Off VR
+  - hash: -1053486135
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly Init
+  - hash: -904120057
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly Desktop Denied
+  - hash: -914247368
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly On Desktop Stand
+  - hash: 365235432
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly Desktop ?
+  - hash: 420277078
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly On VR Crouch
+  - hash: 613098656
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly VR ?
+  - hash: 144888869
+    name: ( 3-4 pt ).VRCEmote Action.Fly.Fly On VR Prone
+  - hash: 2041323244
+    name: ( 3-4 pt ).VRCEmote Action.Play Space.Root Y Stand
+  - hash: 198532852
+    name: ( 3-4 pt ).VRCEmote Action.Play Space.Root Y Crouch
+  - hash: 1727932028
+    name: ( 3-4 pt ).VRCEmote Action.Play Space.Root Y Prone
+  - hash: 473148407
+    name: ( 3-4 pt ).VRCEmote Action.Play Space.Root Y 4 pt
+  - hash: 401021282
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.JSRF Standing Motion
+  - hash: -2122185216
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Jump
+  - hash: -1392746679
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Grinding Mirror
+  - hash: 1189656986
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.JRSF Crouch Motion
+  - hash: -657139418
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.JSRF Proning Motion
+  - hash: 1839268767
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Double Jump
+  - hash: 2009761874
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Grinding
+  - hash: -1542998850
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Double Jump Mirror
+  - hash: -142440308
+    name: ( 3-4 pt ).VRCEmote Action.JSR Festival.Jump Mirror
+  - hash: 956621074
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.BTA Standing Motion
+  - hash: -1433867121
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.Jump
+  - hash: -228410564
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.BTA Crouch Motion
+  - hash: -1893652389
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.BTA Proning Motion
+  - hash: -1717333506
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.Double Jump
+  - hash: -1431529929
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.Double Jump Mirror
+  - hash: 58727149
+    name: ( 3-4 pt ).VRCEmote Action.Bullet Time Agent.Jump Mirror
+  - hash: -371097717
+    name: ( 3-4 pt ).VRCEmote Action.Sleep VR.Sleep VR Tracking
+  - hash: -565006896
+    name: ( 3-4 pt ).VRCEmote Action.Sleep VR.Sleep VR
+  - hash: 1042962623
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Stand ( 3-4 pt ).Stand Motion
+  - hash: -468673987
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Stand ( 3-4 pt ).Stand Idle VR
+  - hash: 833194309
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Stand ( 3-4 pt ).Stand Idle Desktop
+  - hash: 20294116
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Crouch ( 3-4 pt ).Crouch Motion
+  - hash: 517359574
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Crouch ( 3-4 pt ).Crouching Idle Desktop
+  - hash: -411032928
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Crouch ( 3-4 pt ).4 pt Crouch Motion
+  - hash: 412487088
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Crouch ( 3-4 pt ).Crouch Idle VR
+  - hash: -427006585
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Prone ( 3-4 pt ).Proning Motion
+  - hash: 1806389987
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Prone ( 3-4 pt ).Proning Idle Desktop
+  - hash: -773515797
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Prone ( 3-4 pt ).Prone VR.4 pt  Proning
+      Idle
+  - hash: 127603019
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Prone ( 3-4 pt ).Prone VR.Laydown Idle
+  - hash: -1669384638
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Prone ( 3-4 pt ).Prone VR.Proning Idle
+      VR
+  - hash: -91376718
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Default.Jump
+  - hash: 872539279
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Default.Jump Mirror
+  - hash: -1502713176
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Default.Fall
+  - hash: 917303106
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Default.Action
+  - hash: -1629716735
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Swimming.go_Swimming_Velocity
+  - hash: -987183580
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Forward
+  - hash: 1786706044
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Backward
+  - hash: -82841454
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Center
+  - hash: 1083621537
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Right
+  - hash: -228129922
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Left
+  - hash: 1015223419
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.go_Dash_Jump
+  - hash: 1608468603
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Forward
+      M
+  - hash: -321114662
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Dashing.Dash Backward
+      M
+  - hash: -1629902674
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Hovering.Jump
+  - hash: -1036357196
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Hovering.Fall
+  - hash: 1522409383
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Hovering.Action
+  - hash: -2068190926
+    name: ( 3-4 pt ).Locomotion ( 3-4 pt ).Jump & Fall ( 3-4 pt ).Jump & Fall Set
+      Hovering.Jump Mirror
+  - hash: 653184883
+    name: ( 5+ pt ).FBT Still
+  - hash: 274445961
+    name: ( 5+ pt ).FBT Motion
+  - hash: -1656160702
+    name: ( 5+ pt ).FBT InStation/Action
+  - hash: -312996732
+    name: ( 5+ pt ).Jump & Fall FBT.Jump
+  - hash: -1728755128
+    name: ( 5+ pt ).Jump & Fall FBT.Jump Mirror
+  - hash: -1313090146
+    name: ( 5+ pt ).Jump & Fall FBT.Fall
+  - hash: -561181832
+    name: Remote
+  - hash: -18801277
+    name: Posing.Wait For An Action.Local
+  - hash: -464677322
+    name: Posing.Wait For An Action.Additive.Seated
+  - hash: 1824074249
+    name: Posing.Wait For An Action.Additive.Emote
+  - hash: -2058878464
+    name: Posing.Wait For An Action.Additive.InStation Immobile
+  - hash: 2136917195
+    name: Posing.Wait For An Action.Additive.InStation Mobile
+  - hash: 674841967
+    name: Posing.Wait For An Action.Head Animate.Head Anim Crouch Desktop
+  - hash: 898209114
+    name: Posing.Wait For An Action.Head Animate.Head Anim Crouch VR
+  - hash: -1508056477
+    name: Posing.Wait For An Action.Head Animate.Head Anim Stand
+  - hash: -299536706
+    name: Posing.Wait For An Action.Head Tracking.Head Tracking Crouch VR
+  - hash: 339804574
+    name: Posing.Wait For An Action.Head Tracking.Head tracking Crouch Desktop
+  - hash: -1660975771
+    name: Posing.Wait For An Action.Head Tracking.Head Tracking Stand
+  - hash: -1825864551
+    name: Posing.Wait For An Action.Seated Crouch.Crouch Desktop Seated
+  - hash: -247510414
+    name: Posing.Wait For An Action.Seated Crouch.Crouch Desktop Seated Head
+  - hash: -1673299877
+    name: Posing.Wait For An Action.Seated Crouch.Stand Desktop Seated Head
+  - hash: 1929896114
+    name: Posing.Wait For An Action.Seated Crouch.Stand Desktop Seated
+  - hash: 1027342663
+    name: Posing.VRCEmote 210 -253.223.Left
+  - hash: 526128043
+    name: Posing.VRCEmote 210 -253.223.Right
+  - hash: 1427635001
+    name: Posing.VRCEmote 210 -253.223.Left Init
+  - hash: -1387871245
+    name: Posing.VRCEmote 210 -253.223.Right Init
+  - hash: -161426718
+    name: Posing.VRCEmote 210 -253.222.Left
+  - hash: -1188358113
+    name: Posing.VRCEmote 210 -253.222.Right
+  - hash: -1801902855
+    name: Posing.VRCEmote 210 -253.222.Left Init
+  - hash: 920883100
+    name: Posing.VRCEmote 210 -253.222.Right Init
+  - hash: 1895080012
+    name: Posing.VRCEmote 210 -253.221.Left
+  - hash: -2000485758
+    name: Posing.VRCEmote 210 -253.221.Right
+  - hash: 226181880
+    name: Posing.VRCEmote 210 -253.221.Left Init
+  - hash: 1098734956
+    name: Posing.VRCEmote 210 -253.221.Right Init
+  - hash: 1476129156
+    name: Posing.VRCEmote 210 -253.228.Left
+  - hash: 492521297
+    name: Posing.VRCEmote 210 -253.228.Right
+  - hash: 1983282301
+    name: Posing.VRCEmote 210 -253.228.Left Init
+  - hash: -590059523
+    name: Posing.VRCEmote 210 -253.228.Right Init
+  - hash: -1498594479
+    name: Posing.VRCEmote 210 -253.227.Left
+  - hash: -351062088
+    name: Posing.VRCEmote 210 -253.227.Right
+  - hash: -439449413
+    name: Posing.VRCEmote 210 -253.227.Left Init
+  - hash: -1371473780
+    name: Posing.VRCEmote 210 -253.227.Right Init
+  - hash: -1387317060
+    name: Posing.VRCEmote 210 -253.219.Left
+  - hash: 899894022
+    name: Posing.VRCEmote 210 -253.219.Right
+  - hash: -1071222451
+    name: Posing.VRCEmote 210 -253.219.Left Init
+  - hash: -88389796
+    name: Posing.VRCEmote 210 -253.219.Right Init
+  - hash: -1146588183
+    name: Posing.VRCEmote 210 -253.220.Left
+  - hash: 783550774
+    name: Posing.VRCEmote 210 -253.220.Right
+  - hash: -856318664
+    name: Posing.VRCEmote 210 -253.220.Left Init
+  - hash: -623374077
+    name: Posing.VRCEmote 210 -253.220.Right Init
+  - hash: 501184605
+    name: Posing.VRCEmote 210 -253.230.Left
+  - hash: -501347928
+    name: Posing.VRCEmote 210 -253.230.Right
+  - hash: 1464914263
+    name: Posing.VRCEmote 210 -253.230.Left Init
+  - hash: 122603654
+    name: Posing.VRCEmote 210 -253.230.Right Init
+  - hash: 1844547828
+    name: Posing.VRCEmote 210 -253.226.Left
+  - hash: 1298414604
+    name: Posing.VRCEmote 210 -253.226.Right
+  - hash: 608196475
+    name: Posing.VRCEmote 210 -253.226.Left Init
+  - hash: 904246499
+    name: Posing.VRCEmote 210 -253.226.Right Init
+  - hash: 540619263
+    name: Posing.VRCEmote 210 -253.224.Left
+  - hash: -621073115
+    name: Posing.VRCEmote 210 -253.224.Right
+  - hash: 2083319482
+    name: Posing.VRCEmote 210 -253.224.Left Init
+  - hash: -639751556
+    name: Posing.VRCEmote 210 -253.224.Right Init
+  - hash: -345644454
+    name: Posing.VRCEmote 210 -253.225.Left
+  - hash: 2089559697
+    name: Posing.VRCEmote 210 -253.225.Right
+  - hash: -1113443974
+    name: Posing.VRCEmote 210 -253.225.Left Init
+  - hash: 1115383315
+    name: Posing.VRCEmote 210 -253.225.Right Init
+  - hash: 1343740246
+    name: Posing.VRCEmote 210 -253.232.Left
+  - hash: 1971394689
+    name: Posing.VRCEmote 210 -253.232.Right
+  - hash: 255617174
+    name: Posing.VRCEmote 210 -253.232.Left Init
+  - hash: -344631783
+    name: Posing.VRCEmote 210 -253.232.Right Init
+  - hash: -1689580813
+    name: Posing.VRCEmote 210 -253.233.Left
+  - hash: -738847947
+    name: Posing.VRCEmote 210 -253.233.Right
+  - hash: -827148458
+    name: Posing.VRCEmote 210 -253.233.Left Init
+  - hash: 1892686454
+    name: Posing.VRCEmote 210 -253.233.Right Init
+  - hash: 1293085166
+    name: Posing.VRCEmote 210 -253.235.Left
+  - hash: -1339677169
+    name: Posing.VRCEmote 210 -253.235.Right
+  - hash: 638024981
+    name: Posing.VRCEmote 210 -253.235.Left Init
+  - hash: -1611808874
+    name: Posing.VRCEmote 210 -253.235.Right Init
+  - hash: -880370880
+    name: Posing.VRCEmote 210 -253.236.Left
+  - hash: -2117190510
+    name: Posing.VRCEmote 210 -253.236.Right
+  - hash: -1075504364
+    name: Posing.VRCEmote 210 -253.236.Left Init
+  - hash: -395088538
+    name: Posing.VRCEmote 210 -253.236.Right Init
+  - hash: -2041693621
+    name: Posing.VRCEmote 210 -253.234.Left
+  - hash: 374418875
+    name: Posing.VRCEmote 210 -253.234.Right
+  - hash: -410410283
+    name: Posing.VRCEmote 210 -253.234.Left Init
+  - hash: 71889913
+    name: Posing.VRCEmote 210 -253.234.Right Init
+  - hash: -1666768351
+    name: Posing.VRCEmote 210 -253.229.Left
+  - hash: -1154724635
+    name: Posing.VRCEmote 210 -253.229.Right
+  - hash: -1212636227
+    name: Posing.VRCEmote 210 -253.229.Left Init
+  - hash: 1198599058
+    name: Posing.VRCEmote 210 -253.229.Right Init
+  - hash: -696013832
+    name: Posing.VRCEmote 210 -253.231.Left
+  - hash: 1147732508
+    name: Posing.VRCEmote 210 -253.231.Right
+  - hash: -1763832169
+    name: Posing.VRCEmote 210 -253.231.Left Init
+  - hash: -1662286615
+    name: Posing.VRCEmote 210 -253.231.Right Init
+  - hash: -242419152
+    name: Posing.VRCEmote 210 -253.238.Left
+  - hash: -772716593
+    name: Posing.VRCEmote 210 -253.238.Right
+  - hash: -309121006
+    name: Posing.VRCEmote 210 -253.238.Left Init
+  - hash: 21151352
+    name: Posing.VRCEmote 210 -253.238.Right Init
+  - hash: 14305509
+    name: Posing.VRCEmote 210 -253.237.Left
+  - hash: 666449702
+    name: Posing.VRCEmote 210 -253.237.Right
+  - hash: 2120991956
+    name: Posing.VRCEmote 210 -253.237.Left Init
+  - hash: 1943413001
+    name: Posing.VRCEmote 210 -253.237.Right Init
+  - hash: 986720661
+    name: Posing.VRCEmote 210 -253.239.Left
+  - hash: 2005290107
+    name: Posing.VRCEmote 210 -253.239.Right
+  - hash: 740159442
+    name: Posing.VRCEmote 210 -253.239.Left Init
+  - hash: -1696075241
+    name: Posing.VRCEmote 210 -253.239.Right Init
+  - hash: -1783568424
+    name: Posing.VRCEmote 210 -253.242.Left
+  - hash: 2135167384
+    name: Posing.VRCEmote 210 -253.242.Right
+  - hash: 2074378521
+    name: Posing.VRCEmote 210 -253.242.Left Init
+  - hash: -1777971135
+    name: Posing.VRCEmote 210 -253.242.Right Init
+  - hash: -2001348768
+    name: Posing.VRCEmote 210 -253.245.Left
+  - hash: -1159516394
+    name: Posing.VRCEmote 210 -253.245.Right
+  - hash: 1386189978
+    name: Posing.VRCEmote 210 -253.245.Left Init
+  - hash: -492914226
+    name: Posing.VRCEmote 210 -253.245.Right Init
+  - hash: 321164662
+    name: Posing.VRCEmote 210 -253.241.Left
+  - hash: 1319897861
+    name: Posing.VRCEmote 210 -253.241.Right
+  - hash: -498669800
+    name: Posing.VRCEmote 210 -253.241.Left Init
+  - hash: -510098767
+    name: Posing.VRCEmote 210 -253.241.Right Init
+  - hash: 1592538237
+    name: Posing.VRCEmote 210 -253.243.Left
+  - hash: -650962388
+    name: Posing.VRCEmote 210 -253.243.Right
+  - hash: -1171628327
+    name: Posing.VRCEmote 210 -253.243.Left Init
+  - hash: 228793390
+    name: Posing.VRCEmote 210 -253.243.Right Init
+  - hash: 1139344581
+    name: Posing.VRCEmote 210 -253.244.Left
+  - hash: 479470754
+    name: Posing.VRCEmote 210 -253.244.Right
+  - hash: -1827583142
+    name: Posing.VRCEmote 210 -253.244.Left Init
+  - hash: 2033972641
+    name: Posing.VRCEmote 210 -253.244.Right Init
+  - hash: -663206189
+    name: Posing.VRCEmote 210 -253.240.Left
+  - hash: -388300623
+    name: Posing.VRCEmote 210 -253.240.Right
+  - hash: 600324312
+    name: Posing.VRCEmote 210 -253.240.Left Init
+  - hash: 2050871006
+    name: Posing.VRCEmote 210 -253.240.Right Init
+  - hash: 237086158
+    name: Posing.VRCEmote 210 -253.246.Left
+  - hash: -1962199669
+    name: Posing.VRCEmote 210 -253.246.Right
+  - hash: -880938341
+    name: Posing.VRCEmote 210 -253.246.Left Init
+  - hash: -1795134658
+    name: Posing.VRCEmote 210 -253.246.Right Init
+  - hash: -8972517
+    name: Posing.VRCEmote 210 -253.249.Left
+  - hash: 2101560674
+    name: Posing.VRCEmote 210 -253.249.Right
+  - hash: 1485112925
+    name: Posing.VRCEmote 210 -253.249.Left Init
+  - hash: -409668529
+    name: Posing.VRCEmote 210 -253.249.Right Init
+  - hash: -981633429
+    name: Posing.VRCEmote 210 -253.247.Left
+  - hash: 763117119
+    name: Posing.VRCEmote 210 -253.247.Right
+  - hash: 183709019
+    name: Posing.VRCEmote 210 -253.247.Left Init
+  - hash: 245704529
+    name: Posing.VRCEmote 210 -253.247.Right Init
+  - hash: 875283646
+    name: Posing.VRCEmote 210 -253.248.Left
+  - hash: -617328938
+    name: Posing.VRCEmote 210 -253.248.Right
+  - hash: -1727276643
+    name: Posing.VRCEmote 210 -253.248.Left Init
+  - hash: 2083633184
+    name: Posing.VRCEmote 210 -253.248.Right Init
+  - hash: 2114932071
+    name: Posing.VRCEmote 210 -253.250.Left
+  - hash: 611385391
+    name: Posing.VRCEmote 210 -253.250.Right
+  - hash: -1200786249
+    name: Posing.VRCEmote 210 -253.250.Left Init
+  - hash: -1481959589
+    name: Posing.VRCEmote 210 -253.250.Right Init
+  - hash: -1252811070
+    name: Posing.VRCEmote 210 -253.251.Left
+  - hash: -2113533029
+    name: Posing.VRCEmote 210 -253.251.Right
+  - hash: 2044963703
+    name: Posing.VRCEmote 210 -253.251.Left Init
+  - hash: 1007573812
+    name: Posing.VRCEmote 210 -253.251.Right Init
+  - hash: 868740204
+    name: Posing.VRCEmote 210 -253.252.Left
+  - hash: -1276243706
+    name: Posing.VRCEmote 210 -253.252.Right
+  - hash: -536752778
+    name: Posing.VRCEmote 210 -253.252.Left Init
+  - hash: 1267763652
+    name: Posing.VRCEmote 210 -253.252.Right Init
+  - hash: -124043319
+    name: Posing.VRCEmote 210 -253.253.Left
+  - hash: 563024566
+    name: Posing.VRCEmote 210 -253.253.Left Init
+  - hash: 362355378
+    name: Posing.VRCEmote 210 -253.253.Right
+  - hash: -801782357
+    name: Posing.VRCEmote 210 -253.253.Right Init
+  - hash: 460628303
+    name: Posing.VRCEmote 210 -253.Upright Stand.Stand Radial
+  - hash: -338925591
+    name: Posing.VRCEmote 210 -253.Upright Crouch.Crouch Radial
+  - hash: -1509690266
+    name: Posing.VRCEmote 210 -253.Upright Prone.Prone Radial
+  - hash: 1712581401
+    name: Posing.VRCEmote 210 -253.218.Left
+  - hash: -1814806350
+    name: Posing.VRCEmote 210 -253.218.Right
+  - hash: 27831949
+    name: Posing.VRCEmote 210 -253.218.Left Init
+  - hash: 1629358899
+    name: Posing.VRCEmote 210 -253.218.Right Init
+  - hash: -1757062708
+    name: Posing.VRCEmote 210 -253.217.Left
+  - hash: 1704734811
+    name: Posing.VRCEmote 210 -253.217.Right
+  - hash: -1840227765
+    name: Posing.VRCEmote 210 -253.217.Left Init
+  - hash: 327849026
+    name: Posing.VRCEmote 210 -253.217.Right Init
+  - hash: 1545177705
+    name: Posing.VRCEmote 210 -253.216.Left
+  - hash: -1007993873
+    name: Posing.VRCEmote 210 -253.216.Right
+  - hash: 1407092107
+    name: Posing.VRCEmote 210 -253.216.Left Init
+  - hash: -2010130387
+    name: Posing.VRCEmote 210 -253.216.Right Init
+  - hash: -628229945
+    name: Posing.VRCEmote 210 -253.215.Left
+  - hash: -234675854
+    name: Posing.VRCEmote 210 -253.215.Right
+  - hash: -901979254
+    name: Posing.VRCEmote 210 -253.215.Left Init
+  - hash: -5174563
+    name: Posing.VRCEmote 210 -253.215.Right Init
+  - hash: 1092401873
+    name: Posing.VRCEmote 210 -253.211.Left
+  - hash: 105645409
+    name: Posing.VRCEmote 210 -253.211.Right
+  - hash: 2061864968
+    name: Posing.VRCEmote 210 -253.211.Left Init
+  - hash: -55103070
+    name: Posing.VRCEmote 210 -253.211.Right Init
+  - hash: -1975490188
+    name: Posing.VRCEmote 210 -253.210.Left
+  - hash: -1606742315
+    name: Posing.VRCEmote 210 -253.210.Right
+  - hash: -1150595128
+    name: Posing.VRCEmote 210 -253.210.Left Init
+  - hash: 1729265101
+    name: Posing.VRCEmote 210 -253.210.Right Init
+  - hash: 215227354
+    name: Posing.VRCEmote 210 -253.213.Left
+  - hash: -1848437688
+    name: Posing.VRCEmote 210 -253.213.Right
+  - hash: 579414473
+    name: Posing.VRCEmote 210 -253.213.Left Init
+  - hash: 277655357
+    name: Posing.VRCEmote 210 -253.213.Right Init
+  - hash: -947337089
+    name: Posing.VRCEmote 210 -253.212.Left
+  - hash: 933502972
+    name: Posing.VRCEmote 210 -253.212.Right
+  - hash: -486017527
+    name: Posing.VRCEmote 210 -253.212.Left Init
+  - hash: -1960189102
+    name: Posing.VRCEmote 210 -253.212.Right Init
+  - hash: -794615456
+    name: Smoothing
+  - hash: 566602987
     name: VRC Eye Left Control
-  - hash: 2080078588
+  - hash: 695453563
     name: Eye Left Tracking
-  - hash: 1095855579
+  - hash: -903552272
     name: VRC Eye Right Control
-  - hash: 198830284
+  - hash: -892634119
     name: Eye Right Tracking
-  - hash: -2086182126
+  - hash: 448041902
     name: OSC Local
-  - hash: 131470683
+  - hash: -979830516
     name: OSC Remote
+  - hash: -1864201269
+    name: Ears Back (L)
+  - hash: -938275414
+    name: Waitting State
+  - hash: -2113504223
+    name: Ears Back (R)
+  - hash: -1637454783
+    name: Waitting State
+  - hash: 295561986
+    name: Tail WAG
+  - hash: -438811636
+    name: rig_hand 0 neutral
+  - hash: -1270931537
+    name: rig_hand 1 fist
+  - hash: -1112607015
+    name: rig_hand 2 open
+  - hash: 1065298788
+    name: rig_hand 3 point
+  - hash: -1673848426
+    name: rig_hand 4 okay
+  - hash: -2033294557
+    name: rig_hand 5 rock n roll
+  - hash: 223899405
+    name: rig_hand 6 gun
+  - hash: -756472079
+    name: rig_hand 7 thumbs up
+  - hash: 1735736330
+    name: rig_hand 0 neutral
+  - hash: 366013567
+    name: rig_hand 1 fist
+  - hash: 474023177
+    name: rig_hand 2 open
+  - hash: -1190324669
+    name: rig_hand 3 point
+  - hash: -1038432338
+    name: rig_hand 4 peace
+  - hash: -1074987930
+    name: rig_hand 5 middle finger
+  - hash: 859357612
+    name: rig_hand 6 gun
+  - hash: -630326572
+    name: rig_hand 7 thumbs up
   - hash: 141204420
     name: rig_hand 0 neutral
   - hash: 1106416916
@@ -1754,54 +2330,514 @@ MonoBehaviour:
     name: rig_hand 6 gun
   - hash: 1713256113
     name: rig_hand 7 thumbs up
-  - hash: 1376474967
+  - hash: -705609103
+    name: WaitForActionOrAFK
+  - hash: -1152305067
+    name: AFK.Prepare AFK Init
+  - hash: -2088188865
+    name: AFK.AFK Init.Proning Afk Init
+  - hash: -655757368
+    name: AFK.AFK Init.AFK Standing Loop
+  - hash: -161437566
+    name: AFK.AFK Init.AFK Crouching Stop
+  - hash: 667419295
+    name: AFK.AFK Init.AFK Proning Stop
+  - hash: -1059003248
+    name: AFK.AFK Init.AFK Standing Stop
+  - hash: 91218700
+    name: AFK.AFK Init.Standing Afk Init
+  - hash: -1682606055
+    name: AFK.AFK Init.Crouching Afk Init
+  - hash: -295066662
+    name: AFK.AFK Init.AFK Crouching Loop
+  - hash: 1069615559
+    name: AFK.AFK Init.AFK Proning Loop
+  - hash: -427491585
+    name: AFK.Blend Out AFK.Out AFK
+  - hash: -454116471
+    name: AFK.Blend Out AFK.Out AFK ST
+  - hash: 793042139
+    name: AFK.Blend Out AFK.Out AFK (Feet)
+  - hash: -411250196
+    name: AFK.Blend Out AFK.Out AFK (Feet) ST
+  - hash: 32650272
+    name: AFK.Blend Out AFK.Out AFK Seated
+  - hash: 159848010
+    name: AFK.Blend Out AFK.Out AFK (Head) ST
+  - hash: -1374579791
+    name: AFK.Blend Out AFK.Out AFK (Feet&Head)
+  - hash: -824415958
+    name: AFK.Blend Out AFK.Out AFK (Feet&Head) ST
+  - hash: 817203370
+    name: AFK.Blend Out AFK.Out AFK Seated Head
+  - hash: -574629833
+    name: AFK.Blend Out AFK.Out AFK (Head)
+  - hash: 1841354208
+    name: AFK.Other.Manual AFK Init.Manual Init
+  - hash: 121242823
+    name: AFK.Other.Manual AFK Init.AFK Manual
+  - hash: -1462847504
+    name: AFK.Other.Manual AFK Init.AFK Manual Out
+  - hash: -1316199362
+    name: AFK.Other.AFK Init Seated.AFK Seated Loop
+  - hash: -1450872986
+    name: AFK.Other.AFK Init Seated.AFK Seated Stop
+  - hash: -696407379
+    name: AFK.Other.AFK Init Seated.Seated Afk Init
+  - hash: 529998659
+    name: Emotes.1-8.6_backflip
+  - hash: -216907751
+    name: Emotes.1-8.8_die_hold
+  - hash: 1156724850
+    name: Emotes.1-8.7_sadkick
+  - hash: 1080240023
+    name: Emotes.1-8.5_dance
+  - hash: -686039842
+    name: Emotes.1-8.4_stand_cheer
+  - hash: 326273783
+    name: Emotes.1-8.3_stand_point
+  - hash: -119444378
+    name: Emotes.1-8.2_stand_clap
+  - hash: 813862256
+    name: Emotes.1-8.1_stand_wave
+  - hash: 2105800992
+    name: Emotes.9-16.12_seated_laught
+  - hash: -1628298507
+    name: Emotes.9-16.15_seated_disapprove
+  - hash: 564732872
+    name: Emotes.9-16.10_seated_clap
+  - hash: -1339306718
+    name: Emotes.9-16.16_seated_disbelief
+  - hash: 1520714313
+    name: Emotes.9-16.13_seated_drum
+  - hash: 1650226340
+    name: Emotes.9-16.11_seated_point
+  - hash: -582220201
+    name: Emotes.9-16.14_seated_shake_fist
+  - hash: -1284053383
+    name: Emotes.9-16.9_seated_raise_hand
+  - hash: -1950911094
+    name: Emotes.17-24.19
+  - hash: -567584012
+    name: Emotes.17-24.24
+  - hash: 1078972247
+    name: Emotes.17-24.23
+  - hash: -649683219
+    name: Emotes.17-24.20
+  - hash: -55556836
+    name: Emotes.17-24.18
+  - hash: 927530945
+    name: Emotes.17-24.22
+  - hash: -1371427205
+    name: Emotes.17-24.21
+  - hash: 1812945037
+    name: Emotes.17-24.17
+  - hash: -2085461987
+    name: Emotes.17-24.Locomotion Enable
+  - hash: 1178168296
+    name: Emotes.25-32.27
+  - hash: 793292326
+    name: Emotes.25-32.32
+  - hash: -1237188708
+    name: Emotes.25-32.31
+  - hash: -695830919
+    name: Emotes.25-32.28
+  - hash: 826170238
+    name: Emotes.25-32.26
+  - hash: -1052324086
+    name: Emotes.25-32.30
+  - hash: -1585363217
+    name: Emotes.25-32.29
+  - hash: -1472787772
+    name: Emotes.25-32.25
+  - hash: 108993210
+    name: Emotes.33-40.35
+  - hash: 961837298
+    name: Emotes.33-40.40
+  - hash: 264853137
+    name: Emotes.33-40.39
+  - hash: -1619637504
+    name: Emotes.33-40.36
+  - hash: 1903700524
+    name: Emotes.33-40.34
+  - hash: 2026792455
+    name: Emotes.33-40.38
+  - hash: -395215978
+    name: Emotes.33-40.37
+  - hash: -283328625
+    name: Emotes.33-40.33
+  - hash: -122480233
+    name: Emotes.41-48.43
+  - hash: 1868677151
+    name: Emotes.41-48.48
+  - hash: -2171506
+    name: Emotes.41-48.47
+  - hash: 1725402164
+    name: Emotes.41-48.44
+  - hash: -1884018431
+    name: Emotes.41-48.42
+  - hash: -1998983912
+    name: Emotes.41-48.46
+  - hash: 298892450
+    name: Emotes.41-48.45
+  - hash: 381515963
+    name: Emotes.41-48.41
+  - hash: -310611522
+    name: Restore Tracking.Animate (Bottom)
+  - hash: -253870668
+    name: Restore Tracking.Restore Tracking (Full)
+  - hash: -296675139
+    name: Restore Tracking.Animate (Feet)
+  - hash: -1820939344
+    name: Restore Tracking.Animate (Bottom&Head)
+  - hash: 764719494
+    name: Restore Tracking.Restore Tracking (Full&Head)
+  - hash: -1992233063
+    name: Restore Tracking.Animate (Feet&Head)
+  - hash: 1626961786
+    name: Funny.Puppet
+  - hash: -927363772
+    name: Funny.Hip Drift
+  - hash: -411756544
+    name: Prepare Emotes.Prepare Emote Standing
+  - hash: -1401336420
+    name: Prepare Emotes.Prepare Emote Seated
+  - hash: 1464909714
+    name: Remote
+  - hash: 2020183268
+    name: Parameters.Parameters Wait
+  - hash: -1326843037
+    name: Parameters.Grounded Check.JumpAndFall ?
+  - hash: -1198659085
+    name: Parameters.Grounded Check.Allow JumpAndFall
+  - hash: -2043911581
+    name: Parameters.Grounded Check.Jump Wait
+  - hash: 227055783
+    name: Parameters.VRCEmote.VRCEmote Out
+  - hash: -1671473848
+    name: Parameters.VRCEmote.Force Tracking
+  - hash: -613364328
+    name: Parameters.VRCEmote.Float Driver.248
+  - hash: 1019797663
+    name: Parameters.VRCEmote.Float Driver.246
+  - hash: -1514032859
+    name: Parameters.VRCEmote.Float Driver.245
+  - hash: 1285690384
+    name: Parameters.VRCEmote.Float Driver.243
+  - hash: -1565756100
+    name: Parameters.VRCEmote.Float Driver.241
+  - hash: -710195798
+    name: Parameters.VRCEmote.Float Driver.240
+  - hash: 1000678534
+    name: Parameters.VRCEmote.Float Driver.242
+  - hash: -758742605
+    name: Parameters.VRCEmote.Float Driver.244
+  - hash: 1271910409
+    name: Parameters.VRCEmote.Float Driver.247
+  - hash: -1808704673
+    name: Parameters.VRCEmote.Float Driver.238
+  - hash: -97691000
+    name: Parameters.VRCEmote.Float Driver.229
+  - hash: -1695886483
+    name: Parameters.VRCEmote.Float Driver.230
+  - hash: -303176709
+    name: Parameters.VRCEmote.Float Driver.231
+  - hash: 1961144897
+    name: Parameters.VRCEmote.Float Driver.232
+  - hash: 65241815
+    name: Parameters.VRCEmote.Float Driver.233
+  - hash: -482972727
+    name: Parameters.VRCEmote.Float Driver.239
+  - hash: 76433102
+    name: Parameters.VRCEmote.Float Driver.237
+  - hash: -1401422578
+    name: Parameters.VRCEmote.Float Driver.249
+  - hash: -1652091020
+    name: Parameters.VRCEmote.Float Driver.234
+  - hash: 1938388568
+    name: Parameters.VRCEmote.Float Driver.236
+  - hash: 1438197073
+    name: Parameters.VRCEmote.Float Driver.253
+  - hash: 582882759
+    name: Parameters.VRCEmote.Float Driver.252
+  - hash: -1145617283
+    name: Parameters.VRCEmote.Float Driver.251
+  - hash: -860850965
+    name: Parameters.VRCEmote.Float Driver.250
+  - hash: -360699934
+    name: Parameters.VRCEmote.Float Driver.235
+  - hash: 452506518
+    name: Parameters.VRCEmote.Float Driver.223
+  - hash: 496334735
+    name: Parameters.VRCEmote.Float Driver.227
+  - hash: -788526773
+    name: Parameters.VRCEmote.Float Driver.219
+  - hash: -185150790
+    name: Parameters.VRCEmote.Float Driver.221
+  - hash: -2081299924
+    name: Parameters.VRCEmote.Float Driver.220
+  - hash: -1926600162
+    name: Parameters.VRCEmote.Float Driver.228
+  - hash: 1845461760
+    name: Parameters.VRCEmote.Float Driver.222
+  - hash: 1787971353
+    name: Parameters.VRCEmote.Float Driver.226
+  - hash: -2070141387
+    name: Parameters.VRCEmote.Float Driver.224
+  - hash: -207939933
+    name: Parameters.VRCEmote.Float Driver.225
+  - hash: 744364452
+    name: Parameters.VRCEmote.Float Driver.Adjustment Out
+  - hash: -710104191
+    name: Parameters.VRCEmote.Float Driver.PlaySpace True
+  - hash: -1509475875
+    name: Parameters.VRCEmote.Float Driver.218
+  - hash: 1103041754
+    name: Parameters.VRCEmote.Float Driver.216
+  - hash: -659143328
+    name: Parameters.VRCEmote.Float Driver.215
+  - hash: 836100181
+    name: Parameters.VRCEmote.Float Driver.213
+  - hash: -539262599
+    name: Parameters.VRCEmote.Float Driver.211
+  - hash: -1461931537
+    name: Parameters.VRCEmote.Float Driver.210
+  - hash: 1188221123
+    name: Parameters.VRCEmote.Float Driver.212
+  - hash: -1347324426
+    name: Parameters.VRCEmote.Float Driver.214
+  - hash: 918037580
+    name: Parameters.VRCEmote.Float Driver.217
+  - hash: -1536387384
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 0
+  - hash: -747919778
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 1
+  - hash: 1247999972
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 2
+  - hash: 1030080370
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 3
+  - hash: -1560194351
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 4
+  - hash: -737779129
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 5
+  - hash: 1292841981
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 6
+  - hash: 973603691
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 7
+  - hash: -1430839558
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 8
+  - hash: -575656340
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 9
+  - hash: 2027669620
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 10
+  - hash: 266139874
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 11
+  - hash: -1764382376
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 12
+  - hash: -506291762
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 13
+  - hash: 2142637165
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 14
+  - hash: 145833211
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 15
+  - hash: -1850184383
+    name: Parameters.VRCEmote.Float Driver.Stand Idle.Stand Idle 16
+  - hash: -686503884
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 0
+  - hash: -1609303902
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 1
+  - hash: 958048536
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 2
+  - hash: 1310562702
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 3
+  - hash: -797373395
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 4
+  - hash: -1484899141
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 5
+  - hash: 1048014081
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 6
+  - hash: 1232100759
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 7
+  - hash: -640729082
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 8
+  - hash: -1362595696
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 9
+  - hash: -861729251
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 10
+  - hash: -1146863989
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 11
+  - hash: 581791537
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 12
+  - hash: 1437228967
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 13
+  - hash: -875640316
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 14
+  - hash: -1127613806
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 15
+  - hash: 633383720
+    name: Parameters.VRCEmote.Float Driver.Crouch Idle.Crouch Idle 16
+  - hash: -383954685
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 0
+  - hash: -1642438251
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 1
+  - hash: 118698031
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 2
+  - hash: 1880359097
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 3
+  - hash: -294611686
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 4
+  - hash: -1720212084
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 5
+  - hash: 8320054
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 6
+  - hash: 2004468896
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 7
+  - hash: -406398671
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 8
+  - hash: -1866339929
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 9
+  - hash: 1948295819
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 10
+  - hash: 52924957
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 11
+  - hash: -1708211289
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 12
+  - hash: -316017871
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 13
+  - hash: 1934452370
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 14
+  - hash: 71980548
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 15
+  - hash: -1656551490
+    name: Parameters.VRCEmote.Float Driver.Prone Idle.Prone Idle 16
+  - hash: -252099590
+    name: Parameters.VRCEmote.Velocity Check.Jump Hold
+  - hash: 1750374164
+    name: Parameters.VRCEmote.Velocity Check.On Rail Up
+  - hash: -964846623
+    name: Parameters.VRCEmote.Velocity Check.Falling
+  - hash: -1652669345
+    name: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable
+  - hash: 2083032632
+    name: Parameters.VRCEmote.Locomotion Stationary.Locomotion Disable
+  - hash: 717973936
+    name: Parameters.VRCEmote.Locomotion Stationary.Locomotion Enable InStation
+  - hash: -1238351477
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Up
+  - hash: -1377901680
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Down
+  - hash: -218395498
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Spam
+  - hash: -1173759630
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Spam Repeat
+  - hash: -1681571914
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Up Repeat
+  - hash: -1170936249
+    name: Parameters.VRCEmote.VRCEmote Driven.PP Down Repeat
+  - hash: -1301015767
+    name: Parameters.VRCEmote.VRCEmote Driven.Pose Space Out
+  - hash: -1052001363
+    name: Parameters.VRCEmote.VRCEmote Driven.Force VRCEmote 0
+  - hash: -1240562467
+    name: Parameters.VRCEmote.VRCEmote Driven.Head Animate
+  - hash: -1494136850
+    name: Parameters.VRCEmote.VRCEmote Driven.Head Tracking
+  - hash: -2015808840
+    name: Parameters.VRCEmote.VRCEmote Driven.Float Factor
+  - hash: 1302492508
+    name: Remote
+  - hash: -1465821469
+    name: Timer.Timer Wait
+  - hash: 987769669
+    name: Timer.VRMode 0
+  - hash: 1306991571
+    name: Timer.VRMode 1
+  - hash: 1982431605
+    name: Timer.Pose Radial 0
+  - hash: 1124336946
+    name: Timer.TrackingType 3
+  - hash: -580874095
+    name: Timer.TrackingType 4
+  - hash: -1436049401
+    name: Timer.TrackingType 5
+  - hash: 862908861
+    name: Timer.TrackingType 6
+  - hash: -142604042
+    name: Timer.Flash Grounded.Grounded ?
+  - hash: -1079309321
+    name: Timer.Flash Grounded.Grounded True
+  - hash: 61433529
+    name: Timer.Pose Space.Timer 125
+  - hash: -859491238
+    name: Timer.Pose Space.Force Close
+  - hash: 622611891
+    name: Timer.Pose Space.Pose Space Init
+  - hash: -957059839
+    name: Timer.Pose Space.Timer Froce close
+  - hash: 190768697
+    name: Timer.Pose Space.Pose Space End
+  - hash: -1063925321
+    name: Timer.JSRF.Jump / Rail / Wall ?
+  - hash: -2088124069
+    name: Timer.JSRF.Velocity Timer
+  - hash: 1016132197
+    name: Timer.JSRF.Jump
+  - hash: 739033647
+    name: Timer.JSRF.JSRF Grounded
+  - hash: 331409080
     name: master tree
-  - hash: -1905250930
+  - hash: -1798231155
     name: basis
-  - hash: 341124537
+  - hash: 1871141805
     name: down
-  - hash: 479401739
+  - hash: 1329923094
     name: up
-  - hash: 741269655
+  - hash: -295695168
     name: curious
-  - hash: -442206472
+  - hash: -1636431636
     name: up 1
-  - hash: 1467367949
+  - hash: -1791447462
     name: worried
-  - hash: 462021868
+  - hash: 1204765538
     name: curious 1
-  - hash: -75439228
+  - hash: 1653805880
     name: down 1
-  - hash: 1573501565
+  - hash: -992326975
     name: basis
-  - hash: -1959208665
+  - hash: -253057229
     name: sad
-  - hash: -762454971
+  - hash: 1268657401
     name: smile
-  - hash: -299987116
+  - hash: 466814447
     name: grimace
-  - hash: -2014789291
+  - hash: 1915046894
     name: smile 1
-  - hash: 643030680
+  - hash: 739194392
     name: grimace 1
-  - hash: -1084584158
+  - hash: -1257871454
     name: grimace 2
-  - hash: -1605802678
+  - hash: 962237942
     name: sad 1
-  - hash: 559359603
-    name: face tracking off
-  - hash: -496812474
-    name: face tracking on
-  - hash: -2086182126
-    name: OSC Local
-  - hash: 131470683
-    name: OSC Remote
-  - hash: 1431504073
+  - hash: 1865021456
     name: Waiting command
-  - hash: 1583328356
-    name: AFK
-  - hash: 306979463
-    name: Waiting command (EyeTrackingActive)
+  - hash: -1275088504
+    name: T-shirt
+  - hash: -855664283
+    name: Waiting command
+  - hash: -1137533641
+    name: shorts
+  - hash: -1229943232
+    name: Waiting command
+  - hash: 1314393514
+    name: round_glasses
+  - hash: 1998975171
+    name: face tracking off
+  - hash: 594652531
+    name: face tracking on
+  - hash: 448041902
+    name: OSC Local
+  - hash: -979830516
+    name: OSC Remote
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -1819,7 +2855,7 @@ MonoBehaviour:
     radius: 0.0015
     height: 0.006
     position: {x: 0, y: -0.000365, z: 0}
-    rotation: {x: 0.021814885, y: 0, z: 0, w: 0.999762}
+    rotation: {x: 0.016143594, y: 0, z: 0, w: 0.9998697}
   collider_footR:
     isMirrored: 1
     state: 1
@@ -2519,7 +3555,7 @@ MonoBehaviour:
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
   multiChildType: 0
-  pull: 0.45
+  pull: 0.4
   pullCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2555,7 +3591,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   immobileType: 0
-  immobile: 0
+  immobile: 0.15
   immobileCurve:
     serializedVersion: 2
     m_Curve: []
