@@ -40,8 +40,6 @@ The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1**
 > **To properly export a model from Blender to Unity, use the built-in `Blender auto fbx export` custom tool in Blender!** <br>
 > Click **FBX Export** in Blender’s 3D Viewport header (Workspace: **Layout**) to open the export popover.
 > Press **Export FBX!** to export to Unity in one click.
->
-> To properly configure your Unity project, use this **[:bulb:Unity project setup guide](Unity-setup.md)**.
 
 The **Unity project** has a **prefab model**, as well as two **scenes** for **PC** and **Quest&IOS** *(the differences are only in texture quality)*. <br>
 **Texture quality switching**: switching scenes via **SceneLabel** can auto-apply per-scene texture max sizes or quality.
