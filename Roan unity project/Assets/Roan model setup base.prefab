@@ -86,9 +86,11 @@ MonoBehaviour:
     clothEntries:
     - clothName: round_glasses
       invertAnimation: 1
-  - layerName: cloth/panama
+  - layerName: cloth/Hats
     clothEntries:
     - clothName: panama
+      invertAnimation: 0
+    - clothName: cap
       invertAnimation: 0
   createColorCustomization: 1
   ColorProfiles:
@@ -432,6 +434,11 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,

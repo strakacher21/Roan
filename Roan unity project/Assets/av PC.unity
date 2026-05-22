@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44390887, g: 0.26371786, b: 0.26546258, a: 1}
+  m_IndirectSpecularColor: {r: 0.43661228, g: 0.26272535, b: 0.2629314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -418,7 +418,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.size
-      value: 570
+      value: 571
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -498,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[562].hash
-      value: -1894681241
+      value: -1180869528
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -508,7 +508,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[563].hash
-      value: -363176196
+      value: 1883254291
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -518,72 +518,77 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[564].hash
-      value: 1998975171
+      value: -545169688
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[564].name
-      value: face tracking off
+      value: cap
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[565].hash
-      value: 594652531
+      value: 1998975171
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[565].name
-      value: face tracking on
+      value: face tracking off
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[566].hash
-      value: 448041902
+      value: 594652531
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[566].name
-      value: OSC Local
+      value: face tracking on
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[567].hash
-      value: -979830516
+      value: 448041902
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[567].name
-      value: OSC Remote
+      value: OSC Local
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[568].hash
-      value: -435424313
+      value: -979830516
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[568].name
-      value: Waiting command
+      value: OSC Remote
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[569].hash
-      value: -1581384835
+      value: 257807573
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[569].name
-      value: rig_panama head setup
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[570].hash
+      value: -1440793452
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[570].name
+      value: rig_Hats head setup
       objectReference: {fileID: 0}
     - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_DirtyAABB
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[2]
-      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6543418216832792865, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
