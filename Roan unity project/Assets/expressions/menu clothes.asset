@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: <b><color=orange>Shorts
-    icon: {fileID: 2800000, guid: bc0f9556cf4205746ab23e3044d76fb0, type: 3}
+    icon: {fileID: 2800000, guid: 1558c02ea43bade4b98423e19bf38e94, type: 3}
     type: 102
     parameter:
       name: cloth/toggle/shorts
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: <b><color=orange>T-shirt
-    icon: {fileID: 2800000, guid: bc0f9556cf4205746ab23e3044d76fb0, type: 3}
+    icon: {fileID: 2800000, guid: 2d311185e7bb43e4a96cc40f09b657a1, type: 3}
     type: 102
     parameter:
       name: cloth/toggle/T-shirt
