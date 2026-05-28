@@ -343,22 +343,22 @@ PrefabInstance:
     - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0000001966817
+      value: -0.000000040384055
       objectReference: {fileID: 0}
     - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000008676263
+      value: 0.000000016727626
       objectReference: {fileID: 0}
     - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70604306
+      value: 0.38268346
       objectReference: {fileID: 0}
     - target: {fileID: -6791269601454348049, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7081689
+      value: 0.9238795
       objectReference: {fileID: 0}
     - target: {fileID: -3310269451258485989, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -420,6 +420,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000019446024
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[15]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[16]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[17]
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -443,22 +458,22 @@ PrefabInstance:
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000034550958
+      value: -0.000000040384055
       objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000015394265
+      value: 0.000000016727626
       objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70604306
+      value: 0.38268346
       objectReference: {fileID: 0}
     - target: {fileID: 2341331241534080449, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7081689
+      value: 0.9238795
       objectReference: {fileID: 0}
     - target: {fileID: 2879525656767549024, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
@@ -1615,7 +1630,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 6285505686932134747}
-    eyelidsBlendshapes: 0c0000000d0000000e000000
+    eyelidsBlendshapes: 0f0000001000000011000000
   customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
