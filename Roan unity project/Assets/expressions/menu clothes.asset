@@ -14,6 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parameters: {fileID: 11400000, guid: 6a93b3714f16ad446b02f56ad3e99a89, type: 2}
   controls:
+  - name: <b><color=orange>Round glasses
+    icon: {fileID: 2800000, guid: c66281c63f1bd634baca42c6ed533d59, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ed0d30c4d9bcacd498a9909280dd0cc5, type: 2}
+    subParameters: []
+    labels: []
   - name: <b><color=orange>Cap
     icon: {fileID: 2800000, guid: 862edc2039e07f2469d0a2ccd8895470, type: 3}
     type: 102
@@ -34,11 +44,31 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: <b><color=orange>Pants
+    icon: {fileID: 2800000, guid: 73cc09d747459a84cb0aff29aaafb593, type: 3}
+    type: 102
+    parameter:
+      name: cloth/toggle/pants
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: <b><color=orange>Shorts
     icon: {fileID: 2800000, guid: 1558c02ea43bade4b98423e19bf38e94, type: 3}
     type: 102
     parameter:
       name: cloth/toggle/shorts
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b><color=orange>Jacked
+    icon: {fileID: 2800000, guid: da2f4a23a6375954695e58c1a4442389, type: 3}
+    type: 102
+    parameter:
+      name: cloth/toggle/jacket
     value: 1
     style: 0
     subMenu: {fileID: 0}

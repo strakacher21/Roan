@@ -19,10 +19,20 @@ MonoBehaviour:
     saved: 1
     defaultValue: 1
     networkSynced: 1
+  - name: cloth/toggle/jacket
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
   - name: cloth/toggle/shorts
     valueType: 2
     saved: 1
     defaultValue: 1
+    networkSynced: 1
+  - name: cloth/toggle/pants
+    valueType: 2
+    saved: 1
+    defaultValue: 0
     networkSynced: 1
   - name: cloth/toggle/panama
     valueType: 2

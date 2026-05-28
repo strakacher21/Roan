@@ -418,7 +418,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.size
-      value: 571
+      value: 573
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -497,8 +497,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: animationHashSet.Array.data[558].hash
+      value: 576390848
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[558].name
+      value: jacket
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[559].hash
+      value: -855664283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[559].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[560].hash
+      value: -1137533641
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[560].name
+      value: shorts
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[561].hash
+      value: -1474285396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[561].name
+      value: pants
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: animationHashSet.Array.data[562].hash
-      value: -1180869528
+      value: -1229943232
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -508,81 +548,101 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[563].hash
-      value: 1883254291
+      value: 1314393514
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[563].name
-      value: panama
+      value: round_glasses
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[564].hash
-      value: -545169688
+      value: -1180869528
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[564].name
-      value: cap
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[565].hash
-      value: 1998975171
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[565].name
-      value: face tracking off
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[566].hash
-      value: 594652531
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[566].name
-      value: face tracking on
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[567].hash
-      value: 448041902
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[567].name
-      value: OSC Local
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[568].hash
-      value: -979830516
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[568].name
-      value: OSC Remote
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[569].hash
-      value: 257807573
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[569].name
       value: Waiting command
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: animationHashSet.Array.data[565].hash
+      value: 1883254291
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[565].name
+      value: panama
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[566].hash
+      value: -545169688
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[566].name
+      value: cap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[567].hash
+      value: 1998975171
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[567].name
+      value: face tracking off
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[568].hash
+      value: 594652531
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[568].name
+      value: face tracking on
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[569].hash
+      value: 448041902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[569].name
+      value: OSC Local
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: animationHashSet.Array.data[570].hash
-      value: -1440793452
+      value: -979830516
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[570].name
+      value: OSC Remote
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[571].hash
+      value: 257807573
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[571].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[572].hash
+      value: -1440793452
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[572].name
       value: rig_Hats head setup
       objectReference: {fileID: 0}
     - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,

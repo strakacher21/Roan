@@ -78,9 +78,13 @@ MonoBehaviour:
     clothEntries:
     - clothName: T-shirt
       invertAnimation: 1
+    - clothName: jacket
+      invertAnimation: 1
   - layerName: cloth/shorts
     clothEntries:
     - clothName: shorts
+      invertAnimation: 1
+    - clothName: pants
       invertAnimation: 1
   - layerName: item/round_glasses
     clothEntries:
@@ -361,11 +365,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -2794234727817359449, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -1626699344970278550, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -420,36 +419,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00000019446024
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[1]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[2]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[3]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[11]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1630794972795428178, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[12]
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2146440389662944802, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
