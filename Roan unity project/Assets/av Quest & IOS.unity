@@ -745,16 +745,6 @@ PrefabInstance:
       propertyPath: animationHashSet.Array.data[62].name
       value: Waiting command (EyeTrackingActive)
       objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[5]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6285505686932134747, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[6]
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6543418216832792865, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: m_LocalRotation.w

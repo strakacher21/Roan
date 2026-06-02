@@ -497,8 +497,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: animationHashSet.Array.data[549].hash
+      value: -779281054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[549].name
+      value: frown
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[555].hash
+      value: -1320254954
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[555].name
+      value: frown 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[556].hash
+      value: 1091493169
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[557].hash
+      value: -1906853376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: animationHashSet.Array.data[558].hash
-      value: 576390848
+      value: 1388665253
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -508,7 +538,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[559].hash
-      value: -855664283
+      value: -767790492
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -518,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[560].hash
-      value: -1137533641
+      value: 1790685805
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -528,7 +558,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[561].hash
-      value: -1474285396
+      value: -139689460
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -538,7 +568,7 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[562].hash
-      value: -1229943232
+      value: -1553920925
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -548,42 +578,42 @@ PrefabInstance:
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[563].hash
-      value: 1314393514
+      value: -153312828
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[563].name
-      value: round_glasses
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[564].hash
-      value: -1180869528
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[564].name
-      value: Waiting command
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[565].hash
-      value: 1883254291
-      objectReference: {fileID: 0}
-    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[565].name
       value: panama
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
+      propertyPath: animationHashSet.Array.data[564].hash
+      value: 653737150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[564].name
+      value: cap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[565].hash
+      value: 63920504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[565].name
+      value: Waiting command
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
+        type: 3}
       propertyPath: animationHashSet.Array.data[566].hash
-      value: -545169688
+      value: 1548418051
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
       propertyPath: animationHashSet.Array.data[566].name
-      value: cap
+      value: round_glasses
       objectReference: {fileID: 0}
     - target: {fileID: 6053541157620083134, guid: 6f354e7dcf3727645a9659f35a3046da,
         type: 3}
@@ -782,6 +812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 785339297667465523, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
+    - {fileID: 7671356844076179755, guid: 6f354e7dcf3727645a9659f35a3046da, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
