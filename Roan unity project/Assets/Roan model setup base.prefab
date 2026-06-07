@@ -80,11 +80,15 @@ MonoBehaviour:
       invertAnimation: 1
     - clothName: jacket
       invertAnimation: 1
+    - clothName: sweater
+      invertAnimation: 1
   - layerName: cloth/lower_body
     clothEntries:
     - clothName: shorts
       invertAnimation: 1
     - clothName: pants
+      invertAnimation: 1
+    - clothName: jeans
       invertAnimation: 1
   - layerName: cloth/hats
     clothEntries:
