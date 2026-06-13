@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: av Quest & IOS Texture Switcher
   m_EditorClassIdentifier: 
   textures:
-  - texture: {fileID: 2800000, guid: 6a5ec72f1a1bc8d428d70f25134714d8, type: 3}
-    maxSize: 4096
-    compression: 2
-  - texture: {fileID: 2800000, guid: 8e645fd601dbd084f8791c5507fe8c2f, type: 3}
-    maxSize: 4096
-    compression: 1
-  - texture: {fileID: 2800000, guid: 2037c84023c7471489f4827bac83c7b6, type: 3}
-    maxSize: 4096
-    compression: 1
-  - texture: {fileID: 2800000, guid: 62829f82d81d18246afdb6af5dc0577c, type: 3}
-    maxSize: 512
-    compression: 2
+  - texture: {fileID: 2800000, guid: fb14c8e309dbd9842ab31a113dfe8dfb, type: 3}
+    maxSize: 1024
+    compression: 3
+  - texture: {fileID: 2800000, guid: be055ebd418b3f84bb751822b8c5d799, type: 3}
+    maxSize: 1024
+    compression: 3
+  - texture: {fileID: 2800000, guid: 04ef71a36d799944d8ed439f0107e92b, type: 3}
+    maxSize: 1024
+    compression: 3
+  - texture: {fileID: 2800000, guid: 06ddf4cfb2122164992598c935fcedcd, type: 3}
+    maxSize: 1024
+    compression: 3

@@ -47,6 +47,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roan jeans material (proc)
+    second: {fileID: 2100000, guid: 44427044a4c3ec0408e60fc4a3c67074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roan material
     second: {fileID: 2100000, guid: bccec66fecd9f114698a2a758a1024e6, type: 2}
   - first:
@@ -74,6 +79,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Roan sweater material
     second: {fileID: 2100000, guid: 3520fb1c17c49c04dac9eace38b268dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roan sweater material (proc)
+    second: {fileID: 2100000, guid: e6b6c17d133f1e74b9d1416a34c5204c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

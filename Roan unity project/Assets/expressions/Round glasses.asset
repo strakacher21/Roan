@@ -26,7 +26,7 @@ MonoBehaviour:
     - name: pref/color/Round_glasses_shade/slider/pcol
     labels: []
   - name: <b><color=orange>Round glasses
-    icon: {fileID: 2800000, guid: c66281c63f1bd634baca42c6ed533d59, type: 3}
+    icon: {fileID: 2800000, guid: 272520aa4328d294cbd3585a5711b6f8, type: 3}
     type: 102
     parameter:
       name: cloth/toggle/round_glasses
