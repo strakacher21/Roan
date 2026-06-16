@@ -27,7 +27,7 @@ MonoBehaviour:
   - name: cloth/toggle/sweater
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: cloth/toggle/shorts
     valueType: 2
@@ -42,7 +42,7 @@ MonoBehaviour:
   - name: cloth/toggle/jeans
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: cloth/toggle/panama
     valueType: 2
@@ -57,12 +57,12 @@ MonoBehaviour:
   - name: cloth/toggle/round_glasses
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: pref/color/Round_glasses_shade/slider/pcol
     valueType: 1
     saved: 1
-    defaultValue: 1
+    defaultValue: 0.5
     networkSynced: 1
   - name: v2/EyeTrackingActive
     valueType: 2
