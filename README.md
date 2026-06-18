@@ -21,6 +21,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 ### [:arrow_forward:Download from Releases](https://github.com/strakacher21/Roan/releases)
 
 ### [:arrow_forward:Download 'main' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/main.zip)
+### [:arrow_forward:Download 'upstream' as .zip](https://github.com/strakacher21/Roan/archive/refs/heads/upstream.zip)
 
 ### :arrow_forward:Clone the Repository
    ```
@@ -29,8 +30,8 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 
 ## Avatar Links
 
-### [:arrow_forward:Link to the VRChat avatar](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
-
+### [:arrow_forward:Link to the VRChat avatar (main)](https://vrchat.com/home/avatar/avtr_2a8b73c0-5a67-499c-b3f3-67398d269035)
+### [:arrow_forward:Link to the VRChat avatar (upstream)](https://vrchat.com/home/avatar/avtr_22ba3ed9-6d23-4b79-b70d-9b3035305bbb)
 ___
 # Info
 
@@ -47,6 +48,7 @@ The **Unity project** has a **prefab model**, as well as two **scenes** for **PC
 Аlso includes **AnimatorWizard** script (attached to the avatar prefab). That allows you to customise gestures, facial expressions, eye/face tracking, etc. You can disable some features to save [VRChat parameters](https://creators.vrchat.com/avatars/animator-parameters/#custom-parameters).
 
 <!---
+these are my old goals:
 # TODO
 ### Global:
 - [x] full face tracking support ([VRCFT](https://docs.vrcft.io/docs/intro))
@@ -54,8 +56,8 @@ The **Unity project** has a **prefab model**, as well as two **scenes** for **PC
 - [ ] сreate textures (something better than that regular vertex paint!) ***(working on it)***
 - [ ] optimize the character mesh, add details, and also need to work on his style ***(working on it)***
 - [ ] grooming hair (in Blender only)
-- [ ] add body geometry?
-- [ ] add different clothes?
+- [x] add body geometry?
+- [x] add different clothes?
 ___
 
 ### Minor:
@@ -65,13 +67,13 @@ ___
 - [x] revise the character's physical bones
 - [x] add expressions menu, FX, Additive (now they don't exist at all, lol)
 - [ ] idle anims
-- [x] adapt [AnimatorWizard](https://github.com/strakacher21/Roan/blob/main/Roan%20unity%20project/Assets/scripts/AnimatorWizard.cs) script for this project
-- [ ] make locomotion better!
+- [x] adapt [AnimatorWizard](https://github.com/strakacher21/AnimatorWizard) script for this project
+- [x] make locomotion better!
 - [ ] [VRM](https://vrm.dev/en/vrm/vrm_about/) file?
 -->
 
 ## Attribution
-[**AnimatorWizard**](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition/blob/main/vrcfox%20unity%20project%20(B%26C)/Assets/scripts/AnimatorWizard.cs) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators.
+[**AnimatorWizard**](https://github.com/strakacher21/AnimatorWizard) script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators.
 
 **Parameter Compressor** is based on the ideas behind [LauraParamCompressor](https://github.com/LauraRozier/LauraParamCompressor) [(LauraRozier)](https://github.com/LauraRozier).
 
@@ -79,5 +81,4 @@ Also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatar
 
 The automatic export script from Blender to Unity was taken from the [Blender-auto-fbx-export](https://github.com/strakacher21/Blender-auto-fbx-export) [(strakacher21)](https://github.com/strakacher21) repository.
 
-The texture of the pants and sweater was taken from: [ambientCG](https://ambientcg.com). <br>
-The hdr of the preview image was taken from [sketchfab](https://github.com/sketchfab/sketchfab-legacy-environments).
+The texture of the pants and sweater was taken from: [ambientCG](https://ambientcg.com).

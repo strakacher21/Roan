@@ -494,10 +494,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 192166115873691097}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb740f0e558e17a4489fdfb72251b859,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 785339297667465523}
     - targetCorrespondingSourceObject: {fileID: 1427564092133216371, guid: eb740f0e558e17a4489fdfb72251b859,
         type: 3}
       insertIndex: -1
@@ -2943,21 +2939,6 @@ MonoBehaviour:
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 3
---- !u!114 &785339297667465523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5573851790672296792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45da21a324e147228aaee066e399bff0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  platformOverrides:
-  - avatar: {fileID: 6053541157620083134}
-    platform: 19
 --- !u!1 &5932538715003639418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1427564092133216371, guid: eb740f0e558e17a4489fdfb72251b859,
