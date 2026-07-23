@@ -15,14 +15,11 @@
     "vrchat.blackstartx.gesture-manager": {
       "version": "3.9.8"
     },
-    "com.vrchat.base": {
-      "version": "3.10.3"
-    },
-    "com.vrchat.avatars": {
-      "version": "3.10.3"
-    },
     "gogoloco": {
       "version": "1.8.6"
+    },
+    "com.vrchat.avatars": {
+      "version": "3.10.4"
     }
   },
   "locked": {
@@ -60,21 +57,21 @@
         "com.vrchat.avatars": ">=3.5.2 < 3.11.X"
       }
     },
-    "com.vrchat.base": {
-      "version": "3.10.3",
-      "dependencies": {}
-    },
-    "com.vrchat.avatars": {
-      "version": "3.10.3",
-      "dependencies": {
-        "com.vrchat.base": "3.10.3"
-      }
-    },
     "gogoloco": {
       "version": "1.8.6",
       "dependencies": {
         "com.vrchat.avatars": ">=3.2.2"
       }
+    },
+    "com.vrchat.avatars": {
+      "version": "3.10.4",
+      "dependencies": {
+        "com.vrchat.base": "3.10.4"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.10.4",
+      "dependencies": {}
     }
   }
 }
