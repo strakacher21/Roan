@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - USE_NORMAL_MAPS
+  - USE_SPECULAR
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,8 +25,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AudioLinkMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 06ddf4cfb2122164992598c935fcedcd, type: 3}
+        m_Texture: {fileID: 2800000, guid: f644fd5f4c18c484f8dda7e5a92d2da3, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _ColorMask:
@@ -49,15 +54,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 2.5, y: 2.5}
+        m_Texture: {fileID: 2800000, guid: 39b3e978da89c0b449c5e5ba05eab908, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _HueShiftMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 04ef71a36d799944d8ed439f0107e92b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9fe932406f4357749bceaabe4e9c2d13, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 1, y: 0}
     - _Matcap:
@@ -82,6 +87,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ALBand: 0
+    - _ALBarSmoothing: 0.1
+    - _ALBlendMode: 0
+    - _ALEffectMaskChannel: 0
+    - _ALEffectUVChannel: 0
+    - _ALEffectUseMask: 0
+    - _ALEnableFallback: 0
+    - _ALFallbackSpeed: 1
+    - _ALIntensity: 1
+    - _ALMaskByEmission: 1
+    - _ALMaskChannel: 0
+    - _ALMaskUVChannel: 0
+    - _ALRimMaskSmoothing: 1
+    - _ALRimMaskStrength: 0
+    - _ALScrollCenterOut: 0
+    - _ALScrollScale: 1
+    - _ALSmoothing: 7
+    - _AudioLinkMode: 0
     - _BumpScale: 1
     - _ColorMaskBlendMode: 1
     - _ColorMaskEmissionStrength1: 0
@@ -98,7 +121,7 @@ Material:
     - _EmissionStrength: 1
     - _EmissionUV: 0
     - _GlossMapChannel: 0
-    - _GlossStrength: 0.5
+    - _GlossStrength: 0.35
     - _HueShift: 0
     - _HueShiftMaskChannel: 3
     - _LimitBrightness: 1
@@ -110,7 +133,7 @@ Material:
     - _MinBrightness: 0
     - _OcclusionMapChannel: 1
     - _OcclusionStrength: 1
-    - _Reflectance: 0.5
+    - _Reflectance: 0.4
     - _RimAlbedoTint: 0
     - _RimEnvironmental: 0
     - _RimIntensity: 0.5
@@ -121,6 +144,7 @@ Material:
     - _SpecularSharpness: 0
     - _VertexColor: 1
     m_Colors:
+    - _ALTint: {r: 0, g: 0.8980392, b: 0.62745106, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorMaskColor1: {r: 1, g: 1, b: 1, a: 1}
     - _ColorMaskColor2: {r: 1, g: 1, b: 1, a: 1}
