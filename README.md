@@ -35,7 +35,7 @@ I would also appreciate it if you would credit me as the author if you ever uplo
 ___
 # Info
 
-The project includes the **Blend 5.0** file itself and the **Unity 2022.3.22f1** project.
+The project includes the **Blend 5.3** file itself and the **Unity 2022.3.22f1** project.
 
 > [!WARNING]
 > **To properly export a model from Blender to Unity, use the built-in `Blender auto fbx export` custom tool in Blender!** <br>
